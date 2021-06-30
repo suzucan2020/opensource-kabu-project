@@ -1,1 +1,1 @@
-# opensource-kabu-project
+# opensource-kabu-project(オカピー)
