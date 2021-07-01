@@ -135,12 +135,14 @@ def send_message(msg):
         sys.exit(1)
 
 
+# s3から株価データを取り出し、銘柄を抜き出す
 def read_title_form_s3(stock_code, selected_year):
     file_name = "s3://kabu-data/" + stock_code + "_" + selected_year + ".csv"
     title = pd.read_csv(file_name, nrows=1, encoding="shift-jis")
     title = title.columns[0]
     return title
 
+# s3から株価データを取り出し、データをdataframeに落とし込む
 def read_df_from_s3(stock_code, selected_year):
     file_name = "s3://kabu-data/" + stock_code + "_" + selected_year + ".csv"
     df = pd.read_csv(file_name, header=1, encoding="shift-jis")
@@ -171,11 +173,14 @@ def lambda_handler(event, context):
             # print(df)
             if len(df) == 0:
                 continue
+           
+            # 一番最近の終値、出来高、直近5日間の出来高の平均値を取り出す
             close = df.iloc[-1]["Close"]
             volume = df.iloc[-1]["Volume"]
             volume_mean = df["Volume"].rolling(window=5).mean()
             # print(volume_mean[-1:])
             # print(close)
+            # フィルタ条件：一番最近の終値が800円以上1200以下、直近5日間の出来高の平均が40000以上
             if 800 <= close and close <= 1200 and volume_mean[-1:].values >= 40000:
                 code_list.append(code)
                 close_list.append(close)
