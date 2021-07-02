@@ -43,17 +43,20 @@ def read_df_from_s3(stock_code, selected_year):
 
     return df
 
-
+# シフト関数
+# 引数：dataframe、シフトさせるカラム、何日シフトするか、新しいカラム名
 def make_x_day_shift(df, shift_column_name, x, new_column_name):
     roll_date = np.roll(df[shift_column_name], x)
+    # シフトした部分はinfとする、後々の判定に使用する際にinfとしておけば正しく判定できるため
     roll_date[0:x] = float('inf')
     roll_date[( roll_date == 0)] = float('inf')
     df[new_column_name] = roll_date
 
-
+# 比較関数
 def make_compare_column(df, column_name1, column_name2, new_column_name):
     df[new_column_name] = ( df[column_name1] > df[column_name2] )
 
+# ｘ日上昇が続いているか判定関数
 def judge_x_days_goes_up(df, column_name, x, new_column_name):
     tmp_list = []
     for i in range(len(df)):
@@ -83,7 +86,9 @@ def lambda_handler(event, context):
         #    continue
        
         # # talib$Onparray$K$9$k.7?$Odouble$K$9$k
+        # 5日移動平均を求める
         sma = talib.SMA(np.asarray(df.Close, dtype='float64'), 5)
+        # nanデータは0とする
         sma[np.isnan(sma)] = 0.0
         # print(sma)
         df['sma'] = sma
@@ -94,15 +99,22 @@ def lambda_handler(event, context):
         df_new["High"] = df.High
         # df_new["diff"] = (df.Close - df.Open)
     
+        # 終値が始値より高いか
         make_compare_column(df_new, "Close", "Open", "today_positive")
+        # 二日連続で上昇しているかどうか
         judge_x_days_goes_up(df_new, "today_positive", 2, "2day_positive")
     
+        # 終値を一日シフトさせる 
         make_x_day_shift(df_new,"Close", 1, "Close_1day_ago")
+        # 今日の終値は昨日の終値より高いかどうか
         make_compare_column(df_new, "Close", "Close_1day_ago", "1day_Colse_goes_up")
+        # 2日連続で終値が上昇しているかどうか
         judge_x_days_goes_up(df_new, "1day_Colse_goes_up", 2, "2day_Colse_goes_up")
     
-        df_new['sma'] = df.sma
+        df_new['sma'] = df.smaa
+        # 移動平均を1日シフト
         make_x_day_shift(df_new, "sma", 1, "sma_1day_ago")
+        # 移動平均が昨日より高いかどうか
         make_compare_column(df_new, "sma", "sma_1day_ago", "1day_sma_goes_up")
     
     
@@ -121,6 +133,7 @@ def lambda_handler(event, context):
         #        hit_message = hit_message + tmp_title + "\n"
         # print(row["Close"].values)
        
+        # 移動平均が終値より高い＆高値が移動平均を超えている＆終値が始値より高い
         if (row["Close"].values <= row["sma"].values) & (row["sma"].values <= row["High"].values) & (row["Close"].values > row["Open"].values):
             tmp_title = title[:20]
             print(tmp_title)
