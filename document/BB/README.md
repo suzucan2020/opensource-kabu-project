@@ -2,6 +2,8 @@
 
 - マネックス株価
 
+![image004](images/8698-BB-004.png)
+
 ![image000](images/8698-BB-000.png)
 
 
