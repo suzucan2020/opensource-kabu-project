@@ -75,8 +75,8 @@ for code in codes:
     sma = [[x[1], r(x[7])] for x in df_html.itertuples()]
     options = {
         'chart':{
-            'width':400,
-            'height':300
+            'width':900,
+            'height':700
         },
         'rangeSelector': {
             'selected': 1
