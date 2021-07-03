@@ -38,7 +38,11 @@ for code in codes:
     # if not os.path.isfile(file_name):
     #    print("file not exist: ", file_name)
     #    continue
-   
+    
+    # データの並びをリバースする
+    df = df.reindex(index=df.index[::-1])
+    df.reset_index(inplace=True, drop=True)
+ 
     # # talib$Onparray$K$9$k.7?$Odouble$K$9$k
     # 5日移動平均を求める
     sma = talib.SMA(np.asarray(df.Close, dtype='float64'), 5)
@@ -70,8 +74,8 @@ for code in codes:
     sma = [[x[1], r(x[7])] for x in df_html.itertuples()]
     options = {
         'chart':{
-            'width':1600,
-            'height':900
+            'width':400,
+            'height':300
         },
         'rangeSelector': {
             'selected': 1
