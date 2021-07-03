@@ -47,7 +47,8 @@ for code in codes:
     # 5日移動平均を求める
     sma = talib.SMA(np.asarray(df.Close, dtype='float64'), 5)
     # nanデータは0とする
-    sma[np.isnan(sma)] = 0.0
+    # sma[np.isnan(sma)] = 0.0
+    sma[np.isnan(sma)] = sma[4]
     # print(sma)
     df['sma'] = sma
     print(df)
