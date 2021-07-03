@@ -1,6 +1,9 @@
-NAME=xxx
+NAME=python-kabu
 VERSION=xxx
-SHELL=xxx
+SHELL=/bin/bash
 
 build:
-	docker build -t python-kabu .
+	docker build -t $(NAME) .
+
+run:
+	docker run -it $(NAME) $(SHELL)
