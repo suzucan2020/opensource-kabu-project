@@ -54,9 +54,12 @@ for code in codes:
     
     # BBを求める
     up, mid, down = talib.BBANDS(np.asarray(df.Close, dtype='float64'), 5, 1, 1, 0)
-    up[np.isnan(up)] = 0
-    mid[np.isnan(mid)] = 0
-    down[np.isnan(down)] = 0 
+    # up[np.isnan(up)] = 0
+    # mid[np.isnan(mid)] = 0
+    # down[np.isnan(down)] = 0 
+    up[np.isnan(up)] = up[4]
+    mid[np.isnan(mid)] = mid[4]
+    down[np.isnan(down)] = down[4]
     df['up'] = up
     df['mid'] = mid
     df['down'] = down
