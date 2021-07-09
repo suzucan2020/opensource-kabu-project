@@ -105,8 +105,8 @@ for code in codes:
     options = {
         'chart':{
             'renderTo':'container'+str(code),
-            'width':700,
-            'height':500
+            'width':300,
+            'height':200
         },
         'rangeSelector': {
             'selected': 1
