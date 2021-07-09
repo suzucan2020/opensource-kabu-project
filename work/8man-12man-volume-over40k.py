@@ -110,6 +110,10 @@ columns=['Close', 'Volume']
 print(df2)
 # df2.to_csv('s3://kabu-data/target_code.csv', index_label='code')
 
+with open("stock-code-list/8man-12man-volume-over40k.txt", 'wt') as f:
+    for code in code_list:
+        f.write(str(code)+'\n')
+
 msg = "対象銘柄入れ替え完了"
 # send_message(msg)
 print(msg)        

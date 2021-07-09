@@ -41,7 +41,7 @@ def read_stock_code_list(fname):
 #years = [2021]
 year = 2021
 # codes = [1301]
-codes = read_stock_code_list('stock-code-list/all.txt')
+codes = read_stock_code_list('stock-code-list/8man-12man-volume-over40k.txt')
 
 for code in codes:
 
