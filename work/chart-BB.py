@@ -106,7 +106,7 @@ for code in codes:
         'chart':{
             'renderTo':'container'+str(code),
             'width':400,
-            'height':300
+            'height':500
         },
         'rangeSelector': {
             'selected': 1
