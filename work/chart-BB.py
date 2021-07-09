@@ -8,7 +8,8 @@ from highcharts import Highstock
 # s3から株価データを取り出し、銘柄を抜き出す
 def read_title_form_s3(stock_code, selected_year):
     # file_name = "s3://kabu-data/" + stock_code + "_" + selected_year + ".csv"
-    file_name = stock_code + "_" + selected_year + ".csv"
+    file_name = "kabu-data/" + stock_code + "_" + selected_year + ".csv"
+    # file_name = stock_code + "_" + selected_year + ".csv"
     title = pd.read_csv(file_name, nrows=1, encoding="shift-jis")
     title = title.columns[0]
     return title
@@ -16,7 +17,8 @@ def read_title_form_s3(stock_code, selected_year):
 # s3から株価データを取り出し、データをdataframeに落とし込む
 def read_df_from_s3(stock_code, selected_year):
     # file_name = "s3://kabu-data/" + stock_code + "_" + selected_year + ".csv"
-    file_name = stock_code + "_" + selected_year + ".csv"
+    file_name = "kabu-data/" + stock_code + "_" + selected_year + ".csv"
+    # file_name = stock_code + "_" + selected_year + ".csv"
     df = pd.read_csv(file_name, header=1, encoding="shift-jis")
     # df = pd.read_csv(file_name, encoding="shift-jis")
     df.columns = ["Date", "Open", "High", "Low", "Close", "Volume", "Trading Value"]
@@ -24,11 +26,22 @@ def read_df_from_s3(stock_code, selected_year):
     df = df.astype({"Open": float, "High": float, "Low": float, "Close": float, "Volume": float, "Trading Value": float})
     return df
 
-year  = 2021
-years = [2021]
-codes = [
-"9468"
-]
+def read_stock_code_list(fname):
+    codes = []
+    with open(fname, 'r', encoding='utf-8') as fin: # ファイルを開く
+        for line in fin.readlines():  # 行を読み込んでfor文で回す
+            try:
+                code = int(line) # 行を整数（int）に変換する
+            except ValueError as e:
+                print(e, file=sys.stderr)  # エラーが出たら画面に出力
+                continue
+            codes.append(code)  # 変換した整数をリストに保存する
+    return codes
+
+#years = [2021]
+year = 2021
+# codes = [1301]
+codes = read_stock_code_list('stock-code-list/all.txt')
 
 for code in codes:
 
@@ -64,7 +77,7 @@ for code in codes:
     df['mid'] = mid
     df['down'] = down
 
-    print(df)
+    # print(df)
 
     H = Highstock()
     
@@ -73,7 +86,7 @@ for code in codes:
     df_html = df
     # 日付を文字列 year/month/day からdatetime(unix時間)に変換
     df_html["Date"] = pd.to_datetime(df["Date"].astype(str), format="%m/%d")
-    print(df_html)
+    # print(df_html)
     # グラフの表示に必要なものだけ選ぶ
     df_html = df_html[['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'up', 'mid', 'down']]
     # print(df_html)
