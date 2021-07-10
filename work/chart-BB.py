@@ -10,7 +10,7 @@ import okap
 #years = [2021]
 year = 2021
 # codes = [1301]
-codes = okap.read_stock_code_list('stock-code-list/8man-12man-volume-over40k.txt')
+codes = okap.read_stock_code_list('stock-code-list/filter0002.txt')
 
 for code in codes:
 
@@ -110,7 +110,7 @@ for code in codes:
         }],
     }
     
-    H.add_data_set(ohlc, 'candlestick', 'bitcoin', dataGrouping={ 'units': groupingUnits })
+    H.add_data_set(ohlc, 'candlestick', str(title), dataGrouping={ 'units': groupingUnits })
     H.add_data_set(volume, 'column', 'Volume', yAxis=1, dataGrouping={ 'units': groupingUnits })
     H.add_data_set(up, 'line', 'up', dataGrouping={ 'units': groupingUnits })
     H.add_data_set(mid, 'line', 'mid', dataGrouping={ 'units': groupingUnits })

@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 
 # ---------
 # functions
@@ -58,3 +59,26 @@ def read_stock_code_list(fname):
             codes.append(code)  # 変換した整数をリストに保存する
     return codes
 
+
+# シフト関数
+# 引数：dataframe、シフトさせるカラム、何日シフトするか、新しいカラム名
+def make_x_day_shift(df, shift_column_name, x, new_column_name):
+    roll_date = np.roll(df[shift_column_name], x)
+    # シフトした部分はinfとする、後々の判定に使用する際にinfとしておけば正しく判定できるため
+    roll_date[0:x] = float('inf')
+    roll_date[( roll_date == 0)] = float('inf')
+    df[new_column_name] = roll_date
+
+# 比較関数
+def make_compare_column(df, column_name1, column_name2, new_column_name):
+    df[new_column_name] = ( df[column_name1] > df[column_name2] )
+
+# ｘ日上昇が続いているか判定関数
+def judge_x_days_goes_up(df, column_name, x, new_column_name):
+    tmp_list = []
+    for i in range(len(df)):
+        if i < x -1:
+            tmp_list.append(False)
+        else:
+            tmp_list.append(np.all( df[i+1-x:i+1][column_name] ))
+    df[new_column_name] = tmp_list
