@@ -5,6 +5,8 @@ import talib
 from highcharts import Highstock
 # from IPython.display import HTML
 
+import okap
+
 #years = [2021]
 year = 2021
 # codes = [1301]

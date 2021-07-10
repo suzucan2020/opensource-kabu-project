@@ -7,3 +7,6 @@ build:
 
 run:
 	docker run -it $(NAME) $(SHELL)
+
+run2:
+	docker run -it -v $(PWD):/mnt $(NAME) $(SHELL)
