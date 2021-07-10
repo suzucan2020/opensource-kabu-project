@@ -110,7 +110,7 @@ for code in codes:
         }],
     }
     
-    H.add_data_set(ohlc, 'candlestick', str(title), dataGrouping={ 'units': groupingUnits })
+    # H.add_data_set(ohlc, 'candlestick', str(title), dataGrouping={ 'units': groupingUnits })
     H.add_data_set(volume, 'column', 'Volume', yAxis=1, dataGrouping={ 'units': groupingUnits })
     H.add_data_set(macd, 'line', 'macd', dataGrouping={ 'units': groupingUnits })
     H.add_data_set(macd_signal, 'line', 'macd_signal', dataGrouping={ 'units': groupingUnits })
