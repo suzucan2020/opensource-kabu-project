@@ -1,16 +1,10 @@
 # import json
 
-import urllib.request
-import datetime
-import time
-
 # import boto3
 # import botocore
 # from botocore.exceptions import ClientError
 
-import os
 import pandas as pd
-
 import okap
 
 years = [2021]

@@ -1,15 +1,12 @@
 # import json
 
-import urllib.request
-import datetime
-import time
-
 # import boto3
 # import botocore
 # from botocore.exceptions import ClientError
 
-import os
-import sys
+import urllib.request
+import datetime
+import time
 
 import okap
 

@@ -1,3 +1,10 @@
+import os
+import pandas as pd
+
+# ---------
+# functions
+# ---------
+
 # LINE notify's API
 # LINE_TOKEN= os.environ.get("LINE_NOTIFY_API_KEY")
 # LINE_NOTIFY_URL="https://notify-api.line.me/api/notify"
