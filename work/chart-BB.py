@@ -35,7 +35,7 @@ for code in codes:
     df['sma'] = sma
     
     # BBを求める
-    up, mid, down = talib.BBANDS(np.asarray(df.Close, dtype='float64'), 5, 1, 1, 0)
+    up, mid, down = talib.BBANDS(np.asarray(df.Close, dtype='float64'), 20, 2, 2, 0)
     # up[np.isnan(up)] = 0
     # mid[np.isnan(mid)] = 0
     # down[np.isnan(down)] = 0 

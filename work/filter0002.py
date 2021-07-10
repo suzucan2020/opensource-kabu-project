@@ -28,7 +28,7 @@ for code in codes:
 
     # # talib$Onparray$K$9$k.7?$Odouble$K$9$k
     # 5日移動平均を求める
-    sma = talib.SMA(np.asarray(df.Close, dtype='float64'), 5)
+    sma = talib.SMA(np.asarray(df.Close, dtype='float64'), 20)
     # nanデータは0とする
     sma[np.isnan(sma)] = 0.0
     # print(sma)
