@@ -25,11 +25,11 @@ for code in codes:
     df = df.reindex(index=df.index[::-1])
     df.reset_index(inplace=True, drop=True)
 
+    # MACDを求める
     macd_period1 = 10
     macd_period2 = 20
     macd_period3 = 5
 
-    # MACDを求める
     if not macd_period1:
         macd_period1 = 12
     if not macd_period2:
