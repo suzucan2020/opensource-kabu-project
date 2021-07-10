@@ -114,7 +114,7 @@ for code in codes:
     H.add_data_set(volume, 'column', 'Volume', yAxis=1, dataGrouping={ 'units': groupingUnits })
     H.add_data_set(macd, 'line', 'macd', dataGrouping={ 'units': groupingUnits })
     H.add_data_set(macd_signal, 'line', 'macd_signal', dataGrouping={ 'units': groupingUnits })
-    H.add_data_set(macd_hist, 'line', 'macd_hist', dataGrouping={ 'units': groupingUnits })
+    H.add_data_set(macd_hist, 'column', 'macd_hist', dataGrouping={ 'units': groupingUnits })
     H.set_dict_options(options)
     
     html = '''
