@@ -39,9 +39,9 @@ for code in codes:
 
     if macd_period1 is not None:
         macd, macd_signal, macd_hist = talib.MACD(np.asarray(df.Close, dtype='float64'), int(macd_period1), int(macd_period2), int(macd_period3))
-        macd[np.isnan(macd)] = 0
-        macd_signal[np.isnan(macd_signal)] = 0
-        macd_hist[np.isnan(macd_hist)] = 0
+        # macd[np.isnan(macd)] = 0
+        # macd_signal[np.isnan(macd_signal)] = 0
+        # macd_hist[np.isnan(macd_hist)] = 0
         df['macd'] = macd
         df['macd_signal'] = macd_signal
         df['macd_hist'] = macd_hist
