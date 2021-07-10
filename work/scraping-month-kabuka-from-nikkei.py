@@ -11,40 +11,10 @@ import time
 import os
 import sys
 
-# LINE notify's API
-# LINE_TOKEN= os.environ.get("LINE_NOTIFY_API_KEY")
-# LINE_NOTIFY_URL="https://notify-api.line.me/api/notify"
-# def send_message(msg):
-#     method = "POST"
-#     headers = {"Authorization": "Bearer %s" % LINE_TOKEN}
-#     payload = {"message": msg}
-#     try:
-#         payload = urllib.parse.urlencode(payload).encode("utf-8")
-#         req = urllib.request.Request(
-#             url=LINE_NOTIFY_URL, data=payload, method=method, headers=headers)
-#         urllib.request.urlopen(req)
-#     except Exception as e:
-#         print ("Exception Error: ", e)
-#         sys.exit(1)
+import okap
 
-
-def is_num(s):
-    return s.replace(',', '').replace('.', '').replace('-', '').isnumeric()
-
-def read_stock_code_list(fname):
-    codes = []
-    with open(fname, 'r', encoding='utf-8') as fin: # ファイルを開く
-        for line in fin.readlines():  # 行を読み込んでfor文で回す
-            try:
-                code = int(line) # 行を整数（int）に変換する
-            except ValueError as e:
-                print(e, file=sys.stderr)  # エラーが出たら画面に出力
-                continue
-            codes.append(code)  # 変換した整数をリストに保存する
-    return codes
-
-codes = [1301]
-# codes = read_stock_code_list('stock-code-list/all.txt')
+# codes = [1301]
+codes = okap.read_stock_code_list('stock-code-list/all.txt')
 
 start_time = time.time()
  
@@ -144,7 +114,7 @@ for num in range(index,len(codes)):
             tmp2 = tmp.split("<")[0]
             # カンマが入ると数値として正しく処理できないで取り除く
             tmp3 = tmp2.replace(',', '')
-            if is_num(tmp3) == True:
+            if okap.is_num(tmp3) == True:
                 value_list.append(float(tmp3))
             else:
                 value_list.append(tmp3)
