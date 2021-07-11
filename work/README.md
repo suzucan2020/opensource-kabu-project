@@ -1,11 +1,17 @@
 # 概要
 
+- scraping
+- filter
+- chart
+
 ## scraping
 
 株価を取得して、csvに保存
-- デフォルト値
-  - 対象銘柄：stock-code-list/all.txt 
-  - 出力ファイル：kabu-data
+
+- scraping-month-kabuka-from-nikkei.py
+  - デフォルト値
+    - 対象銘柄：stock-code-list/all.txt 
+    - 出力ファイル：kabu-data
 
 ```bash
 $ pwd
@@ -55,6 +61,16 @@ URL: https://www.nikkei.com/nkd/company/?scode=1301
 全銘柄の株価取得完了
 ```
 
+## filter
+
+フィルタ条件を満たす銘柄を、ファイルに出力
+
+- 8man-12man-volume-over40k.py
+  - すべての銘柄から8万～12万で買える、かつ出来高が40000以上 
+  - デフォルト値
+    - 対象銘柄：stock-code-list/all.txt 
+    - 出力ファイル：stock-code-list/8man-12man-volume-over40k.txt
+
 ```bash
 $ pwd
 /mnt/work
@@ -87,8 +103,47 @@ end:  9997
 対象銘柄入れ替え完了
 ```
 
-$ python3 filter/filter0002.py
-$ python3 filter/filterMACD.py
+- filter0002.py
+  - 高値が移動平均線を超えている
+  - デフォルト値
+    - 対象銘柄：stock-code-list/8man-12man-volume-over40k.txt
+    - 出力ファイル：stock-code-list/filter0002.txt
 
+```bash
+$ python3 filter/filter0002.py
+```
+
+- filterMACD.py
+  - MACDがMACDシグナルを超えた（ゴールデンクロス）
+  - デフォルト値
+    - 対象銘柄：stock-code-list/8man-12man-volume-over40k.txt
+    - 出力ファイル：stock-code-list/filterMACD.txt
+
+```bash
+$ python3 filter/filterMACD.py
+```
+
+## chart
+
+チャートを描画する、github　pagesに書き込む  
+github　pages：https://suzucan2020.github.io/opensource-kabu-project/
+
+- chart-BB.py
+  - ボリンジャーバンドの描写
+  - デフォルト値
+    - 20 
+
+```bash
 $ python3 chart/chart-BB.py > ../docs/chart/filter0002.html
-$ python3 chart/chart-BB.py > ../docs/chart/MACD.html
+```
+
+- chart-MACD.py
+  - ボリンジャーバンドの描写
+  - デフォルト値
+    - fastperiod: 10
+    - slowperiod: 20
+    - signalperiod: 5
+
+```
+$ python3 chart/chart-MACD.py > ../docs/chart/MACD.html
+```
