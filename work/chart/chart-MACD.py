@@ -5,12 +5,19 @@ import talib
 from highcharts import Highstock
 # from IPython.display import HTML
 
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# print(sys.path)
 import okap
+
+
+input_fname  = "stock-code-list/filterMACD.txt"
 
 #years = [2021]
 year = 2021
 # codes = [1301]
-codes = okap.read_stock_code_list('stock-code-list/filter0002.txt')
+codes = okap.read_stock_code_list(input_fname)
 
 for code in codes:
 
@@ -24,27 +31,27 @@ for code in codes:
     # データの並びをリバースする
     df = df.reindex(index=df.index[::-1])
     df.reset_index(inplace=True, drop=True)
- 
-    # # talib$Onparray$K$9$k.7?$Odouble$K$9$k
-    # 5日移動平均を求める
-    sma = talib.SMA(np.asarray(df.Close, dtype='float64'), 5)
-    # nanデータは0とする
-    # sma[np.isnan(sma)] = 0.0
-    sma[np.isnan(sma)] = sma[4]
-    # print(sma)
-    df['sma'] = sma
-    
-    # BBを求める
-    up, mid, down = talib.BBANDS(np.asarray(df.Close, dtype='float64'), 20, 2, 2, 0)
-    # up[np.isnan(up)] = 0
-    # mid[np.isnan(mid)] = 0
-    # down[np.isnan(down)] = 0 
-    up[np.isnan(up)] = up[4]
-    mid[np.isnan(mid)] = mid[4]
-    down[np.isnan(down)] = down[4]
-    df['up'] = up
-    df['mid'] = mid
-    df['down'] = down
+
+    # MACDを求める
+    macd_period1 = 10
+    macd_period2 = 20
+    macd_period3 = 5
+
+    if not macd_period1:
+        macd_period1 = 12
+    if not macd_period2:
+        macd_period2 = 26
+    if not macd_period3:
+        macd_period3 = 9
+
+    if macd_period1 is not None:
+        macd, macd_signal, macd_hist = talib.MACD(np.asarray(df.Close, dtype='float64'), int(macd_period1), int(macd_period2), int(macd_period3))
+        # macd[np.isnan(macd)] = 0
+        # macd_signal[np.isnan(macd_signal)] = 0
+        # macd_hist[np.isnan(macd_hist)] = 0
+        df['macd'] = macd
+        df['macd_signal'] = macd_signal
+        df['macd_hist'] = macd_hist
 
     # print(df)
 
@@ -57,7 +64,7 @@ for code in codes:
     df_html["Date"] = pd.to_datetime(df["Date"].astype(str), format="%m/%d")
     # print(df_html)
     # グラフの表示に必要なものだけ選ぶ
-    df_html = df_html[['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'up', 'mid', 'down']]
+    df_html = df_html[['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'macd', 'macd_signal', 'macd_hist']]
     # print(df_html)
     
     groupingUnits = [
@@ -67,9 +74,9 @@ for code in codes:
     
     ohlc = [[x[1], r(x[2]), r(x[3]), r(x[4]), r(x[5])] for x in df_html.itertuples()]
     volume = [[x[1], r(x[6])] for x in df_html.itertuples()]
-    up = [[x[1], r(x[7])] for x in df_html.itertuples()]
-    mid = [[x[1], r(x[8])] for x in df_html.itertuples()]
-    down = [[x[1], r(x[9])] for x in df_html.itertuples()]
+    macd = [[x[1], r(x[7])] for x in df_html.itertuples()]
+    macd_signal = [[x[1], r(x[8])] for x in df_html.itertuples()]
+    macd_hist = [[x[1], r(x[9])] for x in df_html.itertuples()]
     
     options = {
         'chart':{
@@ -110,11 +117,11 @@ for code in codes:
         }],
     }
     
-    H.add_data_set(ohlc, 'candlestick', str(title), dataGrouping={ 'units': groupingUnits })
+    # H.add_data_set(ohlc, 'candlestick', str(title), dataGrouping={ 'units': groupingUnits })
     H.add_data_set(volume, 'column', 'Volume', yAxis=1, dataGrouping={ 'units': groupingUnits })
-    H.add_data_set(up, 'line', 'up', dataGrouping={ 'units': groupingUnits })
-    H.add_data_set(mid, 'line', 'mid', dataGrouping={ 'units': groupingUnits })
-    H.add_data_set(down, 'line', 'down', dataGrouping={ 'units': groupingUnits })
+    H.add_data_set(macd, 'line', 'macd', dataGrouping={ 'units': groupingUnits })
+    H.add_data_set(macd_signal, 'line', 'macd_signal', dataGrouping={ 'units': groupingUnits })
+    H.add_data_set(macd_hist, 'column', 'macd_hist', dataGrouping={ 'units': groupingUnits })
     H.set_dict_options(options)
     
     html = '''

@@ -2,18 +2,25 @@ import pandas as pd
 import numpy as np
 import talib
 
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# print(sys.path)
 import okap
 
+
+input_fname  = "stock-code-list/8man-12man-volume-over40k.txt"
+output_fname = "stock-code-list/filterMACD.txt"
+ 
 year  = 2021
 years = [2021,2020]
-codes = [2151]
-# codes = okap.read_stock_code_list('stock-code-list/8man-12man-volume-over40k.txt')
-# codes = okap.read_stock_code_list('stock-code-list/all.txt')
+# codes = [2151]
+codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 
 # hit_message = "====================\nおすすめの株\n8万以上12万以下\n2日連続で陽線\n5日移動平均線が上昇\n===========================\n"
-hit_message = "====================\nおすすめの株\n8万以上12万以下\n終値が移動平均線より低い＆高値が移動平均線を超えている\n===========================\n"
+hit_message = "====================\nおすすめの株\nMACDがMACDシグナルを突き抜けました\n===========================\n"
 message_list = []
 for code in codes:
 
@@ -33,7 +40,7 @@ for code in codes:
     # MACDを求める
     macd_period1 = 10
     macd_period2 = 20
-    macd_period3 = 9
+    macd_period3 = 5
 
     if not macd_period1:
         macd_period1 = 12
@@ -51,7 +58,7 @@ for code in codes:
         df['macd_signal'] = macd_signal
         df['macd_hist'] = macd_hist
     
-    print(df)
+    # print(df)
     
     df_new = pd.DataFrame(index=df.index, columns=[])
     df_new['macd'] = df.macd
@@ -80,7 +87,7 @@ for code in codes:
     #for index, row in df_new.iterrows():
     #    if(row['2day_positive'] == true and row["2day_colse_goes_up"] == true and row['1day_sma_goes_up'] == true):
     #        print(index)
-with open("stock-code-list/filterMACD.txt", 'wt') as f:
+with open(output_fname, 'wt') as f:
     for code in code_list:
         f.write(str(code)+'\n')
 

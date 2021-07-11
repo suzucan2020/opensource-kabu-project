@@ -5,12 +5,20 @@
 # from botocore.exceptions import ClientError
 
 import pandas as pd
+
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# print(sys.path)
 import okap
 
-years = [2021]
 
+input_fname  = "stock-code-list/all.txt"
+output_fname = "stock-code-list/8man-12man-volume-over40k.txt"
+
+years = [2021]
 # codes = [1301]
-codes = okap.read_stock_code_list('stock-code-list/all.txt')
+codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 close_list = []
@@ -54,7 +62,7 @@ columns=['Close', 'Volume']
 print(df2)
 # df2.to_csv('s3://kabu-data/target_code.csv', index_label='code')
 
-with open("stock-code-list/8man-12man-volume-over40k.txt", 'wt') as f:
+with open(output_fname, 'wt') as f:
     for code in code_list:
         f.write(str(code)+'\n')
 

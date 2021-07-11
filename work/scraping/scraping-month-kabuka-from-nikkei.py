@@ -8,6 +8,10 @@ import urllib.request
 import datetime
 import time
 
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# print(sys.path)
 import okap
 
 # codes = [1301]

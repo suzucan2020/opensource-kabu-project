@@ -2,12 +2,20 @@ import pandas as pd
 import numpy as np
 import talib
 
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# print(sys.path)
 import okap
 
+
+input_fname  = "stock-code-list/8man-12man-volume-over40k.txt"
+output_fname = "stock-code-list/filter0002.txt"
+ 
 year  = 2021
 years = [2021,2020]
 # codes = [9468]
-codes = okap.read_stock_code_list('stock-code-list/8man-12man-volume-over40k.txt')
+codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 
@@ -89,7 +97,7 @@ for code in codes:
     #for index, row in df_new.iterrows():
     #    if(row['2day_positive'] == true and row["2day_colse_goes_up"] == true and row['1day_sma_goes_up'] == true):
     #        print(index)
-with open("stock-code-list/filter0002.txt", 'wt') as f:
+with open(output_fname, 'wt') as f:
     for code in code_list:
         f.write(str(code)+'\n')
 
