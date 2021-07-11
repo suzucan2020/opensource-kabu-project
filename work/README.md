@@ -131,7 +131,8 @@ github　pages：https://suzucan2020.github.io/opensource-kabu-project/
 - chart-BB.py
   - ボリンジャーバンドの描写
   - デフォルト値
-    - 20 
+    - 対象銘柄：stock-code-list/filter0002.txt
+    - period: 20 
 
 ```bash
 $ python3 chart/chart-BB.py > ../docs/chart/filter0002.html
@@ -140,6 +141,7 @@ $ python3 chart/chart-BB.py > ../docs/chart/filter0002.html
 - chart-MACD.py
   - ボリンジャーバンドの描写
   - デフォルト値
+    - 対象銘柄：stock-code-list/filterMACD.txt
     - fastperiod: 10
     - slowperiod: 20
     - signalperiod: 5
