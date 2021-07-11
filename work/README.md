@@ -1,5 +1,12 @@
 # 概要
 
+## scraping
+
+株価を取得して、csvに保存
+- デフォルト値
+  - 対象銘柄：stock-code-list/all.txt 
+  - 出力ファイル：kabu-data
+
 ```bash
 $ pwd
 /mnt/work
@@ -40,7 +47,7 @@ $ python3 scraping/scraping-month-kabuka-from-nikkei.py
 3.439997911453247
 11 : 1322
 :
-
+省略
 :
 正常チェック code: 1301
 7/9,2918.0,2918.0,2850.0,2872.0,39000.0,2872.0
@@ -58,7 +65,7 @@ start:  1301
 end:  1301
 start:  1305
 :
-
+省略
 :
 start:  9997
 9997
