@@ -15,8 +15,9 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 # print(sys.path)
 import okap
 
-codes = [1301]
-# codes = okap.read_stock_code_list('stock-code-list/all.txt')
+# codes = [1301]
+codes = okap.read_stock_code_list('stock-code-list/all.txt')
+# codes = [1613]
 
 start_time = time.time()
 
@@ -24,9 +25,13 @@ for i, code in enumerate(codes):
     company_code = str(code) + ".T"
     my_share = share.Share(company_code)
 
+    
+    print("START: ", company_code)
     try:
-        symbol_data = my_share.get_historical(share.PERIOD_TYPE_WEEK, 1000,
+        # symbol_data = my_share.get_historical(share.PERIOD_TYPE_WEEK, 1000,
+        symbol_data = my_share.get_historical(share.PERIOD_TYPE_WEEK, 100,
                                         share.FREQUENCY_TYPE_DAY, 1)
+        # print(symbol_data)
         df = pd.DataFrame(symbol_data.values(), index=symbol_data.keys()).T
         df.timestamp = pd.to_datetime(df.timestamp, unit='ms')
         df.index = pd.DatetimeIndex(df.timestamp, name='Date').tz_localize('UTC').tz_convert('Asia/Tokyo')
@@ -35,12 +40,11 @@ for i, code in enumerate(codes):
         df = df.drop('timestamp', axis='columns')
         df = df.set_axis(['Open','High','Low','Close','Volume','Trading Value'], axis='columns')
 
-        print(company_code)
-        print(df)
-        # df.to_csv("test.csv")
+        # print(df)
+        df.to_csv("kabu-data/"+str(code)+"_2021.csv")
         spend_time = time.time() - start_time
+        print("END:   ", company_code)
         print(spend_time)
- 
 
     except YahooFinanceError as e:
         print(e.message)

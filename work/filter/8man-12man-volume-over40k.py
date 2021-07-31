@@ -19,6 +19,7 @@ output_fname = "stock-code-list/8man-12man-volume-over40k.txt"
 years = [2021]
 # codes = [1301]
 codes = okap.read_stock_code_list(input_fname)
+# codes = [1782]
 
 code_list = []
 close_list = []
@@ -31,11 +32,12 @@ print(msg)
 for code in codes:
     for year in years:
         print("start: ", code)
-        title = okap.read_title_form_s3(str(code), str(year))
+        # title = okap.read_title_form_s3(str(code), str(year))
+        title = str(code)
         df = okap.read_df_from_s3(str(code), str(year))
 
-        df = df.reindex(index=df.index[::-1])
-        df.reset_index(inplace=True, drop=True)
+        # df = df.reindex(index=df.index[::-1])
+        # df.reset_index(inplace=True, drop=True)
         # print(df)
         if len(df) == 0:
             continue
@@ -51,7 +53,7 @@ for code in codes:
             code_list.append(code)
             close_list.append(close)
             volume_list.append(volume_mean[-1:].values)
-            print(title)
+            print("HIT: ------------------------------------> ", title)
         print("end: ", title)
 
 df2 = pd.DataFrame(

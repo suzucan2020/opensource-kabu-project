@@ -21,7 +21,8 @@ codes = okap.read_stock_code_list(input_fname)
 
 for code in codes:
 
-    title = okap.read_title_form_s3(str(code), str(year))
+    # title = okap.read_title_form_s3(str(code), str(year))
+    title = str(code)
     # print(title)
     df = okap.read_df_from_s3(str(code), str(year))
     # if not os.path.isfile(file_name):
@@ -29,13 +30,13 @@ for code in codes:
     #    continue
     
     # データの並びをリバースする
-    df = df.reindex(index=df.index[::-1])
-    df.reset_index(inplace=True, drop=True)
+    # df = df.reindex(index=df.index[::-1])
+    # df.reset_index(inplace=True, drop=True)
 
     # MACDを求める
-    macd_period1 = 10
-    macd_period2 = 20
-    macd_period3 = 5
+    macd_period1 = 12
+    macd_period2 = 26
+    macd_period3 = 9
 
     if not macd_period1:
         macd_period1 = 12
@@ -61,7 +62,8 @@ for code in codes:
     # からのデータフレームを作成
     df_html = df
     # 日付を文字列 year/month/day からdatetime(unix時間)に変換
-    df_html["Date"] = pd.to_datetime(df["Date"].astype(str), format="%m/%d")
+    df_html["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%Y-%m-%d")
+    df_html["Date"] = pd.to_datetime(df["Date"].astype(str), format="%Y-%m-%d")
     # print(df_html)
     # グラフの表示に必要なものだけ選ぶ
     df_html = df_html[['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'macd', 'macd_signal', 'macd_hist']]

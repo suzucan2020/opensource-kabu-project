@@ -24,23 +24,25 @@ hit_message = "====================\nおすすめの株\nMACDがMACDシグナル
 message_list = []
 for code in codes:
 
-    title = okap.read_title_form_s3(str(code), str(year))
+    print("START: ", code)
+    # title = okap.read_title_form_s3(str(code), str(year))
+    title = str(code)
     # print(title)
     df = okap.read_df_from_s3(str(code), str(year))
     # if not os.path.isfile(file_name):
     #    print("file not exist: ", file_name)
     #    continue
-    df = df.reindex(index=df.index[::-1])
-    df.reset_index(inplace=True, drop=True)
+    # df = df.reindex(index=df.index[::-1])
+    # df.reset_index(inplace=True, drop=True)
     # print(code)
     # print(df)
     if len(df) == 0:
         continue
 
     # MACDを求める
-    macd_period1 = 10
-    macd_period2 = 20
-    macd_period3 = 5
+    macd_period1 = 12
+    macd_period2 = 26
+    macd_period3 = 9
 
     if not macd_period1:
         macd_period1 = 12
@@ -75,7 +77,7 @@ for code in codes:
     if (row["macd_hist"].values > 0) & (row["macd_hist_1day_ago"].values <= 0):
         code_list.append(code)
         tmp_title = title[:20]
-        print(tmp_title)
+        print("HIT: ------------------------> ", tmp_title)
         # print(df_new)
         if len(hit_message + tmp_title + "\n") > 1000:
             message_list.append(hit_message)
@@ -83,7 +85,7 @@ for code in codes:
         else:
             hit_message = hit_message + tmp_title + "\n"
 
-
+    print("END:  ", code)
     #for index, row in df_new.iterrows():
     #    if(row['2day_positive'] == true and row["2day_colse_goes_up"] == true and row['1day_sma_goes_up'] == true):
     #        print(index)
