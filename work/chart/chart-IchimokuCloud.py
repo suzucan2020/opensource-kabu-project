@@ -169,11 +169,11 @@ for code in codes:
         }],
     }
     
-    # H.add_data_set(ohlc, 'candlestick', str(title), dataGrouping={ 'units': groupingUnits })
+    H.add_data_set(ohlc, 'candlestick', str(title), dataGrouping={ 'units': groupingUnits })
     H.add_data_set(volume, 'column', 'Volume', yAxis=1, dataGrouping={ 'units': groupingUnits })
     H.add_data_set(senkou_a, 'line', 'senkou_a', dataGrouping={ 'units': groupingUnits })
     H.add_data_set(senkou_b, 'line', 'senkou_b', dataGrouping={ 'units': groupingUnits })
-    H.add_data_set(chikou, 'column', 'chikou', dataGrouping={ 'units': groupingUnits })
+    H.add_data_set(chikou, 'line', 'chikou', dataGrouping={ 'units': groupingUnits })
     H.set_dict_options(options)
     
     html = '''
