@@ -49,7 +49,7 @@ for code in codes:
         # print(volume_mean[-1:])
         # print(close)
         # フィルタ条件：一番最近の終値が800円以上1200以下、直近5日間の出来高の平均が40000以上
-        if 800 <= close and close <= 1200 and volume_mean[-1:].values >= 40000:
+        if 500 <= close and close <= 1200 and volume_mean[-1:].values >= 40000:
             code_list.append(code)
             close_list.append(close)
             volume_list.append(volume_mean[-1:].values)
