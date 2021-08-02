@@ -22,7 +22,8 @@ codes = okap.read_stock_code_list('stock-code-list/all.txt')
 start_time = time.time()
 
 for i, code in enumerate(codes):
-    company_code = str(code) + ".T"
+    # company_code = str(code) + ".T"
+    company_code = code
     my_share = share.Share(company_code)
 
     

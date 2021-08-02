@@ -9,7 +9,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import okap
 
 
-input_fname  = "stock-code-list/8man-12man-volume-over40k.txt"
+# input_fname  = "stock-code-list/8man-12man-volume-over40k.txt"
+input_fname  = "stock-code-list/all.txt"
 output_fname = "stock-code-list/filterMACD.txt"
  
 year  = 2021

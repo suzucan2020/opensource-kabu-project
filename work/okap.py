@@ -38,12 +38,18 @@ def read_df_from_s3(stock_code, selected_year):
     file_name = "kabu-data/" + stock_code + "_" + selected_year + ".csv"
     # file_name = stock_code + "_" + selected_year + ".csv"
     # df = pd.read_csv(file_name, header=1, encoding="shift-jis")
-    df = pd.read_csv(file_name, encoding="shift-jis")
-    # print(df)
-    df.columns = ["Date", "Open", "High", "Low", "Close", "Volume", "Trading Value"]
-    df = df.dropna()
-    df = df.astype({"Open": float, "High": float, "Low": float, "Close": float, "Volume": float, "Trading Value": float})
-    return df
+
+    if(os.path.exists(file_name)):
+        df = pd.read_csv(file_name, encoding="shift-jis")
+        # print(df)
+        df.columns = ["Date", "Open", "High", "Low", "Close", "Volume", "Trading Value"]
+        df = df.dropna()
+        df = df.astype({"Open": float, "High": float, "Low": float, "Close": float, "Volume": float, "Trading Value": float})
+        return df
+    else:
+        cols= ["Date", "Open", "High", "Low", "Close", "Volume", "Trading Value"]
+        df = pd.DataFrame(index=[], columns=cols)
+        return df
 
 def is_num(s):
     return s.replace(',', '').replace('.', '').replace('-', '').isnumeric()
@@ -53,7 +59,8 @@ def read_stock_code_list(fname):
     with open(fname, 'r', encoding='utf-8') as fin: # ファイルを開く
         for line in fin.readlines():  # 行を読み込んでfor文で回す
             try:
-                code = int(line) # 行を整数（int）に変換する
+                # code = int(line) # 行を整数（int）に変換する
+                code = str(line).replace('\n', '')
             except ValueError as e:
                 print(e, file=sys.stderr)  # エラーが出たら画面に出力
                 continue
