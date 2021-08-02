@@ -87,7 +87,7 @@ for code in codes:
             'height':500
         },
         'rangeSelector': {
-            'selected': 1
+            'selected': 5
         },
         'title': {
             'text': title
