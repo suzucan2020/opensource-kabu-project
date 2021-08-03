@@ -16,7 +16,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import okap
 
 # codes = [1301]
-codes = okap.read_stock_code_list('stock-code-list/all.txt')
+# codes = okap.read_stock_code_list('stock-code-list/all.txt')
+codes = okap.read_stock_code_list('stock-code-list/buy-list.txt')
 # codes = [1613]
 
 start_time = time.time()
