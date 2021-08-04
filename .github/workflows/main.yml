@@ -5,11 +5,15 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
+      # このリポジトリのプライベートアクションを使用するには
+      # リポジトリをチェックアウトする
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Hello world action step
+        uses: ./ # Uses an action in the root directory
         id: hello
-        uses: suzucan2020/opensource-kabu-project
         with:
           who-to-greet: 'Mona the Octocat'
-      # `hello` ステップからの出力を使用する
+      # 「hello」ステップの出力を使用する
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
