@@ -23,7 +23,7 @@ RUN pip install yahoo_finance_api2
 # # dockerコンテナが起動する際に実行されるコードファイル (`entrypoint.sh`)
 # ENTRYPOINT ["/entrypoint.sh"]
 
-COPY work/* /tmp
-WORKDIR /tmp
+COPY ./work /tmp
+WORKDIR /tmp/work
 
 CMD ["python3", "scraping/yahoo-finace-api2.py"]
