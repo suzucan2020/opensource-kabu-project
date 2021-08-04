@@ -8,9 +8,6 @@ RUN apt-get -y update && apt-get install -y wget vim git curl make sudo
 RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
     tar -xzf ta-lib-0.4.0-src.tar.gz && \
     cd ta-lib/ && \
-    # ARM特有
-    wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD' -O config.guess && \
-    wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD' -O config.sub &&\
     ./configure --prefix=/usr && \
     make && \
     make install
@@ -18,9 +15,15 @@ RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
 RUN pip install ta-lib
 RUN pip install pandas
 RUN pip install python-highcharts
+RUN pip install yahoo_finance_api2
 
-# アクションのリポジトリからコードファイルをコンテナのファイルシステムパス `/`にコピー
-COPY entrypoint.sh /entrypoint.sh
+# # アクションのリポジトリからコードファイルをコンテナのファイルシステムパス `/`にコピー
+# COPY entrypoint.sh /entrypoint.sh
+# 
+# # dockerコンテナが起動する際に実行されるコードファイル (`entrypoint.sh`)
+# ENTRYPOINT ["/entrypoint.sh"]
 
-# dockerコンテナが起動する際に実行されるコードファイル (`entrypoint.sh`)
-ENTRYPOINT ["/entrypoint.sh"]
+COPY work/* /tmp
+WORKDIR /tmp
+
+CMD ["python3", "scraping/yahoo-finace-api2.py"]

@@ -17,3 +17,5 @@ RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
 RUN pip install ta-lib
 RUN pip install pandas
 RUN pip install python-highcharts
+RUN pip install yahoo_finance_api2
+
