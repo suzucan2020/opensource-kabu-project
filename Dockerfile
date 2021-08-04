@@ -17,13 +17,13 @@ RUN apt-get -y update && apt-get install -y wget vim git curl make sudo
 # RUN pip install python-highcharts
 # RUN pip install yahoo_finance_api2
 
-# # アクションのリポジトリからコードファイルをコンテナのファイルシステムパス `/`にコピー
-# COPY entrypoint.sh /entrypoint.sh
-# 
-# # dockerコンテナが起動する際に実行されるコードファイル (`entrypoint.sh`)
-# ENTRYPOINT ["/entrypoint.sh"]
+# アクションのリポジトリからコードファイルをコンテナのファイルシステムパス `/`にコピー
+COPY entrypoint.sh /entrypoint.sh
 
-COPY ./work /tmp
-WORKDIR /tmp/work
+# dockerコンテナが起動する際に実行されるコードファイル (`entrypoint.sh`)
+ENTRYPOINT ["/entrypoint.sh"]
+
+# COPY ./work /tmp
+# WORKDIR /tmp/work
 
 # CMD ["ls -l"]
