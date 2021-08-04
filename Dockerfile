@@ -4,7 +4,7 @@ FROM python:3.8
 # 必要なコマンドのインストールを行う
 RUN apt-get -y update && apt-get install -y wget vim git curl make sudo
 
-TA-Libのインストールを行う
+# TA-Libのインストールを行う
 RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
     tar -xzf ta-lib-0.4.0-src.tar.gz && \
     cd ta-lib/ && \
