@@ -26,4 +26,4 @@ RUN apt-get -y update && apt-get install -y wget vim git curl make sudo
 COPY ./work /tmp
 WORKDIR /tmp/work
 
-CMD ["ls -l"]
+# CMD ["ls -l"]
