@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/opensource-kabu-project@v1
+        uses: suzucan2020/opensource-kabu-project@v1
         with:
           who-to-greet: 'Mona the Octocat'
       # `hello` ステップからの出力を使用する
