@@ -1,10 +1,16 @@
 #!/bin/sh -l
 
 date > ../github-action.log
+
 ls
+
 cd work
+
 echo "scraping stage"
 python3 scraping/yahoo-finace-api2.py >> ../github-action.log
+
+echo "profti stage"
+python3 filter/profit.py >> ../github-action.log
 
 echo "chaart stage"
 python3 chart/BB.py > ../docs/chart/BB.html
