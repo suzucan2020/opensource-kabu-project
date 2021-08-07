@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import talib
+import datetime
 
 import os
 import sys
@@ -41,13 +42,24 @@ for code in codes:
     if len(df) == 0:
         continue
 
+    # print(df['Date'])
+    # 日付を文字列 year/month/day からdatetime(unix時間)に変換
+    # print(pd.to_datetime(df["Date"]))
+    buy_date = datetime.datetime(2021,8,2,22,30,0, tzinfo=datetime.timezone(datetime.timedelta(hours=9)))
+    # print(buy_date)
+    buy_price = df[pd.to_datetime(df["Date"]) == buy_date].Close.values
+ 
     # 終値を一日シフトさせる 
     okap.make_x_day_shift(df,"Close", 1, "Close_1day_ago")
 
     row = df[-1:]
 
-    profit = row["Close"].values - row["Close_1day_ago"].values
-    print(code, " profit: ", profit, " : ",  row["Close"].values, row["Close_1day_ago"].values)
+    # profit = row["Close"].values - row["Close_1day_ago"].values
+    # print(code, " profit: ", profit, " : ",  row["Close"].values, row["Close_1day_ago"].values)
+
+    profit = row["Close"].values - buy_price
+    print(code, " profit: ", profit, " : ",  row["Close"].values, buy_price)
+ 
     total += profit
     # 移動平均が終値より高い＆高値が移動平均を超えている＆終値が始値より高い
 
