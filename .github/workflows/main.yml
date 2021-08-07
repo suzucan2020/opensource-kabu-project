@@ -14,6 +14,12 @@ jobs:
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'
+      - name: Commit & push files
+        run: |
+          git config --local user.email "suzucan2020@users.noreply.github.com"
+          git config --local user.name "suzucan2020"
+          git commit -m "Add changes" -a
+          git push
       # 「hello」ステップの出力を使用する
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
