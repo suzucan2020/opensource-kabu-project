@@ -1,10 +1,14 @@
 #!/bin/sh -l
 
-date > ../github-action.log
 
 ls
 
 cd work
+
+echo "" > ../github-action.log
+
+echo "write date"
+date >> ../github-action.log
 
 echo "scraping stage"
 python3 scraping/yahoo-finace-api2.py >> ../github-action.log
