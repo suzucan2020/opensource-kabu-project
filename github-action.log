@@ -1,100 +1,100 @@
 
-Mon Aug  9 05:24:15 UTC 2021
+Mon Aug  9 15:36:17 UTC 2021
 ===========================
 scraping
 ===========================
 START:  A
-END:    0.17038536071777344
+END:    0.19098591804504395
 -
 START:  ANAT
-END:    0.32472825050354004
+END:    0.39722609519958496
 -
 START:  BBDC
-END:    0.4162724018096924
+END:    0.5410220623016357
 -
 START:  BRBR
-END:    0.4886205196380615
+END:    0.6780037879943848
 -
 START:  BURL
-END:    0.597405195236206
+END:    0.8501980304718018
 -
 START:  CUTR
-END:    0.6710891723632812
+END:    1.05841064453125
 -
 START:  DAVA
-END:    0.7411775588989258
+END:    1.166630744934082
 -
 START:  ERII
-END:    0.8119776248931885
+END:    1.330962896347046
 -
 START:  EXLS
-END:    0.8921413421630859
+END:    1.4900834560394287
 -
 START:  FIVE
-END:    0.9690051078796387
+END:    1.797924518585205
 -
 START:  GPI
-END:    1.0549306869506836
+END:    1.9309642314910889
 -
 START:  HCI
-END:    1.135843276977539
+END:    2.0961878299713135
 -
 START:  IR
-END:    1.2107205390930176
+END:    2.2231478691101074
 -
 START:  KAI
-END:    1.3174655437469482
+END:    2.332108736038208
 -
 START:  LIT
-END:    1.4073147773742676
+END:    2.4904234409332275
 -
 START:  MOH
-END:    1.4815106391906738
+END:    2.6471800804138184
 -
 START:  MXIM
-END:    1.5908198356628418
+END:    2.853915214538574
 -
 START:  NCR
-END:    1.7019805908203125
+END:    2.9910192489624023
 -
 START:  NTAP
-END:    1.782923936843872
+END:    3.1919822692871094
 -
 START:  NVMI
-END:    1.8656866550445557
+END:    3.304691791534424
 -
 START:  PFF
-END:    1.962571144104004
+END:    3.4350380897521973
 -
 START:  PFFD
-END:    2.053556203842163
+END:    3.589221954345703
 -
 START:  RDNT
-END:    2.125983953475952
+END:    3.775869607925415
 -
 START:  SEE
-END:    2.246177911758423
+END:    3.960052728652954
 -
 START:  SWAV
-END:    2.3197991847991943
+END:    4.057470798492432
 -
 START:  TRNS
-END:    2.391118288040161
+END:    4.158503293991089
 -
 START:  TTC
-END:    2.5079267024993896
+END:    4.331674814224243
 -
 START:  TU
-END:    2.600904703140259
+END:    4.503198623657227
 -
 START:  TXN
-END:    2.7406253814697266
+END:    4.690268516540527
 -
 START:  VSTO
-END:    2.8138484954833984
+END:    4.840567350387573
 -
 START:  VVV
-END:    2.893796920776367
+END:    5.048929214477539
 -
 ===========================
 MACD minus
@@ -107,6 +107,7 @@ HIT: ------------------------>  BRBR
 START:  BURL
 START:  CUTR
 START:  DAVA
+HIT: ------------------------>  DAVA
 START:  ERII
 HIT: ------------------------>  ERII
 START:  EXLS
@@ -136,6 +137,7 @@ START:  VSTO
 START:  VVV
 ==== MACD minus list ====
 BRBR
+DAVA
 ERII
 GPI
 NCR
@@ -143,43 +145,43 @@ NCR
 profit
 ===========================
 ==== plus ====
-A    profit:   [2.63], per:   [1.72], buy:  [155.7], now: [153.07]
-ANAT profit:   [8.63], per:   [5.26], buy:  [172.8], now: [164.17]
-BBDC profit:   [0.35], per:    [3.3], buy:  [10.95], now:   [10.6]
-BURL profit:   [7.64], per:   [2.31], buy: [338.25], now: [330.61]
-CUTR profit:   [0.43], per:    [0.8], buy:  [54.04], now:  [53.61]
-DAVA profit:   [2.84], per:   [2.25], buy: [129.22], now: [126.38]
-EXLS profit:   [4.06], per:   [3.55], buy: [118.56], now:  [114.5]
-FIVE profit:   [9.56], per:   [4.93], buy:  [203.6], now: [194.04]
-HCI  profit:  [13.35], per:  [13.05], buy: [115.64], now: [102.29]
-IR   profit:   [1.45], per:     [3.], buy:  [49.82], now:  [48.37]
-KAI  profit:  [22.62], per:  [12.75], buy: [199.97], now: [177.35]
-LIT  profit:   [3.07], per:   [3.68], buy:  [86.45], now:  [83.38]
-MXIM profit:   [0.97], per:   [0.97], buy: [100.68], now:  [99.71]
-NTAP profit:   [2.04], per:   [2.55], buy:  [82.17], now:  [80.13]
-NVMI profit:   [3.41], per:   [3.49], buy: [101.16], now:  [97.75]
-PFF  profit:   [0.13], per:   [0.33], buy:  [39.44], now:  [39.31]
-RDNT profit:   [1.56], per:   [4.26], buy:  [38.15], now:  [36.59]
-SEE  profit:    [2.4], per:   [4.26], buy:  [58.71], now:  [56.31]
-SWAV profit:  [12.22], per:   [7.16], buy: [182.86], now: [170.64]
-TTC  profit:   [1.52], per:   [1.34], buy: [114.67], now: [113.15]
-TU   profit:   [0.51], per:   [2.31], buy:  [22.58], now:  [22.07]
-TXN  profit:   [2.24], per:   [1.17], buy: [192.96], now: [190.72]
-VSTO profit:   [1.78], per:   [4.31], buy:  [43.07], now:  [41.29]
-VVV  profit:   [0.31], per:     [1.], buy:  [31.21], now:   [30.9]
+A    profit:   [2.98], per:   [1.95], buy: [156.05], now: [153.07]
+ANAT profit:  [22.91], per:  [13.96], buy: [187.08], now: [164.17]
+BBDC profit:   [0.32], per:   [3.02], buy:  [10.92], now:   [10.6]
+BURL profit:   [1.44], per:   [0.44], buy: [332.05], now: [330.61]
+CUTR profit:   [0.53], per:   [0.98], buy:  [54.14], now:  [53.61]
+DAVA profit:   [1.93], per:   [1.53], buy: [128.31], now: [126.38]
+EXLS profit:   [1.63], per:   [1.42], buy: [116.13], now:  [114.5]
+FIVE profit:  [13.77], per:    [7.1], buy: [207.81], now: [194.04]
+HCI  profit:   [8.54], per:   [8.35], buy: [110.83], now: [102.29]
+IR   profit:   [1.34], per:   [2.77], buy:  [49.71], now:  [48.37]
+KAI  profit:  [20.05], per:  [11.31], buy:  [197.4], now: [177.35]
+LIT  profit:   [2.12], per:   [2.54], buy:   [85.5], now:  [83.38]
+MXIM profit:    [0.4], per:    [0.4], buy: [100.11], now:  [99.71]
+NTAP profit:   [2.73], per:    [3.4], buy:  [82.86], now:  [80.13]
+NVMI profit:   [3.62], per:    [3.7], buy: [101.37], now:  [97.75]
+PFF  profit:   [0.08], per:    [0.2], buy:  [39.39], now:  [39.31]
+SEE  profit:   [2.11], per:   [3.76], buy:  [58.42], now:  [56.31]
+SWAV profit:  [23.47], per:  [13.75], buy: [194.11], now: [170.64]
+TTC  profit:   [1.38], per:   [1.22], buy: [114.53], now: [113.15]
+TU   profit:   [0.44], per:   [2.02], buy:  [22.51], now:  [22.07]
+TXN  profit:   [0.27], per:   [0.14], buy: [190.99], now: [190.72]
+VSTO profit:   [1.98], per:    [4.8], buy:  [43.27], now:  [41.29]
 -
-     profit: [105.72], per:  [89.76], per/len(p):   [3.74], per/len(p+m):    [2.9]
+     profit: [114.04], per:  [88.74], per/len(p):   [4.03], per/len(p+m):   [2.86]
 -
 ==== minus ====
-BRBR profit:  [-3.07], per:  [-9.42], buy:  [29.51], now:  [32.58]
-ERII profit:  [-0.81], per:  [-4.05], buy:  [19.18], now:  [19.99]
-GPI  profit:  [-4.72], per:  [-2.75], buy: [166.69], now: [171.41]
-MOH  profit:  [-9.19], per:  [-3.35], buy: [265.06], now: [274.25]
-NCR  profit:  [-2.99], per:  [-6.74], buy:  [41.38], now:  [44.37]
-PFFD profit:  [-0.04], per:  [-0.15], buy:  [26.12], now:  [26.16]
+BRBR profit:  [-3.24], per:  [-9.93], buy:  [29.34], now:  [32.58]
+ERII profit:  [-0.63], per:  [-3.15], buy:  [19.36], now:  [19.99]
+GPI  profit:  [-4.58], per:  [-2.67], buy: [166.83], now: [171.41]
+MOH  profit: [-11.97], per:  [-4.36], buy: [262.28], now: [274.25]
+NCR  profit:  [-3.65], per:  [-8.23], buy:  [40.72], now:  [44.37]
+PFFD profit:  [-0.08], per:  [-0.32], buy:  [26.08], now:  [26.16]
+RDNT profit:  [-0.69], per:  [-1.89], buy:   [35.9], now:  [36.59]
 TRNS profit:  [-0.19], per:  [-0.29], buy:  [65.08], now:  [65.27]
+VVV  profit:  [-0.29], per:  [-0.94], buy:  [30.61], now:   [30.9]
 -
-     profit: [-21.01], per: [-26.76], per/len(m):  [-3.82], per/len(p+m):  [-0.86]
+     profit: [-25.32], per: [-31.78], per/len(m):  [-3.53], per/len(p+m):  [-1.03]
 -
 ==== total ====
-     profit:  [84.71], per:    [63.], per/len(p+m):   [2.03]
+     profit:  [88.72], per:  [56.96], per/len(p+m):   [1.84]
