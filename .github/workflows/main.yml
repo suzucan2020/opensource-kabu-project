@@ -9,7 +9,7 @@ name: okap-ci
 
 on:
   schedule:
-    - cron:  '46 14 * * *'
+    - cron:  '10 15 * * *'
 
 jobs:
   hello_world_job:
