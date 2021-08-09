@@ -25,6 +25,9 @@ jobs:
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'
+      - name: git add
+        run: |
+          git add github-action-log/
       - name: git status
         run: |
           git status
