@@ -22,6 +22,8 @@ codes = okap.read_stock_code_list('stock-code-list/buy-list.txt')
 
 start_time = time.time()
 
+tmp_message = "===========================\nscraping\n==========================="
+print(tmp_message)
 for i, code in enumerate(codes):
     # company_code = str(code) + ".T"
     company_code = code
@@ -45,8 +47,8 @@ for i, code in enumerate(codes):
         # print(df)
         df.to_csv("kabu-data/"+str(code)+"_2021.csv")
         spend_time = time.time() - start_time
-        print("END:   ", company_code)
-        print(spend_time)
+        print("END:   ", spend_time)
+        print("-")
 
     except YahooFinanceError as e:
         print(e.message)

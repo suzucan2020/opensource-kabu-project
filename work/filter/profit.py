@@ -22,7 +22,7 @@ codes = okap.read_stock_code_list(input_fname)
 code_list = []
 
 # hit_message = "====================\nおすすめの株\n8万以上12万以下\n2日連続で陽線\n5日移動平均線が上昇\n===========================\n"
-hit_message = "====================\nprofit\n===========================\n"
+hit_message = "===========================\nprofit\n==========================="
 print(hit_message)
 message_list = []
 total = 0
