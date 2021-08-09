@@ -20,8 +20,9 @@ codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 
-# hit_message = "====================\nおすすめの株\n8万以上12万以下\n2日連続で陽線\n5日移動平均線が上昇\n===========================\n"
-hit_message = "====================\nおすすめの株\nMACDがMACDシグナルを突き抜けました\n===========================\n"
+tmp_message = "===========================\nMACD minus\n==========================="
+print(tmp_message)
+
 message_list = []
 for code in codes:
 
@@ -80,33 +81,12 @@ for code in codes:
         tmp_title = title[:20]
         print("HIT: ------------------------> ", tmp_title)
         # print(df_new)
-        if len(hit_message + tmp_title + "\n") > 1000:
-            message_list.append(hit_message)
-            hit_message = "\n" + tmp_title + "\n"
+        if len(tmp_message + tmp_title + "\n") > 1000:
+            message_list.append(tmp_message)
+            tmp_message = "\n" + tmp_title + "\n"
         else:
-            hit_message = hit_message + tmp_title + "\n"
+            tmp_message = tmp_message + tmp_title + "\n"
 
-    print("END:  ", code)
-    #for index, row in df_new.iterrows():
-    #    if(row['2day_positive'] == true and row["2day_colse_goes_up"] == true and row['1day_sma_goes_up'] == true):
-    #        print(index)
-with open(output_fname, 'wt') as f:
-    for code in code_list:
-        f.write(str(code)+'\n')
-
-print("以下おすすめの株です")
-if len(hit_message + "\n===========================\n") > 1000:
-    message_list.append(hit_message)
-    message_list.append("\n===========================\n")
-else:
-    hit_message = hit_message + "\n===========================\n"
-    message_list.append(hit_message)
-    
-for message in message_list:
-    print(message)
-    # send_message(message)
-
-# return {
-#     'statusCode': 200,
-#     'body': json.dumps('Hello from Lambda!')
-# }
+print("==== MACD minus list ====")
+for x in code_list:
+    print(x)

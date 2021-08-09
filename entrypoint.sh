@@ -14,7 +14,7 @@ echo "scraping stage"
 python3 scraping/yahoo-finace-api2.py >> ../github-action.log
 
 echo "sell check stage"
-python3 filter/filterMACD-sell.py >> ../github-action.log
+python3 filter/MACD-sell.py >> ../github-action.log
 
 echo "profti stage"
 python3 filter/profit.py >> ../github-action.log
