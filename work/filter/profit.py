@@ -25,9 +25,14 @@ code_list = []
 hit_message = "===========================\nprofit\n==========================="
 print(hit_message)
 message_list = []
-total = 0
 plus_list = []
+plus_total = 0
+plus_per_total = 0
 minus_list =[]
+minus_total = 0
+minus_per_total = 0
+
+np.set_printoptions(precision=2)
 for code in codes:
 
     # print("START: ", code)
@@ -61,23 +66,40 @@ for code in codes:
     # print(code, " profit: ", profit, " : ",  row["Close"].values, row["Close_1day_ago"].values)
 
     profit = row["Close"].values - buy_price
-    tmp_text = code.ljust(5) + "profit: " + str(profit) + " : " + str(row["Close"].values) + str(buy_price)
+    profit_per = (profit / buy_price)*100
+    tmp_text = code.ljust(5) + "profit: " + str(profit).rjust(8) + ", per: " + str(profit_per).rjust(8) + ", buy: " + str(row["Close"].values).rjust(8) + ", now: " + str(buy_price).rjust(8)
     # print(tmp_text)
     if profit > 0:
         plus_list.append(tmp_text)
+        plus_total += profit
+        plus_per_total += profit_per
     else:
         minus_list.append(tmp_text)
+        minus_total += profit
+        minus_per_total += profit_per
  
-    total += profit
-
 print("==== plus ====")
 for x in plus_list:
     print(x)
+print("-")
+tmp_text = "     profit: " + str(plus_total).rjust(8) + ", per: " + str(plus_per_total).rjust(8) + ", per/len(p): " + str(plus_per_total / len(plus_list)).rjust(8) + ", per/len(p+m): " + str(plus_per_total / (len(plus_list) + len(minus_list))).rjust(8)
+print(tmp_text)
+print("-")
+
 print("==== minus ====")
 for x in minus_list:
     print(x)
+print("-")
+tmp_text = "     profit: " + str(minus_total).rjust(8) + ", per: " + str(minus_per_total).rjust(8) + ", per/len(m): " + str(minus_per_total / len(minus_list)).rjust(8) + ", per/len(p+m): " + str(minus_per_total / (len(plus_list) + len(minus_list))).rjust(8)
+print(tmp_text)
+print("-")
+
 print("==== total ====")
-print(total)
+# print(minus_total + plus_total,  ", ", minus_per_total + plus_per_total,  ", ", (minus_per_total + plus_per_total) / (len(plus_list) + len(minus_list)) )
+tmp_text = "     profit: " + str(minus_total + plus_total).rjust(8) + ", per: " + str(minus_per_total + plus_per_total).rjust(8) + ", per/len(p+m): " + str((minus_per_total + plus_per_total) / (len(plus_list) + len(minus_list))).rjust(8)
+print(tmp_text)
+
+
 
     # 移動平均が終値より高い＆高値が移動平均を超えている＆終値が始値より高い
 
