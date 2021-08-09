@@ -9,7 +9,7 @@
 
 on:
   schedule:
-    - cron:  '46 23 * * *'
+    - cron:  '46 14 * * *'
 
 jobs:
   hello_world_job:
