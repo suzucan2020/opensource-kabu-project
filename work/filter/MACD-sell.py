@@ -20,7 +20,7 @@ codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 
-tmp_message = "===========================\nMACD minus\n==========================="
+tmp_message = "===========================\nMACD sell\n==========================="
 print(tmp_message)
 
 message_list = []
@@ -76,17 +76,15 @@ for code in codes:
     row = df_new[-1:]
 
     # 移動平均が終値より高い＆高値が移動平均を超えている＆終値が始値より高い
+    tmp_text = ""
     if (row["macd_hist"].values < 0):
-        code_list.append(code)
-        tmp_title = title[:20]
-        print("HIT: ------------------------> ", tmp_title)
-        # print(df_new)
-        if len(tmp_message + tmp_title + "\n") > 1000:
-            message_list.append(tmp_message)
-            tmp_message = "\n" + tmp_title + "\n"
+        if (row["macd"].values < 0):
+            tmp_text = "{:4}: {}, {}".format(code, "macd -", "macd hist -")
         else:
-            tmp_message = tmp_message + tmp_title + "\n"
+            tmp_text = "{:4}: {}, {}".format(code, "macd +", "macd hist -")
+        code_list.append(tmp_text)
+        print("HIT: ------------------------> ", code)
 
-print("==== MACD minus list ====")
+print("==== MACD sell list ====")
 for x in code_list:
     print(x)
