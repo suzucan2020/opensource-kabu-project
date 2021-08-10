@@ -12,7 +12,7 @@ mkdir -p $LOG_DIR
 touch $LOG_FILE
 
 echo "write date"
-date >> $LOG_FILE
+date > $LOG_FILE
 
 echo "scraping stage"
 python3 scraping/yahoo-finace-api2.py >> $LOG_FILE
