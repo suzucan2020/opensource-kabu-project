@@ -1,15 +1,15 @@
 name: okap-ci
 
-on: [push]
+# on: [push]
 
 #on:
 #  push:
 #    branches-ignore:
 #      - '**'
 
-#on:
-#  schedule:
-#    - cron:  '10 15 * * *'
+on:
+  schedule:
+    - cron:  '45 13 * * *'
 
 jobs:
   hello_world_job:
