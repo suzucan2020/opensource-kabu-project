@@ -101,6 +101,7 @@ for code in codes:
             print('SEL: {} {:6.2f} profit: {:>6.2f} /buy_price: {:6.2f}%'.format(row['Date'], row['Close'], profit, profit_percent))
         if (len(df_new) -1) == index and buy_flag == 1:
             buy_flag = 0
+            profit = row['Close'] - buy_price
             profit_percent = profit / buy_price * 100
             profit_total += profit
             profit_percent_total += profit_percent

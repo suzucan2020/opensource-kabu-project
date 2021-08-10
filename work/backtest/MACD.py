@@ -10,14 +10,16 @@ import okap
 
 pd.set_option('display.max_rows', 500)
 
-# input_fname  = "stock-code-list/8man-12man-volume-over40k.txt"
-input_fname  = "stock-code-list/all.txt"
+input_fname  = "stock-code-list/buy-list.txt"
+# "stock-code-list/8man-12man-volume-over40k.txt"
+# "stock-code-list/all.txt"
+
 output_fname = "stock-code-list/filterMACD.txt"
  
 year  = 2021
 years = [2021,2020]
-codes = ['INTC']
-# codes = okap.read_stock_code_list(input_fname)
+# codes = ['INTC']
+codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 
@@ -74,30 +76,32 @@ for code in codes:
  
     # MACDを一日シフトさせる 
     okap.make_x_day_shift(df_new,"macd", 1, "macd_1day_ago")
-    print(df_new)
+    # print(df_new)
     # print(df_new[ (df_new['macd'] > 0) & (df_new['macd_1day_ago'] <0) ])
 
     print("==== START simulation ====")
 
-    profit = 0
     profit_total = 0
+    profit_percent_total = 0
     buy_price = 0
     buy_flag = 0
     for index, row in df_new.iterrows():
         if row['macd'] > 0  and row['macd_1day_ago'] < 0:
-            print('BUY: ', row['Date'], row['Close'])
+            print('BUY: {} {:6.2f}'.format(row['Date'], row['Close']))
             buy_flag = 1
             buy_price = row['Close']
         if row['macd'] < 0  and row['macd_1day_ago'] > 0 and buy_flag == 1:
-            print('SEL: ', row['Date'], row['Close'])
             buy_flag = 0
             profit = row['Close'] - buy_price
+            profit_percent = profit / buy_price * 100
             profit_total += profit
-            print("profit: ", profit)
+            profit_percent_total += profit_percent
+            print('SEL: {} {:6.2f} profit: {:>6.2f} /buy_price: {:6.2f}%'.format(row['Date'], row['Close'], profit, profit_percent))
         if (len(df_new) -1) == index and buy_flag == 1:
-            print('SEL: ', row['Date'], row['Close'])
             buy_flag = 0
             profit = row['Close'] - buy_price
+            profit_percent = profit / buy_price * 100
             profit_total += profit
-            print("profit: ", profit)
-    print("profit_total: ", profit_total)
+            profit_percent_total += profit_percent
+            print('SEL: {} {:6.2f} profit: {:>6.2f} /buy_price: {:6.2f}%'.format(row['Date'], row['Close'], profit, profit_percent))
+    print('profit_total: {:>6.2f} profit_percent_total: {:>6.2f}%'.format(profit_total, profit_percent_total))
