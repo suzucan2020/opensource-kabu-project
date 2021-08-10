@@ -18,7 +18,7 @@ import okap
 # codes = [1301]
 # codes = okap.read_stock_code_list('stock-code-list/all.txt')
 codes = okap.read_stock_code_list('stock-code-list/buy-list.txt')
-# codes = [1613]
+# codes = ["INTC"]
 
 start_time = time.time()
 
