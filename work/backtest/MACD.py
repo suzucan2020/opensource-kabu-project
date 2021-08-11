@@ -24,10 +24,16 @@ codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 
-tmp_message = "====================\nMACD0以上で買い、0以下で売り\n===========================\n"
+tmp_message = "\
+===========================\n\
+START backtest \n\
+MACD0以上で買い、0以下で売り\n\
+===========================\
+"
+
 message_list = []
 all_profit_percent = 0
-  
+print(tmp_message) 
 for code in codes:
 
     # print("START: ", code)
@@ -81,10 +87,10 @@ for code in codes:
     okap.make_x_day_shift(df_new,"macd", 1, "macd_1day_ago")
     # print(df_new)
     # print(df_new[ (df_new['macd'] > 0) & (df_new['macd_1day_ago'] <0) ])
-
-    print("==== START simulation ====")
+    
+    print("====")
     print("code: ", code)
-    print("-")
+    # print("-")
     total_profit = 0
     total_profit_percent = 0
     buy_price = 0
@@ -109,6 +115,7 @@ for code in codes:
             total_profit_percent += profit_percent
             print('SEL: {} {:6.2f} profit: {:>6.2f} /buy_price: {:6.2f}%'.format(row['Date'], row['Close'], profit, profit_percent))
     all_profit_percent += total_profit_percent
+    # print("-")
     print('total_profit: {:>6.2f} total_profit_percent: {:>6.2f}%'.format(total_profit, total_profit_percent))
  
 print("==== all ====")

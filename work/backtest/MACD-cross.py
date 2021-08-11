@@ -24,7 +24,13 @@ codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 
-tmp_message = "====================\nMACDゴールデンクロスで買い、デッドクロスで売り\n===========================\n"
+tmp_message = "\
+===========================\n\
+START backtest \n\
+MACDゴールデンクロスで買い、デッドクロスで売り\n\
+===========================\
+"
+print(tmp_message)
 message_list = []
 all_profit_percent = 0
 for code in codes:
@@ -82,7 +88,7 @@ for code in codes:
     # print(df_new)
     # print(df_new[ (df_new['macd'] > 0) & (df_new['macd_1day_ago'] <0) ])
 
-    print("==== START simulation ====")
+    print("====")
     print("code: ", code)
  
     total_profit = 0
