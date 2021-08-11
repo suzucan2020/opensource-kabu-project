@@ -28,7 +28,7 @@ tmp_message = "====================\nMACD0以上で買い、0以下で売り\n==
 message_list = []
 for code in codes:
 
-    print("START: ", code)
+    # print("START: ", code)
     # title = okap.read_title_form_s3(str(code), str(year))
     title = str(code)
     # print(title)
@@ -82,7 +82,8 @@ for code in codes:
     # print(df_new[ (df_new['macd'] > 0) & (df_new['macd_1day_ago'] <0) ])
 
     print("==== START simulation ====")
-
+    print("code: ", code)
+ 
     profit_total = 0
     profit_percent_total = 0
     buy_price = 0
