@@ -111,6 +111,5 @@ for code in codes:
     all_profit_percent += total_profit_percent
     print('total_profit: {:>6.2f} total_profit_percent: {:>6.2f}%'.format(total_profit, total_profit_percent))
  
- 
-print('all_profit_percent: {:>6.2f}%, {}'.format(all_profit_percent, all_profit_percent/len(codes)))
-print(len(codes))
+print("==== all ====")
+print('all_profit_percent: {:>6.2f}%, len(codes): {}, {:>6.2f}%'.format(all_profit_percent, len(codes), all_profit_percent/len(codes)))

@@ -24,8 +24,9 @@ codes = okap.read_stock_code_list(input_fname)
 
 code_list = []
 
-tmp_message = "====================\nMACD0以上で買い、0以下で売り\n===========================\n"
+tmp_message = "====================\nMACDゴールデンクロスで買い、デッドクロスで売り\n===========================\n"
 message_list = []
+all_profit_percent = 0
 for code in codes:
 
     # print("START: ", code)
@@ -84,8 +85,8 @@ for code in codes:
     print("==== START simulation ====")
     print("code: ", code)
  
-    profit_total = 0
-    profit_percent_total = 0
+    total_profit = 0
+    total_profit_percent = 0
     buy_price = 0
     buy_flag = 0
     for index, row in df_new.iterrows():
@@ -97,14 +98,18 @@ for code in codes:
             buy_flag = 0
             profit = row['Close'] - buy_price
             profit_percent = profit / buy_price * 100
-            profit_total += profit
-            profit_percent_total += profit_percent
+            total_profit += profit
+            total_profit_percent += profit_percent
             print('SEL: {} {:6.2f} profit: {:>6.2f} /buy_price: {:6.2f}%'.format(row['Date'], row['Close'], profit, profit_percent))
         if (len(df_new) -1) == index and buy_flag == 1:
             buy_flag = 0
             profit = row['Close'] - buy_price
             profit_percent = profit / buy_price * 100
-            profit_total += profit
-            profit_percent_total += profit_percent
+            total_profit += profit
+            total_profit_percent += profit_percent
             print('SEL: {} {:6.2f} profit: {:>6.2f} /buy_price: {:6.2f}%'.format(row['Date'], row['Close'], profit, profit_percent))
-    print('profit_total: {:>6.2f} profit_percent_total: {:>6.2f}%'.format(profit_total, profit_percent_total))
+    all_profit_percent += total_profit_percent
+    print('total_profit: {:>6.2f} total_profit_percent: {:>6.2f}%'.format(total_profit, total_profit_percent))
+
+print("==== all ====")
+print('all_profit_percent: {:>6.2f}%, len(codes): {}, {:>6.2f}%'.format(all_profit_percent, len(codes), all_profit_percent/len(codes)))
