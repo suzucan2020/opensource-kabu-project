@@ -67,7 +67,7 @@ for code in codes:
 
     profit = row["Close"].values - buy_price
     profit_per = (profit / buy_price)*100
-    tmp_text = code.ljust(5) + "profit: " + str(profit).rjust(8) + ", per: " + str(profit_per).rjust(8) + ", buy: " + str(row["Close"].values).rjust(8) + ", now: " + str(buy_price).rjust(8)
+    tmp_text = code.ljust(5) + "profit: " + str(profit).rjust(8) + ", per: " + str(profit_per).rjust(8) + ", now: " + str(row["Close"].values).rjust(8) + ", buy: " + str(buy_price).rjust(8)
     # print(tmp_text)
     if profit > 0:
         plus_list.append(tmp_text)
