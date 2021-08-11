@@ -5,9 +5,9 @@ for x in range(1):
 print("")
 
 for x in range(1):
-    print("|{:9}|".format("----"), end="")
+    print("|{:9}|".format("---:"), end="")
     for y in range(8):
-        print("{:9}|".format("----"), end="")
+        print("{:9}|".format("---:"), end="")
 print("")
  
 
