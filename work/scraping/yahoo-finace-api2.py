@@ -16,9 +16,13 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import okap
 
 # codes = [1301]
-# codes = okap.read_stock_code_list('stock-code-list/all.txt')
-codes = okap.read_stock_code_list('stock-code-list/buy-list.txt')
-# codes = ["INTC"]
+codes = okap.read_stock_code_list('stock-code-list/all.txt')
+# codes = okap.read_stock_code_list('stock-code-list/buy-list.txt')
+# codes = [
+#        "BEST",
+#        "BF.A",
+#        "BF.B"
+#        ]
 
 start_time = time.time()
 
@@ -36,6 +40,10 @@ for i, code in enumerate(codes):
         symbol_data = my_share.get_historical(share.PERIOD_TYPE_WEEK, 100,
                                         share.FREQUENCY_TYPE_DAY, 1)
         # print(symbol_data)
+        if symbol_data == None:
+            print("symbol_data == None")
+            continue
+
         df = pd.DataFrame(symbol_data.values(), index=symbol_data.keys()).T
         df.timestamp = pd.to_datetime(df.timestamp, unit='ms')
         df.index = pd.DatetimeIndex(df.timestamp, name='Date').tz_localize('UTC').tz_convert('Asia/Tokyo')
