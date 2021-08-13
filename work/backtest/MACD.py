@@ -11,7 +11,8 @@ import okap
 pd.set_option('display.max_rows', 500)
 
 input_fname  = \
-        "stock-code-list/buy-list.txt"
+        "stock-code-list/all.txt"
+        # "stock-code-list/buy-list.txt"
         # "stock-code-list/8man-12man-volume-over40k.txt"
         # "stock-code-list/all.txt"
 
@@ -116,7 +117,7 @@ for code in codes:
             print('SEL: {} {:6.2f} profit: {:>6.2f} /buy_price: {:6.2f}%'.format(row['Date'], row['Close'], profit, profit_percent))
     all_profit_percent += total_profit_percent
     # print("-")
-    print('total_profit: {:>6.2f} total_profit_percent: {:>6.2f}%'.format(total_profit, total_profit_percent))
+    print('code: {:6}, total_profit: {:>6.2f} total_profit_percent: {:>6.2f}%'.format(code, total_profit, total_profit_percent))
  
 print("==== all ====")
 print('all_profit_percent: {:>6.2f}%, len(codes): {}, {:>6.2f}%'.format(all_profit_percent, len(codes), all_profit_percent/len(codes)))
