@@ -49,6 +49,10 @@ for code in codes:
     # print(df)
     if len(df) == 0:
         continue
+    
+    # MACD計算
+    okap.calc_MACD(df)
+    # print(df)
 
     # print(df['Date'])
     # 日付を文字列 year/month/day からdatetime(unix時間)に変換
@@ -56,18 +60,26 @@ for code in codes:
     buy_date = datetime.datetime(2021,8,2,22,30,0, tzinfo=datetime.timezone(datetime.timedelta(hours=9)))
     # print(buy_date)
     buy_price = df[pd.to_datetime(df["Date"]) == buy_date].Close.values
- 
-    # 終値を一日シフトさせる 
-    okap.make_x_day_shift(df,"Close", 1, "Close_1day_ago")
 
     row = df[-1:]
 
-    # profit = row["Close"].values - row["Close_1day_ago"].values
-    # print(code, " profit: ", profit, " : ",  row["Close"].values, row["Close_1day_ago"].values)
-
+    # 利益計算
     profit = row["Close"].values - buy_price
     profit_per = (profit / buy_price)*100
-    tmp_text = code.ljust(5) + "profit: " + str(profit).rjust(8) + ", per: " + str(profit_per).rjust(8) + ", now: " + str(row["Close"].values).rjust(8) + ", buy: " + str(buy_price).rjust(8)
+    
+    if (row["macd"].values < 0):
+        text_macd = "{}".format("macd -")
+    else:
+        text_macd = "{}".format("macd +")
+
+    if (row["macd_hist"].values < 0):
+        text_macd_hist = "{}".format("macd hist -")
+    else:
+        text_macd_hist = "{}".format("macd hist +")
+
+
+    
+    tmp_text = code.ljust(5) +", " + text_macd + ", " + text_macd_hist + ", profit: " + str(profit).rjust(8) + ", per: " + str(profit_per).rjust(8) + ", now: " + str(row["Close"].values).rjust(8) + ", buy: " + str(buy_price).rjust(8)
     # print(tmp_text)
     if profit > 0:
         plus_list.append(tmp_text)

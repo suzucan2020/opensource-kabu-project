@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import numpy as np
+import talib
 
 # ---------
 # functions
@@ -90,3 +91,27 @@ def judge_x_days_goes_up(df, column_name, x, new_column_name):
         else:
             tmp_list.append(np.all( df[i+1-x:i+1][column_name] ))
     df[new_column_name] = tmp_list
+
+
+def calc_MACD(df):
+
+    # MACDを求める
+    macd_period1 = 12
+    macd_period2 = 26
+    macd_period3 = 9
+
+    if not macd_period1:
+        macd_period1 = 12
+    if not macd_period2:
+        macd_period2 = 26
+    if not macd_period3:
+        macd_period3 = 9
+
+    if macd_period1 is not None:
+        macd, macd_signal, macd_hist = talib.MACD(np.asarray(df.Close, dtype='float64'), fastperiod=int(macd_period1), slowperiod=int(macd_period2), signalperiod=int(macd_period3))
+        macd[np.isnan(macd)] = 0
+        macd_signal[np.isnan(macd_signal)] = 0
+        macd_hist[np.isnan(macd_hist)] = 0
+        df['macd'] = macd
+        df['macd_signal'] = macd_signal
+        df['macd_hist'] = macd_hist
