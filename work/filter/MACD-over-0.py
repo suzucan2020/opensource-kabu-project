@@ -11,7 +11,7 @@ import okap
 
 # input_fname  = "stock-code-list/8man-12man-volume-over40k.txt"
 input_fname  = "stock-code-list/all.txt"
-output_fname = "stock-code-list/filterMACD.txt"
+output_fname = "stock-code-list/MACD-over-0.txt"
  
 year  = 2021
 years = [2021,2020]
