@@ -18,8 +18,8 @@ import okap
 # codes = [1301]
 # codes = okap.read_stock_code_list('stock-code-list/all.txt')
 # codes = okap.read_stock_code_list('stock-code-list/buy-list.txt')
-df_codes =  pd.read_csv("stock-code-list/all.txt")
-            #pd.read_csv("stock-code-list/buy-list.txt")
+# df_codes =  pd.read_csv("stock-code-list/all.txt")
+df_codes =  pd.read_csv("stock-code-list/buy-list.txt")
 codes = df_codes["code"]
 
 # codes = [
