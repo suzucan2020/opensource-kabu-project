@@ -12,7 +12,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import okap
 
 
-input_fname  =  "stock-code-list/MACD-over-0.txt"
+input_fname  =  "stock-code-list/filterIchimoku.txt"
+                # "stock-code-list/MACD-over-0.txt"
                 # "stock-code-list/buy-list.txt"
                 # "stock-code-list/filter0002.txt" 
                 # "stock-code-list/filterMACD.txt"
@@ -20,7 +21,10 @@ input_fname  =  "stock-code-list/MACD-over-0.txt"
 #years = [2021]
 year = 2021
 # codes = [1301]
-codes = okap.read_stock_code_list(input_fname)
+# codes = okap.read_stock_code_list(input_fname)
+df_codes =  pd.read_csv(input_fname)
+codes = df_codes["code"]
+
 
 for code in codes:
 

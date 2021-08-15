@@ -16,7 +16,11 @@ output_fname = "stock-code-list/filterMACD.txt"
 year  = 2021
 years = [2021,2020]
 # codes = [2151]
-codes = okap.read_stock_code_list(input_fname)
+# codes = okap.read_stock_code_list(input_fname)
+df_codes =  pd.read_csv("stock-code-list/all.txt")
+            #pd.read_csv("stock-code-list/buy-list.txt")
+codes = df_codes["code"]
+
 
 code_list = []
 

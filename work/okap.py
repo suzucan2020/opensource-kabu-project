@@ -115,3 +115,59 @@ def calc_MACD(df):
         df['macd'] = macd
         df['macd_signal'] = macd_signal
         df['macd_hist'] = macd_hist
+
+def min_max(in_real):
+    min_val = in_real[0]
+    max_val = in_real[0]
+    # print(in_real[0])
+    for price in in_real:
+        if min_val > price:
+            min_val = price
+        if max_val < price:
+            max_val = price
+    return min_val, max_val
+
+def calc_ichimoku_cloud(in_real):
+    length = len(in_real)
+    tenkan = [0] * min(9, length)
+    kijun = [0] * min(26, length)
+    senkou_a = [0] * min(26, length)
+    senkou_b = [0] * min(52, length)
+    chikou = [0] * min(26, length)
+
+    # print("in_real: ", in_real)
+    # print("length: ",  length)
+    # print("tenkan: ",  tenkan)
+    # print("kijun: ",   kijun)
+    # print("senkou_a: ",senkou_a)
+    # print("senkou_b: ",senkou_b)
+    # print("chikou: ",  chikou)
+
+    for i in range(len(in_real)):
+        if i >= 9:
+            # print(in_real[i-9:i])
+            min_val, max_val = min_max(in_real[i-9:i])
+            tenkan.append((min_val + max_val) / 2)
+        if i >= 26:
+            # print(in_real[i-26:i])
+            min_val, max_val = min_max(in_real[i-26:i])
+            kijun.append((min_val + max_val)/2)
+            senkou_a.append((tenkan[i] + kijun[i])/2)
+            chikou.append(in_real[i-26])
+        if i >= 52:
+            # print(in_real[i-52:i])
+            min_val, max_val = min_max(in_real[i-52:i])
+            senkou_b.append((min_val + max_val)/2)
+
+    # print(in_real)
+    # print(length)
+    # print(tenkan)
+    # print(kijun)
+    # print(senkou_a)
+    # print(senkou_b)
+    # print(chikou)
+
+    senkou_a = ([0] * 26)  + senkou_a[:-26]
+    senkou_b = ([0] * 26)  + senkou_b[:-26]
+    return tenkan, kijun, senkou_a, senkou_b, chikou
+
