@@ -61,7 +61,7 @@ for code in codes:
     row = df_new[-1:]
 ##
     # 移動平均が終値より高い＆高値が移動平均を超えている＆終値が始値より高い
-    if (row["senkou_b"].values > row["Close_1day_ago"].values) & (row["senkou_b"].values < row["Close"].values):
+    if (row["senkou_a"].values > row["Close_1day_ago"].values) & (row["senkou_a"].values < row["Close"].values):
         tmp_text = "{},{}".format(row["Date"].values[0], code)
         print(tmp_text)
         code_list.append(tmp_text)
