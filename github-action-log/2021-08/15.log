@@ -1,99 +1,99 @@
-Sun Aug 15 07:50:41 UTC 2021
+Sun Aug 15 11:57:07 UTC 2021
 ===========================
 scraping
 ===========================
 START:  A
-END:    0.2952399253845215
+END:    0.17044782638549805
 -
 START:  ANAT
-END:    0.45757365226745605
+END:    0.34457826614379883
 -
 START:  BBDC
-END:    0.604029655456543
+END:    0.5032908916473389
 -
 START:  BRBR
-END:    0.7357077598571777
+END:    0.6365170478820801
 -
 START:  BURL
-END:    0.8922586441040039
+END:    0.7737729549407959
 -
 START:  CUTR
-END:    1.032534122467041
+END:    0.9082663059234619
 -
 START:  DAVA
-END:    1.1660714149475098
+END:    1.0440306663513184
 -
 START:  ERII
-END:    1.3007659912109375
+END:    1.1820318698883057
 -
 START:  EXLS
-END:    1.4368596076965332
+END:    1.3176326751708984
 -
 START:  FIVE
-END:    1.5734975337982178
+END:    1.4515891075134277
 -
 START:  GPI
-END:    1.7243003845214844
+END:    1.6010968685150146
 -
 START:  HCI
-END:    1.8708558082580566
+END:    1.7469556331634521
 -
 START:  IR
-END:    2.0049006938934326
+END:    1.8795664310455322
 -
 START:  KAI
-END:    2.149293899536133
+END:    2.0263967514038086
 -
 START:  LIT
-END:    2.2921950817108154
--
-START:  MOH
-END:    2.4297385215759277
+END:    2.1715240478515625
 -
 START:  MXIM
-END:    2.6550188064575195
--
-START:  NCR
-END:    2.7854976654052734
+END:    2.327819347381592
 -
 START:  NTAP
-END:    2.929734468460083
+END:    2.4739372730255127
 -
 START:  NVMI
-END:    3.0625085830688477
+END:    2.608292818069458
 -
 START:  PFF
-END:    3.216015577316284
+END:    2.7605345249176025
 -
 START:  PFFD
-END:    3.3516762256622314
+END:    2.895110607147217
 -
 START:  RDNT
-END:    3.4795711040496826
+END:    3.026139497756958
 -
 START:  SEE
-END:    3.6586287021636963
+END:    3.2105355262756348
 -
 START:  SWAV
-END:    3.7923245429992676
+END:    3.344083547592163
 -
 START:  TRNS
-END:    3.925891160964966
+END:    3.4774036407470703
 -
 START:  TTC
-END:    4.109478950500488
+END:    3.6550662517547607
 -
 START:  TU
-END:    4.258999586105347
+END:    3.821945905685425
 -
 START:  TXN
-END:    4.459336042404175
+END:    4.024111986160278
 -
 START:  VSTO
-END:    4.597998142242432
+END:    4.156621217727661
 -
 START:  VVV
-END:    4.737281799316406
+END:    4.295485973358154
+-
+START:  JJG
+END:    4.430828809738159
+-
+START:  SEAS
+END:    4.57267689704895
 -
 ===========================
 MACD sell
@@ -117,10 +117,7 @@ START:  IR
 START:  KAI
 START:  LIT
 HIT: ------------------------>  LIT
-START:  MOH
-HIT: ------------------------>  MOH
 START:  MXIM
-START:  NCR
 START:  NTAP
 START:  NVMI
 HIT: ------------------------>  NVMI
@@ -140,12 +137,13 @@ START:  TXN
 HIT: ------------------------>  TXN
 START:  VSTO
 START:  VVV
+START:  JJG
+START:  SEAS
 ==== MACD sell list ====
 BRBR: macd -, macd hist -
 CUTR: macd +, macd hist -
 ERII: macd -, macd hist -
 LIT : macd +, macd hist -
-MOH : macd -, macd hist -
 NVMI: macd -, macd hist -
 PFF : macd +, macd hist -
 PFFD: macd +, macd hist -
@@ -184,15 +182,15 @@ BRBR , macd -, macd hist -, profit:  [-0.56], per:  [-1.72], now:  [32.02], buy:
 CUTR , macd +, macd hist -, profit:  [-3.89], per:  [-7.26], now:  [49.72], buy:  [53.61]
 ERII , macd -, macd hist -, profit:  [-0.91], per:  [-4.55], now:  [19.08], buy:  [19.99]
 GPI  , macd +, macd hist +, profit:  [-0.47], per:  [-0.27], now: [170.94], buy: [171.41]
-MOH  , macd -, macd hist -, profit: [-25.97], per:  [-9.47], now: [248.28], buy: [274.25]
-NCR  , macd -, macd hist +, profit:  [-0.92], per:  [-2.07], now:  [43.45], buy:  [44.37]
 NVMI , macd -, macd hist -, profit:  [-2.86], per:  [-2.93], now:  [94.89], buy:  [97.75]
 PFFD , macd +, macd hist -, profit:  [-0.11], per:  [-0.42], now:  [26.05], buy:  [26.16]
 RDNT , macd -, macd hist -, profit:  [-6.03], per: [-16.48], now:  [30.56], buy:  [36.59]
 TXN  , macd +, macd hist -, profit:  [-2.02], per:  [-1.06], now:  [188.7], buy: [190.72]
 VVV  , macd -, macd hist +, profit:   [-0.2], per:  [-0.65], now:   [30.7], buy:   [30.9]
+JJG  , macd +, macd hist +, profit:     [0.], per:     [0.], now:  [66.49], buy:  [66.49]
+SEAS , macd +, macd hist +, profit:     [0.], per:     [0.], now:  [52.97], buy:  [52.97]
 -
-     profit: [-43.94], per: [-46.88], per/len(m):  [-4.26], per/len(p+m):  [-1.51]
+     profit: [-17.05], per: [-35.33], per/len(m):  [-3.21], per/len(p+m):  [-1.14]
 -
 ==== total ====
-     profit: [118.44], per:  [78.11], per/len(p+m):   [2.52]
+     profit: [145.33], per:  [89.66], per/len(p+m):   [2.89]
