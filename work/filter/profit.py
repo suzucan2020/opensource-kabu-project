@@ -17,7 +17,9 @@ output_fname = "stock-code-list/filterMACD.txt"
 year  = 2021
 years = [2021,2020]
 # codes = [2151]
-codes = okap.read_stock_code_list(input_fname)
+# codes = okap.read_stock_code_list(input_fname)
+df_buy_list = pd.read_csv("stock-code-list/buy-list.txt")
+# codes = df_buy_list["code"]
 
 code_list = []
 
@@ -33,7 +35,8 @@ minus_total = 0
 minus_per_total = 0
 
 np.set_printoptions(precision=2)
-for code in codes:
+# for code in codes:
+for date, code in zip(df_buy_list["Date"], df_buy_list["code"]):
 
     # print("START: ", code)
     # title = okap.read_title_form_s3(str(code), str(year))
@@ -57,9 +60,10 @@ for code in codes:
     # print(df['Date'])
     # 日付を文字列 year/month/day からdatetime(unix時間)に変換
     # print(pd.to_datetime(df["Date"]))
-    buy_date = datetime.datetime(2021,8,2,22,30,0, tzinfo=datetime.timezone(datetime.timedelta(hours=9)))
-    # print(buy_date)
-    buy_price = df[pd.to_datetime(df["Date"]) == buy_date].Close.values
+    # buy_date = datetime.datetime(2021,8,2,22,30,0, tzinfo=datetime.timezone(datetime.timedelta(hours=9)))
+    # print("buy_date: ", buy_date)
+    # print("date:", date)
+    buy_price = df[pd.to_datetime(df["Date"]) == date].Close.values
 
     row = df[-1:]
 

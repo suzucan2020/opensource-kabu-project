@@ -64,6 +64,7 @@ for code in codes:
     # print(df)
     
     df_new = pd.DataFrame(index=df.index, columns=[])
+    df_new["Date"] = df.Date
     df_new['macd'] = df.macd
     df_new['macd_signal'] = df.macd_signal
     df_new['macd_hist'] = df.macd_hist
@@ -76,7 +77,9 @@ for code in codes:
 
     # 移動平均が終値より高い＆高値が移動平均を超えている＆終値が始値より高い
     if (row["macd_hist"].values > 0) & (row["macd_hist_1day_ago"].values <= 0):
-        code_list.append(code)
+        tmp_text = "{},{}".format(row["Date"].values[0], code)
+        print(tmp_text)
+        code_list.append(tmp_text)
         tmp_title = title[:20]
         print("HIT: ------------------------> ", tmp_title)
         # print(df_new)
@@ -91,6 +94,7 @@ for code in codes:
     #    if(row['2day_positive'] == true and row["2day_colse_goes_up"] == true and row['1day_sma_goes_up'] == true):
     #        print(index)
 with open(output_fname, 'wt') as f:
+    f.write("Date,code"+'\n')
     for code in code_list:
         f.write(str(code)+'\n')
 
