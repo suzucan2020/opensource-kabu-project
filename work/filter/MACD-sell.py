@@ -79,11 +79,11 @@ for date, code in zip(df_buy_list["Date"], df_buy_list["code"]):
 
     # 移動平均が終値より高い＆高値が移動平均を超えている＆終値が始値より高い
     tmp_text = ""
-    if (row["macd_hist"].values < 0):
-        if (row["macd"].values < 0):
+    if (row["macd"].values < 0):
+        if (row["macd_hist"].values < 0):
             tmp_text = "{:4}: {}, {}".format(code, "macd -", "macd hist -")
         else:
-            tmp_text = "{:4}: {}, {}".format(code, "macd +", "macd hist -")
+            tmp_text = "{:4}: {}, {}".format(code, "macd -", "macd hist +")
         code_list.append(tmp_text)
         print("HIT: ------------------------> ", code)
 
