@@ -15,7 +15,7 @@ echo "write date"
 date > $LOG_FILE
 
 echo "scraping stage"
-python3 scraping/yahoo-finace-api2.py >> $LOG_FILE
+python3 scraping/yahoo-finace-api2.py stock-code-list/buy-list.txt >> $LOG_FILE
 
 echo "sell check stage"
 python3 filter/MACD-sell.py >> $LOG_FILE

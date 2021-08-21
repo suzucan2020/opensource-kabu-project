@@ -19,8 +19,10 @@ import okap
 # codes = okap.read_stock_code_list('stock-code-list/all.txt')
 # codes = okap.read_stock_code_list('stock-code-list/buy-list.txt')
 
+print("arg[0]: {}, arg[1]: {}".format(sys.argv[0], sys.argv[1]))
 # df_codes =  pd.read_csv("stock-code-list/all.txt")
-df_codes =  pd.read_csv("stock-code-list/buy-list.txt")
+# df_codes =  pd.read_csv("stock-code-list/buy-list.txt")
+df_codes =  pd.read_csv(str(sys.argv[1]))
 codes = df_codes["code"]
 
 # codes = [
