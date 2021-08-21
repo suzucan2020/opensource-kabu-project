@@ -1,96 +1,96 @@
-Fri Aug 20 00:02:33 UTC 2021
+Fri Aug 20 13:49:34 UTC 2021
 ===========================
 scraping
 ===========================
 START:  A
-END:    0.1815037727355957
+END:    0.1372852325439453
 -
 START:  ANAT
-END:    0.3602766990661621
+END:    0.31380724906921387
 -
 START:  BBDC
-END:    0.5141613483428955
+END:    0.5339186191558838
 -
 START:  BURL
-END:    0.6493556499481201
+END:    0.643195390701294
 -
 START:  DAVA
-END:    0.783869743347168
+END:    0.8042593002319336
 -
 START:  EXLS
-END:    0.9153432846069336
+END:    0.9747843742370605
 -
 START:  FIVE
-END:    1.0525920391082764
+END:    1.0791282653808594
 -
 START:  GPI
-END:    1.212324619293213
+END:    1.2040905952453613
 -
 START:  HCI
-END:    1.392960786819458
+END:    1.3294410705566406
 -
 START:  IR
-END:    1.530472755432129
+END:    1.4289817810058594
 -
 START:  KAI
-END:    1.6712069511413574
+END:    1.534916877746582
 -
 START:  LIT
-END:    1.8143784999847412
+END:    1.6557948589324951
 -
 START:  MXIM
-END:    1.9655053615570068
+END:    1.8291454315185547
 -
 START:  NTAP
-END:    2.14111065864563
+END:    1.9474718570709229
 -
 START:  PFF
-END:    2.3343186378479004
+END:    2.08962082862854
 -
 START:  PFFD
-END:    2.477595567703247
+END:    2.2183117866516113
 -
 START:  SEE
-END:    2.649555206298828
+END:    2.3930585384368896
 -
 START:  SWAV
-END:    2.806964159011841
+END:    2.5769870281219482
 -
 START:  TRNS
-END:    2.943115711212158
+END:    2.6932790279388428
 -
 START:  TTC
-END:    3.114870071411133
+END:    2.840937852859497
 -
 START:  TU
-END:    3.2798104286193848
+END:    3.0453059673309326
 -
 START:  TXN
-END:    3.4996368885040283
+END:    3.231429100036621
 -
 START:  VSTO
-END:    3.6418888568878174
+END:    3.4177420139312744
 -
 START:  VVV
-END:    3.7848379611968994
+END:    3.5560295581817627
 -
 START:  JJG
-END:    3.9184460639953613
+END:    3.655891180038452
 -
 START:  SEAS
-END:    4.0630669593811035
+END:    3.774634838104248
 -
 START:  ALLE
-END:    4.2025368213653564
+END:    3.8907344341278076
 -
 START:  ARW
-END:    4.3357322216033936
+END:    4.020242214202881
 -
 START:  FIBK
-END:    4.54979395866394
+END:    4.207650184631348
 -
 START:  MHO
-END:    4.703063726425171
+END:    4.314932823181152
 -
 ===========================
 MACD sell
@@ -116,6 +116,7 @@ START:  SEE
 START:  SWAV
 START:  TRNS
 START:  TTC
+HIT: ------------------------>  TTC
 START:  TU
 START:  TXN
 HIT: ------------------------>  TXN
@@ -130,50 +131,51 @@ START:  FIBK
 START:  MHO
 ==== MACD sell list ====
 PFFD: macd -, macd hist -
+TTC : macd -, macd hist -
 TXN : macd -, macd hist -
 VVV : macd -, macd hist -
 ===========================
 profit
 ===========================
 ==== plus ====
-A    , macd +, macd hist +, profit:   [14.6], per:   [9.54], now: [167.67], buy: [153.07]
-ANAT , macd +, macd hist +, profit:  [26.75], per:  [16.29], now: [190.92], buy: [164.17]
-BBDC , macd +, macd hist +, profit:   [0.15], per:   [1.42], now:  [10.75], buy:   [10.6]
-BURL , macd +, macd hist -, profit:  [18.28], per:   [5.53], now: [348.89], buy: [330.61]
-DAVA , macd +, macd hist +, profit:  [12.51], per:    [9.9], now: [138.89], buy: [126.38]
-EXLS , macd +, macd hist +, profit:    [5.7], per:   [4.98], now:  [120.2], buy:  [114.5]
-FIVE , macd +, macd hist +, profit:  [25.32], per:  [13.05], now: [219.36], buy: [194.04]
-HCI  , macd +, macd hist -, profit:   [3.15], per:   [3.08], now: [105.44], buy: [102.29]
-IR   , macd +, macd hist -, profit:   [1.37], per:   [2.83], now:  [49.74], buy:  [48.37]
-KAI  , macd +, macd hist +, profit:  [19.37], per:  [10.92], now: [196.72], buy: [177.35]
-MXIM , macd +, macd hist +, profit:    [2.1], per:   [2.11], now: [101.81], buy:  [99.71]
-SEE  , macd +, macd hist +, profit:   [2.78], per:   [4.94], now:  [59.09], buy:  [56.31]
-SWAV , macd +, macd hist +, profit:    [17.], per:   [9.96], now: [187.64], buy: [170.64]
-TU   , macd +, macd hist +, profit:   [0.36], per:   [1.63], now:  [22.43], buy:  [22.07]
-ALLE , macd +, macd hist +, profit:   [0.25], per:   [0.18], now: [140.22], buy: [139.97]
+A    , macd +, macd hist +, profit:  [17.08], per:  [11.16], now: [170.15], buy: [153.07]
+ANAT , macd +, macd hist +, profit:  [26.97], per:  [16.43], now: [191.14], buy: [164.17]
+BBDC , macd +, macd hist -, profit:   [0.26], per:   [2.44], now:  [10.86], buy:   [10.6]
+BURL , macd +, macd hist -, profit:  [14.06], per:   [4.25], now: [344.67], buy: [330.61]
+DAVA , macd +, macd hist +, profit:   [11.5], per:    [9.1], now: [137.88], buy: [126.38]
+EXLS , macd +, macd hist +, profit:   [5.62], per:   [4.91], now: [120.12], buy:  [114.5]
+FIVE , macd +, macd hist +, profit:  [28.13], per:   [14.5], now: [222.17], buy: [194.04]
+HCI  , macd +, macd hist -, profit:   [3.11], per:   [3.04], now:  [105.4], buy: [102.29]
+IR   , macd +, macd hist -, profit:   [1.58], per:   [3.26], now:  [49.94], buy:  [48.37]
+KAI  , macd +, macd hist -, profit:  [18.54], per:  [10.45], now: [195.89], buy: [177.35]
+MXIM , macd +, macd hist +, profit:   [2.84], per:   [2.85], now: [102.55], buy:  [99.71]
+NTAP , macd +, macd hist -, profit:   [0.27], per:   [0.34], now:   [80.4], buy:  [80.13]
+SEE  , macd +, macd hist +, profit:     [3.], per:   [5.33], now:  [59.31], buy:  [56.31]
+SWAV , macd +, macd hist +, profit:  [18.27], per:  [10.71], now: [188.91], buy: [170.64]
+TU   , macd +, macd hist -, profit:   [0.38], per:   [1.72], now:  [22.45], buy:  [22.07]
 -
      plus  len:  15
-     profit: [149.69], per:  [96.35], per/len(p):   [6.42], per/len(p+m):   [3.21]
+     profit: [151.61], per: [100.48], per/len(p):    [6.7], per/len(p+m):   [3.35]
 -
 ==== minus ====
-GPI  , macd +, macd hist -, profit: [-10.73], per:  [-6.26], now: [160.68], buy: [171.41]
-LIT  , macd +, macd hist -, profit:  [-1.73], per:  [-2.07], now:  [81.65], buy:  [83.38]
-NTAP , macd +, macd hist -, profit:  [-0.87], per:  [-1.09], now:  [79.26], buy:  [80.13]
-PFF  , macd +, macd hist -, profit:  [-0.22], per:  [-0.56], now:  [39.09], buy:  [39.31]
-PFFD , macd -, macd hist -, profit:  [-0.27], per:  [-1.03], now:  [25.89], buy:  [26.16]
-TRNS , macd +, macd hist -, profit:  [-1.18], per:  [-1.81], now:  [64.09], buy:  [65.27]
-TTC  , macd +, macd hist -, profit:  [-4.38], per:  [-3.87], now: [108.77], buy: [113.15]
-TXN  , macd -, macd hist -, profit:  [-5.68], per:  [-2.98], now: [185.04], buy: [190.72]
-VSTO , macd +, macd hist -, profit:  [-1.25], per:  [-3.03], now:  [40.04], buy:  [41.29]
-VVV  , macd -, macd hist -, profit:  [-1.14], per:  [-3.69], now:  [29.76], buy:   [30.9]
-JJG  , macd +, macd hist +, profit:  [-2.61], per:  [-3.93], now:  [63.88], buy:  [66.49]
-SEAS , macd +, macd hist -, profit:  [-5.12], per:  [-9.67], now:  [47.85], buy:  [52.97]
-ARW  , macd +, macd hist -, profit:  [-1.35], per:  [-1.15], now: [116.33], buy: [117.68]
-FIBK , macd +, macd hist +, profit:  [-0.65], per:  [-1.44], now:  [44.42], buy:  [45.07]
-MHO  , macd +, macd hist -, profit:  [-3.16], per:  [-4.88], now:  [61.63], buy:  [64.79]
+GPI  , macd +, macd hist -, profit: [-10.61], per:  [-6.19], now:  [160.8], buy: [171.41]
+LIT  , macd +, macd hist -, profit:  [-1.74], per:  [-2.09], now:  [81.64], buy:  [83.38]
+PFF  , macd +, macd hist -, profit:  [-0.12], per:  [-0.31], now:  [39.19], buy:  [39.31]
+PFFD , macd -, macd hist -, profit:  [-0.22], per:  [-0.84], now:  [25.94], buy:  [26.16]
+TRNS , macd +, macd hist -, profit:   [-1.2], per:  [-1.84], now:  [64.07], buy:  [65.27]
+TTC  , macd -, macd hist -, profit:  [-4.04], per:  [-3.57], now: [109.11], buy: [113.15]
+TXN  , macd -, macd hist -, profit:   [-4.8], per:  [-2.52], now: [185.92], buy: [190.72]
+VSTO , macd +, macd hist -, profit:  [-0.64], per:  [-1.55], now:  [40.65], buy:  [41.29]
+VVV  , macd -, macd hist -, profit:  [-1.06], per:  [-3.43], now:  [29.84], buy:   [30.9]
+JJG  , macd +, macd hist -, profit:  [-3.21], per:  [-4.82], now:  [63.28], buy:  [66.49]
+SEAS , macd +, macd hist -, profit:  [-4.91], per:  [-9.27], now:  [48.06], buy:  [52.97]
+ALLE , macd +, macd hist +, profit:  [-0.21], per:  [-0.15], now: [139.76], buy: [139.97]
+ARW  , macd +, macd hist -, profit:  [-0.36], per:  [-0.31], now: [117.32], buy: [117.68]
+FIBK , macd +, macd hist +, profit:  [-0.52], per:  [-1.15], now:  [44.55], buy:  [45.07]
+MHO  , macd +, macd hist -, profit:  [-2.04], per:  [-3.15], now:  [62.75], buy:  [64.79]
 -
      minus len:  15
-     profit: [-40.34], per: [-47.45], per/len(m):  [-3.16], per/len(p+m):  [-1.58]
+     profit: [-35.68], per: [-41.19], per/len(m):  [-2.75], per/len(p+m):  [-1.37]
 -
 ==== total ====
-     profit: [109.35], per:   [48.9], per/len(p+m):   [1.63]
+     profit: [115.93], per:   [59.3], per/len(p+m):   [1.98]
