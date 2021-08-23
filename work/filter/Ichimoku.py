@@ -17,7 +17,8 @@ year  = 2021
 years = [2021,2020]
 # codes = [2151]
 # codes = okap.read_stock_code_list(input_fname)
-df_codes =  pd.read_csv("stock-code-list/all.txt")
+# df_codes =  pd.read_csv("stock-code-list/all.txt")
+df_codes =  pd.read_csv("stock-code-list/up.txt")
             #pd.read_csv("stock-code-list/buy-list.txt")
 codes = df_codes["code"]
 

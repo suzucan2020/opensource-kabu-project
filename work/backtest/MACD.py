@@ -11,7 +11,8 @@ import okap
 pd.set_option('display.max_rows', 500)
 
 input_fname  = \
-        "stock-code-list/all.txt"
+        "stock-code-list/up.txt"
+        # "stock-code-list/all.txt"
         # "stock-code-list/buy-list.txt"
         # "stock-code-list/8man-12man-volume-over40k.txt"
         # "stock-code-list/all.txt"
