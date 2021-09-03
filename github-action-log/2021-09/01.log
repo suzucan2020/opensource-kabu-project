@@ -1,100 +1,100 @@
-Wed Sep  1 00:21:29 UTC 2021
+Wed Sep  1 10:33:31 UTC 2021
 arg[0]: scraping/yahoo-finace-api2.py, arg[1]: stock-code-list/buy-list.txt
 ===========================
 scraping
 ===========================
 START:  A
-END:    0.17138409614562988
+END:    0.16921687126159668
 -
 START:  ANAT
-END:    0.33741331100463867
+END:    0.345461368560791
 -
 START:  BBDC
-END:    0.5580801963806152
+END:    0.49211597442626953
 -
 START:  DAVA
-END:    0.6967566013336182
+END:    0.6260790824890137
 -
 START:  EXLS
-END:    1.4826200008392334
+END:    0.7578060626983643
 -
 START:  FIVE
-END:    1.6114678382873535
+END:    0.8776230812072754
 -
 START:  HCI
-END:    1.7517635822296143
+END:    1.0253651142120361
 -
 START:  IR
-END:    1.8829374313354492
+END:    1.1565673351287842
 -
 START:  KAI
-END:    2.0228612422943115
+END:    1.2959847450256348
 -
 START:  LIT
-END:    2.168844223022461
+END:    1.440690517425537
 -
 START:  MXIM
-END:    2.311738967895508
+END:    1.5953118801116943
 -
 START:  NTAP
-END:    2.4435505867004395
+END:    1.8686070442199707
 -
 START:  PFF
-END:    2.5909221172332764
+END:    2.0141007900238037
 -
 START:  SEE
-END:    2.772981643676758
+END:    2.1808629035949707
 -
 START:  SWAV
-END:    2.8979523181915283
+END:    2.31441068649292
 -
 START:  TRNS
-END:    3.0341548919677734
+END:    2.4486324787139893
 -
 START:  TU
-END:    3.189181327819824
+END:    2.6069791316986084
 -
 START:  SEAS
-END:    3.3150248527526855
+END:    2.729377508163452
 -
 START:  ALLE
-END:    3.449747323989868
+END:    2.8596725463867188
 -
 START:  ARW
-END:    3.5740113258361816
+END:    3.0000922679901123
 -
 START:  FIBK
-END:    3.722057580947876
+END:    3.135401964187622
 -
 START:  MHO
-END:    3.861398220062256
+END:    3.2665627002716064
 -
 START:  XLI
-END:    4.02393651008606
+END:    3.430352210998535
 -
 START:  TTEC
-END:    4.153085947036743
+END:    3.5694921016693115
 -
 START:  SF
-END:    4.315272331237793
+END:    3.741988182067871
 -
 START:  SDY
-END:    4.4551331996917725
+END:    3.892461061477661
 -
 START:  MLI
-END:    4.6022021770477295
+END:    4.050318717956543
 -
 START:  MAN
-END:    4.777064561843872
+END:    4.204354524612427
 -
 START:  SLX
-END:    4.91630744934082
+END:    4.343783140182495
 -
 START:  CMA
-END:    5.077146768569946
+END:    4.515395402908325
 -
 START:  ACHC
-END:    5.340177297592163
+END:    4.65077805519104
 -
 ===========================
 MACD sell
@@ -141,6 +141,7 @@ A    , macd +, macd hist +, profit:   [22.4], per:  [14.63], now: [175.47], buy:
 ANAT , macd +, macd hist -, profit:  [28.33], per:  [17.26], now:  [192.5], buy: [164.17]
 BBDC , macd +, macd hist -, profit:   [0.19], per:   [1.79], now:  [10.79], buy:   [10.6]
 DAVA , macd +, macd hist -, profit:   [7.52], per:   [5.95], now:  [133.9], buy: [126.38]
+EXLS , macd +, macd hist -, profit:   [8.64], per:   [7.55], now: [123.14], buy:  [114.5]
 FIVE , macd +, macd hist -, profit:  [18.77], per:   [9.67], now: [212.81], buy: [194.04]
 HCI  , macd +, macd hist -, profit:   [9.37], per:   [9.16], now: [111.66], buy: [102.29]
 IR   , macd +, macd hist +, profit:   [4.65], per:   [9.61], now:  [53.02], buy:  [48.37]
@@ -164,18 +165,17 @@ MAN  , macd +, macd hist -, profit:   [2.03], per:    [1.7], now: [121.42], buy:
 SLX  , macd -, macd hist -, profit:   [0.52], per:   [0.84], now:  [62.46], buy:  [61.94]
 ACHC , macd +, macd hist +, profit:   [1.86], per:   [2.89], now:  [66.12], buy:  [64.26]
 -
-     plus  len:  26
-     profit: [207.84], per: [164.81], per/len(p):   [6.34], per/len(p+m):   [5.32]
+     plus  len:  27
+     profit: [216.48], per: [172.35], per/len(p):   [6.38], per/len(p+m):   [5.56]
 -
 ==== minus ====
-EXLS , macd +, macd hist -, profit:       [], per:       [], now: [123.14], buy:       []
 SEAS , macd +, macd hist -, profit:  [-3.78], per:  [-7.14], now:  [49.19], buy:  [52.97]
 FIBK , macd +, macd hist -, profit:  [-1.01], per:  [-2.24], now:  [44.06], buy:  [45.07]
 MHO  , macd +, macd hist +, profit:   [-0.4], per:  [-0.62], now:  [64.39], buy:  [64.79]
 CMA  , macd +, macd hist +, profit:  [-0.16], per:  [-0.22], now:  [73.91], buy:  [74.07]
 -
-     minus len:  5
-     profit:       [], per:       [], per/len(m):       [], per/len(p+m):       []
+     minus len:  4
+     profit:  [-5.35], per: [-10.21], per/len(m):  [-2.55], per/len(p+m):  [-0.33]
 -
 ==== total ====
-     profit:       [], per:       [], per/len(p+m):       []
+     profit: [211.13], per: [162.14], per/len(p+m):   [5.23]
