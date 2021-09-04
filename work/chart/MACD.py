@@ -11,7 +11,9 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 # print(sys.path)
 import okap
 
-input_fname  =  "stock-code-list/filterIchimoku.txt"
+print("arg[0]: {}, arg[1]: {}".format(sys.argv[0], sys.argv[1]))
+input_fname  =  str(sys.argv[1])
+                # "stock-code-list/filterIchimoku.txt"
                 # "stock-code-list/MACD-over-0.txt"
                 # "stock-code-list/buy-list.txt"
                 # "stock-code-list/filter0002.txt" 
