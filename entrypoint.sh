@@ -24,9 +24,9 @@ echo "profit stage"
 python3 filter/profit.py >> $LOG_FILE
 
 echo "chart stage"
-python3 chart/BB.py > ../docs/chart/BB.html
-python3 chart/MACD.py > ../docs/chart/MACD.html
-python3 chart/IchimokuCloud.py > ../docs/chart/IchimokuCloud.html
+python3 chart/BB.py stock-code-list/buy-list.txt > ../docs/chart/BB.html
+python3 chart/MACD.py stock-code-list/buy-list.txt > ../docs/chart/MACD.html
+python3 chart/IchimokuCloud.py stock-code-list/buy-list.txt > ../docs/chart/IchimokuCloud.html
 
 echo "Hello $1"
 time=$(date)
