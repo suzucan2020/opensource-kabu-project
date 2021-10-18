@@ -1,0 +1,194 @@
+Mon Oct 18 13:49:34 UTC 2021
+arg[0]: scraping/yahoo-finace-api2.py, arg[1]: stock-code-list/buy-list.txt
+===========================
+scraping
+===========================
+START:  A
+END:    0.2364497184753418
+-
+START:  ANAT
+END:    0.43325209617614746
+-
+START:  BBDC
+END:    0.5892364978790283
+-
+START:  DAVA
+END:    0.8124551773071289
+-
+START:  EXLS
+END:    0.9958322048187256
+-
+START:  HCI
+END:    1.219731330871582
+-
+START:  IR
+END:    1.4379661083221436
+-
+START:  KAI
+END:    1.6252386569976807
+-
+START:  MXIM
+END:    1.813610315322876
+-
+START:  NTAP
+END:    1.9722764492034912
+-
+START:  SEE
+END:    2.1228737831115723
+-
+START:  SWAV
+END:    2.286715269088745
+-
+START:  TRNS
+END:    2.4086802005767822
+-
+START:  TU
+END:    2.5935592651367188
+-
+START:  ALLE
+END:    2.781109094619751
+-
+START:  ARW
+END:    2.93807053565979
+-
+START:  MHO
+END:    3.117128610610962
+-
+START:  XLI
+END:    3.28041934967041
+-
+START:  TTEC
+END:    3.4216365814208984
+-
+START:  SF
+END:    3.786895513534546
+-
+START:  MAN
+END:    3.991551399230957
+-
+START:  CMA
+END:    4.471457004547119
+-
+START:  ACHC
+END:    4.583104133605957
+-
+START:  NSIT
+END:    4.735625982284546
+-
+START:  BMO
+END:    4.883890867233276
+-
+START:  CCEP
+END:    5.06010890007019
+-
+START:  CTRN
+END:    5.153252601623535
+-
+START:  J
+END:    5.255410432815552
+-
+===========================
+MACD sell
+===========================
+START:  A
+HIT: ------------------------>  A
+START:  ANAT
+START:  BBDC
+START:  DAVA
+START:  EXLS
+START:  HCI
+START:  IR
+HIT: ------------------------>  IR
+START:  KAI
+HIT: ------------------------>  KAI
+START:  MXIM
+START:  NTAP
+START:  SEE
+HIT: ------------------------>  SEE
+START:  SWAV
+HIT: ------------------------>  SWAV
+START:  TRNS
+START:  TU
+HIT: ------------------------>  TU
+START:  ALLE
+HIT: ------------------------>  ALLE
+START:  ARW
+START:  MHO
+HIT: ------------------------>  MHO
+START:  XLI
+START:  TTEC
+HIT: ------------------------>  TTEC
+START:  SF
+START:  MAN
+HIT: ------------------------>  MAN
+START:  CMA
+START:  ACHC
+HIT: ------------------------>  ACHC
+START:  NSIT
+HIT: ------------------------>  NSIT
+START:  BMO
+START:  CCEP
+HIT: ------------------------>  CCEP
+START:  CTRN
+HIT: ------------------------>  CTRN
+START:  J
+HIT: ------------------------>  J
+==== MACD sell list ====
+A   : macd -, macd hist -
+IR  : macd -, macd hist +
+KAI : macd -, macd hist -
+SEE : macd -, macd hist +
+SWAV: macd -, macd hist -
+TU  : macd -, macd hist +
+ALLE: macd -, macd hist +
+MHO : macd -, macd hist +
+TTEC: macd -, macd hist +
+MAN : macd -, macd hist +
+ACHC: macd -, macd hist -
+NSIT: macd -, macd hist +
+CCEP: macd -, macd hist +
+CTRN: macd -, macd hist -
+J   : macd -, macd hist -
+===========================
+profit
+===========================
+==== plus ====
+A    , macd -, macd hist -, profit:   [0.77], per:    [0.5], now: [153.84], buy: [153.07]
+ANAT , macd +, macd hist -, profit:  [24.93], per:  [15.19], now:  [189.1], buy: [164.17]
+BBDC , macd +, macd hist +, profit:   [0.55], per:   [5.19], now:  [11.15], buy:   [10.6]
+DAVA , macd +, macd hist +, profit:  [24.05], per:  [19.03], now: [150.43], buy: [126.38]
+EXLS , macd +, macd hist -, profit:   [9.97], per:   [8.71], now: [124.47], buy:  [114.5]
+HCI  , macd +, macd hist -, profit:  [20.71], per:  [20.25], now:   [123.], buy: [102.29]
+IR   , macd -, macd hist +, profit:   [3.89], per:   [8.03], now:  [52.26], buy:  [48.37]
+KAI  , macd -, macd hist -, profit:  [28.53], per:  [16.09], now: [205.88], buy: [177.35]
+MXIM , macd +, macd hist +, profit:   [3.43], per:   [3.44], now: [103.14], buy:  [99.71]
+NTAP , macd +, macd hist -, profit:  [10.37], per:  [12.94], now:   [90.5], buy:  [80.13]
+SEE  , macd -, macd hist +, profit:   [0.56], per:   [0.99], now:  [56.87], buy:  [56.31]
+SWAV , macd -, macd hist -, profit:  [23.27], per:  [13.64], now: [193.91], buy: [170.64]
+TRNS , macd +, macd hist +, profit:   [5.59], per:   [8.56], now:  [70.86], buy:  [65.27]
+TU   , macd -, macd hist +, profit:   [0.38], per:    [1.7], now:  [22.44], buy:  [22.07]
+SF   , macd +, macd hist +, profit:    [8.4], per:  [12.61], now:  [75.04], buy:  [66.64]
+CMA  , macd +, macd hist -, profit:  [10.37], per:    [14.], now:  [84.44], buy:  [74.07]
+BMO  , macd +, macd hist +, profit:   [5.91], per:   [5.82], now: [107.44], buy: [101.53]
+-
+     plus  len:  17
+     profit: [181.67], per: [166.68], per/len(p):    [9.8], per/len(p+m):   [5.95]
+-
+==== minus ====
+ALLE , macd -, macd hist +, profit:  [-6.74], per:  [-4.82], now: [133.23], buy: [139.97]
+ARW  , macd +, macd hist +, profit:  [-0.09], per:  [-0.08], now: [117.59], buy: [117.68]
+MHO  , macd -, macd hist +, profit:   [-5.3], per:  [-8.18], now:  [59.49], buy:  [64.79]
+XLI  , macd +, macd hist +, profit:  [-0.21], per:   [-0.2], now: [102.42], buy: [102.63]
+TTEC , macd -, macd hist +, profit: [-11.91], per: [-11.42], now:  [92.41], buy: [104.32]
+MAN  , macd -, macd hist +, profit:  [-7.96], per:  [-6.66], now: [111.43], buy: [119.39]
+ACHC , macd -, macd hist -, profit:  [-8.15], per: [-12.68], now:  [56.11], buy:  [64.26]
+NSIT , macd -, macd hist +, profit:    [-7.], per:  [-6.89], now:  [94.66], buy: [101.66]
+CCEP , macd -, macd hist +, profit:   [-5.7], per:  [-9.52], now:  [54.18], buy:  [59.88]
+CTRN , macd -, macd hist -, profit: [-18.98], per: [-21.09], now:    [71.], buy:  [89.98]
+J    , macd -, macd hist -, profit:  [-0.42], per:  [-0.32], now: [132.88], buy:  [133.3]
+-
+     minus len:  11
+     profit: [-72.46], per: [-81.85], per/len(m):  [-7.44], per/len(p+m):  [-2.92]
+-
+==== total ====
+     profit: [109.22], per:  [84.83], per/len(p+m):   [3.03]
