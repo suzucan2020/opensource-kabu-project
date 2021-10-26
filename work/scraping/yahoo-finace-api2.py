@@ -44,7 +44,7 @@ for i, code in enumerate(codes):
     print("START: ", company_code)
     try:
         # symbol_data = my_share.get_historical(share.PERIOD_TYPE_WEEK, 1000,
-        symbol_data = my_share.get_historical(share.PERIOD_TYPE_WEEK, 100,
+        symbol_data = my_share.get_historical(share.PERIOD_TYPE_YEAR, 20,
                                         share.FREQUENCY_TYPE_DAY, 1)
         # print(symbol_data)
         if symbol_data == None:
