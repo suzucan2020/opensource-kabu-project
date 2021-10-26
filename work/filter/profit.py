@@ -100,8 +100,10 @@ for x in plus_list:
     print(x)
 print("-")
 print("     plus  len: ", len(plus_list))
-tmp_text = "     profit: " + str(plus_total).rjust(8) + ", per: " + str(plus_per_total).rjust(8) + ", per/len(p): " + str(plus_per_total / len(plus_list)).rjust(8) + ", per/len(p+m): " + str(plus_per_total / (len(plus_list) + len(minus_list))).rjust(8)
-print(tmp_text)
+
+if len(plus_list) != 0:
+    tmp_text = "     profit: " + str(plus_total).rjust(8) + ", per: " + str(plus_per_total).rjust(8) + ", per/len(p): " + str(plus_per_total / len(plus_list)).rjust(8) + ", per/len(p+m): " + str(plus_per_total / (len(plus_list) + len(minus_list))).rjust(8)
+    print(tmp_text)
 print("-")
 
 print("==== minus ====")
@@ -109,8 +111,10 @@ for x in minus_list:
     print(x)
 print("-")
 print("     minus len: ", len(minus_list))
-tmp_text = "     profit: " + str(minus_total).rjust(8) + ", per: " + str(minus_per_total).rjust(8) + ", per/len(m): " + str(minus_per_total / len(minus_list)).rjust(8) + ", per/len(p+m): " + str(minus_per_total / (len(plus_list) + len(minus_list))).rjust(8)
-print(tmp_text)
+
+if len(minus_list) != 0:
+    tmp_text = "     profit: " + str(minus_total).rjust(8) + ", per: " + str(minus_per_total).rjust(8) + ", per/len(m): " + str(minus_per_total / len(minus_list)).rjust(8) + ", per/len(p+m): " + str(minus_per_total / (len(plus_list) + len(minus_list))).rjust(8)
+    print(tmp_text)
 print("-")
 
 print("==== total ====")
