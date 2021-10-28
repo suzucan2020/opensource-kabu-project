@@ -1,0 +1,76 @@
+Thu Oct 28 13:49:48 UTC 2021
+arg[0]: scraping/yahoo-finace-api2.py, arg[1]: stock-code-list/buy-list.txt
+===========================
+scraping
+===========================
+START:  ANAT
+END:    0.5731289386749268
+-
+START:  BBDC
+END:    1.0791656970977783
+-
+START:  DAVA
+END:    1.6450061798095703
+-
+START:  EXLS
+END:    2.1527669429779053
+-
+START:  HCI
+END:    2.8068628311157227
+-
+START:  NTAP
+END:    3.3380041122436523
+-
+START:  CMA
+END:    3.827167510986328
+-
+===========================
+MACD sell
+===========================
+START:  ANAT
+START:  BBDC
+START:  DAVA
+START:  EXLS
+START:  HCI
+START:  NTAP
+START:  CMA
+==== MACD list ====
+code: ANAT     day: macd + hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: BBDC     day: macd + hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: DAVA     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: EXLS     day: macd + hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: HCI      day: macd + hist - ,  Week: macd + hist + , Month: macd + hist + , 
+code: NTAP     day: macd + hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: CMA      day: macd + hist - ,  Week: macd + hist + , Month: macd + hist + , 
+==== MACD sell list ====
+code: ANAT     day: macd + hist - , 
+code: ANAT     day: macd + hist - ,  Week: macd + hist - , 
+code: BBDC     day: macd + hist - , 
+code: BBDC     day: macd + hist - ,  Week: macd + hist - , 
+code: EXLS     day: macd + hist - , 
+code: EXLS     day: macd + hist - ,  Week: macd + hist - , 
+code: HCI      day: macd + hist - , 
+code: NTAP     day: macd + hist - , 
+code: NTAP     day: macd + hist - ,  Week: macd + hist - , 
+code: CMA      day: macd + hist - , 
+===========================
+profit
+===========================
+==== plus ====
+ANAT , macd +, macd hist -, profit:  [25.58], per:  [15.58], now: [189.75], buy: [164.17]
+BBDC , macd +, macd hist -, profit:   [0.38], per:   [3.58], now:  [10.98], buy:   [10.6]
+DAVA , macd +, macd hist +, profit:  [28.68], per:  [22.69], now: [155.06], buy: [126.38]
+EXLS , macd +, macd hist -, profit:   [9.91], per:   [8.66], now: [124.41], buy:  [114.5]
+HCI  , macd +, macd hist -, profit:  [28.83], per:  [28.19], now: [131.12], buy: [102.29]
+NTAP , macd +, macd hist -, profit:   [9.12], per:  [11.38], now:  [89.25], buy:  [80.13]
+CMA  , macd +, macd hist -, profit:  [11.27], per:  [15.22], now:  [85.34], buy:  [74.07]
+-
+     plus  len:  7
+     profit: [113.78], per:  [105.3], per/len(p):  [15.04], per/len(p+m):  [15.04]
+-
+==== minus ====
+-
+     minus len:  0
+-
+==== total ====
+     profit: [113.78], per:  [105.3], per/len(p+m):  [15.04]
