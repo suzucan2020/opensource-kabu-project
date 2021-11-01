@@ -1,0 +1,134 @@
+Mon Nov  1 13:49:53 UTC 2021
+arg[0]: scraping/yahoo-finace-api2.py, arg[1]: stock-code-list/buy-list.txt
+===========================
+scraping
+===========================
+START:  ANAT
+END:    0.5539467334747314
+-
+START:  BBDC
+END:    1.243868112564087
+-
+START:  DAVA
+END:    1.5362153053283691
+-
+START:  EXLS
+END:    2.0581789016723633
+-
+START:  HCI
+END:    2.6716599464416504
+-
+START:  NTAP
+END:    3.427290916442871
+-
+START:  CMA
+END:    4.103107213973999
+-
+START:  TOK
+END:    4.4662840366363525
+-
+START:  NEE
+END:    5.195042610168457
+-
+START:  AMD
+END:    5.654648303985596
+-
+START:  SPXL
+END:    6.106305360794067
+-
+START:  SPTM
+END:    6.8142077922821045
+-
+START:  SPLG
+END:    7.23349928855896
+-
+START:  ARES
+END:    7.793647289276123
+-
+START:  NVDA
+END:    8.47298264503479
+-
+START:  LIT
+END:    9.156543493270874
+-
+START:  WNS
+END:    9.818053960800171
+-
+===========================
+MACD sell
+===========================
+START:  ANAT
+START:  BBDC
+START:  DAVA
+START:  EXLS
+START:  HCI
+START:  NTAP
+START:  CMA
+START:  TOK
+START:  NEE
+START:  AMD
+START:  SPXL
+START:  SPTM
+START:  SPLG
+START:  ARES
+START:  NVDA
+START:  LIT
+START:  WNS
+==== MACD list ====
+code: ANAT     day: macd + hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: BBDC     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: DAVA     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: EXLS     day: macd - hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: HCI      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: NTAP     day: macd - hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: CMA      day: macd + hist - ,  Week: macd + hist + , Month: macd + hist + , 
+code: TOK      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: NEE      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: AMD      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SPXL     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SPTM     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SPLG     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: ARES     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: NVDA     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: LIT      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: WNS      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+==== MACD sell list ====
+code: ANAT     day: macd + hist - , 
+code: ANAT     day: macd + hist - ,  Week: macd + hist - , 
+code: EXLS     day: macd - hist - , 
+code: EXLS     day: macd - hist - ,  Week: macd + hist - , 
+code: NTAP     day: macd - hist - , 
+code: NTAP     day: macd - hist - ,  Week: macd + hist - , 
+code: CMA      day: macd + hist - , 
+===========================
+profit
+===========================
+==== plus ====
+ANAT , macd +, macd hist -, profit:  [25.06], per:  [15.26], now: [189.23], buy: [164.17]
+BBDC , macd +, macd hist +, profit:   [0.67], per:   [6.32], now:  [11.27], buy:   [10.6]
+DAVA , macd +, macd hist +, profit:  [33.96], per:  [26.87], now: [160.34], buy: [126.38]
+EXLS , macd -, macd hist -, profit:   [8.36], per:    [7.3], now: [122.86], buy:  [114.5]
+HCI  , macd +, macd hist +, profit:  [34.21], per:  [33.44], now:  [136.5], buy: [102.29]
+NTAP , macd -, macd hist -, profit:    [9.9], per:  [12.35], now:  [90.03], buy:  [80.13]
+CMA  , macd +, macd hist -, profit:   [12.4], per:  [16.74], now:  [86.47], buy:  [74.07]
+TOK  , macd +, macd hist +, profit:   [0.25], per:   [0.25], now: [101.04], buy: [100.79]
+SPXL , macd +, macd hist +, profit:   [0.17], per:   [0.13], now:  [130.4], buy: [130.23]
+SPTM , macd +, macd hist +, profit:   [0.12], per:   [0.21], now:   [56.7], buy:  [56.58]
+SPLG , macd +, macd hist +, profit:   [0.03], per:   [0.06], now:  [54.02], buy:  [53.99]
+ARES , macd +, macd hist +, profit:    [0.5], per:   [0.59], now:  [85.24], buy:  [84.74]
+WNS  , macd +, macd hist +, profit:   [0.39], per:   [0.44], now:   [89.2], buy:  [88.81]
+-
+     plus  len:  13
+     profit: [126.01], per: [119.97], per/len(p):   [9.23], per/len(p+m):   [7.06]
+-
+==== minus ====
+NEE  , macd +, macd hist +, profit:  [-0.29], per:  [-0.34], now:  [85.04], buy:  [85.33]
+AMD  , macd +, macd hist +, profit:  [-1.14], per:  [-0.95], now: [119.09], buy: [120.23]
+NVDA , macd +, macd hist +, profit:  [-1.21], per:  [-0.47], now: [254.46], buy: [255.67]
+LIT  , macd +, macd hist +, profit:  [-0.55], per:   [-0.6], now:  [91.36], buy:  [91.91]
+-
+     minus len:  4
+     profit:  [-3.19], per:  [-2.36], per/len(m):  [-0.59], per/len(p+m):  [-0.14]
+-
+==== total ====
+     profit: [122.82], per: [117.61], per/len(p+m):   [6.92]
