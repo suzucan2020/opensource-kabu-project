@@ -32,7 +32,7 @@ echo "scraping stage up-month"
 python3 scraping/yahoo-finace-api2.py stock-code-list/up-month.txt >> $LOG_FILE
 
 echo "MACD golden cross stage"
-python3 filter/MACD-golden-cross.py >> $LOG_FILE
+python3 filter/temp.py >> $LOG_FILE
 
 echo "Hello $1"
 time=$(date)
