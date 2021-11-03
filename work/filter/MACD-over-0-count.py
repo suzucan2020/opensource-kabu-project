@@ -44,17 +44,25 @@ for code in codes:
     if len(df) == 0:
         continue
 
+
+    # カラムごとの計算手法を指定
+    agg_dict = {
+        "Open": "first", 
+        "High": "max",
+        "Low": "min",
+        "Close": "last",
+        "Volume": "sum"
+    }
+
+    # print(df)
+    datetime_tmp = pd.to_datetime(df["Date"])
+    df = df.drop(columns='Date')
+    df = df.set_index(datetime_tmp).resample('M').agg(agg_dict)
+ 
     # MACDを求める
     macd_period1 = 12
-    macd_period2 = 26
-    macd_period3 = 9
-
-    if not macd_period1:
-        macd_period1 = 12
-    if not macd_period2:
-        macd_period2 = 26
-    if not macd_period3:
-        macd_period3 = 9
+    macd_period2 = 24
+    macd_period3 = 6
 
     if macd_period1 is not None:
         macd, macd_signal, macd_hist = talib.MACD(np.asarray(df.Close, dtype='float64'), fastperiod=int(macd_period1), slowperiod=int(macd_period2), signalperiod=int(macd_period3))
@@ -73,7 +81,7 @@ for code in codes:
         # print(index, row['Date'], row['macd'])
         if row['macd'] > 0:
             if tmp_count == 0:
-                tmp_str = "code: {:6} start: {} ".format(code, row["Date"])
+                tmp_str = "code: {:6} start: {} ".format(code, index.strftime("%Y-%m-%d"))
                 buy_close = row["Close"]
             tmp_count += 1
         else:
@@ -82,6 +90,6 @@ for code in codes:
         if tmp_count > max_count:
             max_count = tmp_count
             profit = (row["Close"] - buy_close) / buy_close * 100
-            max_str = tmp_str + "end: {} max_count: {:3} Close: {:6.1f} buy: {:6.1f} profit: {:6.1f}".format(row['Date'], max_count, row["Close"], buy_close, profit)
+            max_str = tmp_str + "end: {} max_count: {:3} Close: {:6.1f} buy: {:6.1f} profit: {:6.1f}".format(index.strftime("%Y-%m-%d"), max_count, row["Close"], buy_close, profit)
 
     print(max_str)
