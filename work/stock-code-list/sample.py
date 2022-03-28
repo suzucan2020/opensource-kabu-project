@@ -17,10 +17,10 @@ for line_b in list_b:
     flag = 0
     for line_a in list_a:
         if line_b in line_a:
-            # print("HIT")
+            # print("HIT: ", end="")
             print(line_a.strip())
             flag = 1
     if flag != 1:
-        o_str = "2021-11-09 22:30:00+09:00,{}".format(line_b.strip())
+        o_str = "2022-03-24 22:30:00+09:00,{}".format(line_b.strip())
         print(o_str)
         # print(line_b.strip())
