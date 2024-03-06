@@ -1,0 +1,972 @@
+Wed Mar  6 13:49:35 UTC 2024
+arg[0]: scraping/yahoo-finace-api2.py, arg[1]: stock-code-list/buy-list.txt
+===========================
+scraping
+===========================
+START:  AAPL
+===========================
+MACD sell
+===========================
+START:  AAPL
+START:  EL
+START:  NEE
+START:  AMD
+START:  APH
+START:  XLP
+START:  SPXL
+START:  KEYS
+START:  VDC
+START:  SPTM
+START:  SPLG
+START:  CROX
+START:  AXON
+START:  AWR
+START:  FN
+START:  NXST
+START:  TREX
+START:  RGEN
+START:  EXPO
+START:  BCPC
+START:  SOXL
+START:  TECL
+START:  NEO
+START:  NVMI
+START:  NVDA
+START:  BBDC
+START:  APPS
+START:  ROK
+START:  NHTC
+START:  ZYXI
+START:  LIT
+START:  LLY
+START:  GTLB
+START:  MCD
+START:  MSI
+START:  HCP
+START:  ON
+==== MACD list ====
+code: AAPL     day: macd - hist - ,  Week: macd - hist - , Month: macd + hist - , 
+code: EL       day: macd + hist - ,  Week: macd + hist + , Month: macd - hist - , 
+code: NEE      day: macd - hist - ,  Week: macd - hist - , Month: macd - hist - , 
+code: AMD      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: APH      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: XLP      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SPXL     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: KEYS     day: macd + hist + ,  Week: macd + hist - , Month: macd - hist + , 
+code: VDC      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SPTM     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SPLG     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: CROX     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: AXON     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: AWR      day: macd - hist - ,  Week: macd - hist - , Month: macd - hist - , 
+code: FN       day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: NXST     day: macd - hist - ,  Week: macd + hist - , Month: macd + hist - , 
+code: TREX     day: macd + hist - ,  Week: macd + hist + , Month: macd + hist + , 
+code: RGEN     day: macd + hist - ,  Week: macd + hist - , Month: macd - hist + , 
+code: EXPO     day: macd - hist + ,  Week: macd - hist - , Month: macd - hist - , 
+code: BCPC     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SOXL     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: TECL     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: NEO      day: macd + hist + ,  Week: macd - hist + , Month: macd - hist + , 
+code: NVMI     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: NVDA     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: BBDC     day: macd + hist + ,  Week: macd + hist + , Month: macd - hist + , 
+code: APPS     day: macd - hist + ,  Week: macd - hist - , Month: macd - hist + , 
+code: ROK      day: macd - hist + ,  Week: macd - hist - , Month: macd + hist - , 
+code: NHTC     day: macd - hist - ,  Week: macd + hist - , Month: macd - hist + , 
+code: ZYXI     day: macd + hist - ,  Week: macd + hist + , Month: macd + hist + , 
+code: LIT      day: macd + hist + ,  Week: macd - hist + , Month: macd - hist - , 
+code: LLY      day: macd + hist - ,  Week: macd + hist + , Month: macd + hist + , 
+code: MCD      day: macd + hist - ,  Week: macd + hist - , Month: macd + hist - , 
+code: MSI      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: ON       day: macd + hist + ,  Week: macd - hist + , Month: macd + hist - , 
+==== MACD sell list ====
+code: AAPL     day: macd - hist - , 
+code: AAPL     day: macd - hist - ,  Week: macd - hist - , 
+code: AAPL     day: macd - hist - ,  Week: macd - hist - , Month: macd + hist - , 
+code: EL       day: macd + hist - , 
+code: EL       day: macd + hist - ,  Week: macd + hist + , Month: macd - hist - , 
+code: NEE      day: macd - hist - , 
+code: NEE      day: macd - hist - ,  Week: macd - hist - , 
+code: NEE      day: macd - hist - ,  Week: macd - hist - , Month: macd - hist - , 
+code: KEYS     day: macd + hist + ,  Week: macd + hist - , 
+code: AWR      day: macd - hist - , 
+code: AWR      day: macd - hist - ,  Week: macd - hist - , 
+code: AWR      day: macd - hist - ,  Week: macd - hist - , Month: macd - hist - , 
+code: NXST     day: macd - hist - , 
+code: NXST     day: macd - hist - ,  Week: macd + hist - , 
+code: NXST     day: macd - hist - ,  Week: macd + hist - , Month: macd + hist - , 
+code: TREX     day: macd + hist - , 
+code: RGEN     day: macd + hist - , 
+code: RGEN     day: macd + hist - ,  Week: macd + hist - , 
+code: EXPO     day: macd - hist + ,  Week: macd - hist - , 
+code: EXPO     day: macd - hist + ,  Week: macd - hist - , Month: macd - hist - , 
+code: APPS     day: macd - hist + ,  Week: macd - hist - , 
+code: ROK      day: macd - hist + ,  Week: macd - hist - , 
+code: ROK      day: macd - hist + ,  Week: macd - hist - , Month: macd + hist - , 
+code: NHTC     day: macd - hist - , 
+code: NHTC     day: macd - hist - ,  Week: macd + hist - , 
+code: ZYXI     day: macd + hist - , 
+code: LIT      day: macd + hist + ,  Week: macd - hist + , Month: macd - hist - , 
+code: LLY      day: macd + hist - , 
+code: MCD      day: macd + hist - , 
+code: MCD      day: macd + hist - ,  Week: macd + hist - , 
+code: MCD      day: macd + hist - ,  Week: macd + hist - , Month: macd + hist - , 
+code: ON       day: macd + hist + ,  Week: macd - hist + , Month: macd + hist - , 
+===========================
+profit
+===========================
+==== plus ====
+AMD  , macd +, macd hist +, profit:  [85.13], per:  [70.81], now: [205.36], buy: [120.23]
+XLP  , macd +, macd hist +, profit:   [1.94], per:   [2.67], now:  [74.52], buy:  [72.58]
+VDC  , macd +, macd hist +, profit:   [8.83], per:   [4.66], now: [198.36], buy: [189.53]
+SPTM , macd +, macd hist +, profit:   [6.21], per:  [10.98], now:  [62.79], buy:  [56.58]
+SPLG , macd +, macd hist +, profit:   [6.28], per:  [11.63], now:  [60.27], buy:  [53.99]
+AXON , macd +, macd hist +, profit: [181.73], per: [131.55], now: [319.88], buy: [138.15]
+FN   , macd +, macd hist +, profit: [105.06], per:   [89.9], now: [221.92], buy: [116.86]
+TREX , macd +, macd hist -, profit:  [26.03], per:  [37.19], now:  [96.03], buy:    [70.]
+RGEN , macd +, macd hist -, profit:  [16.06], per:   [8.94], now: [195.72], buy: [179.66]
+BCPC , macd +, macd hist +, profit:  [19.91], per:  [14.52], now: [156.99], buy: [137.08]
+SOXL , macd +, macd hist +, profit:   [7.68], per:  [18.25], now:  [49.77], buy:  [42.09]
+TECL , macd +, macd hist +, profit:  [23.35], per:  [38.44], now:  [84.09], buy:  [60.74]
+NVMI , macd +, macd hist +, profit:  [73.02], per:  [63.69], now: [187.67], buy: [114.65]
+NVDA , macd +, macd hist +, profit:  [596.7], per: [233.39], now: [852.37], buy: [255.67]
+ZYXI , macd +, macd hist -, profit:   [6.21], per:  [97.64], now:  [12.57], buy:   [6.36]
+LLY  , macd +, macd hist -, profit: [521.28], per: [192.35], now: [792.28], buy:   [271.]
+MCD  , macd +, macd hist -, profit:  [37.48], per:  [14.79], now: [290.94], buy: [253.46]
+MSI  , macd +, macd hist +, profit:  [84.36], per:  [33.55], now: [335.77], buy: [251.41]
+ON   , macd +, macd hist +, profit:  [20.02], per:  [33.44], now:  [79.88], buy:  [59.86]
+-
+     plus  len:  19
+     profit: [1827.28], per: [1108.39], per/len(p):  [58.34], per/len(p+m):  [31.67]
+-
+==== minus ====
+AAPL , macd -, macd hist -, profit:       [], per:       [], now:  [175.1], buy:       []
+EL   , macd +, macd hist -, profit: [-191.97], per:  [-56.5], now: [147.78], buy: [339.75]
+NEE  , macd -, macd hist -, profit: [-30.36], per: [-35.58], now:  [54.97], buy:  [85.33]
+APH  , macd +, macd hist +, profit:       [], per:       [], now: [111.92], buy:       []
+SPXL , macd +, macd hist +, profit:  [-3.74], per:  [-2.87], now: [126.49], buy: [130.23]
+KEYS , macd +, macd hist +, profit: [-28.56], per: [-15.35], now:  [157.5], buy: [186.06]
+CROX , macd +, macd hist +, profit: [-52.83], per: [-29.78], now: [124.59], buy: [177.42]
+AWR  , macd -, macd hist -, profit:       [], per:       [], now:  [72.39], buy:       []
+NXST , macd -, macd hist -, profit:   [-6.4], per:  [-3.94], now:  [156.1], buy:  [162.5]
+EXPO , macd -, macd hist +, profit: [-19.37], per: [-19.16], now:  [81.74], buy: [101.11]
+NEO  , macd +, macd hist +, profit:  [-1.77], per:  [-9.92], now:  [16.07], buy:  [17.84]
+BBDC , macd +, macd hist +, profit:  [-0.78], per:  [-7.36], now:   [9.82], buy:   [10.6]
+APPS , macd -, macd hist +, profit: [-40.48], per:  [-92.7], now:   [3.19], buy:  [43.67]
+ROK  , macd -, macd hist +, profit: [-53.72], per: [-15.71], now: [288.17], buy: [341.89]
+NHTC , macd -, macd hist -, profit:  [-1.05], per: [-14.64], now:   [6.12], buy:   [7.17]
+LIT  , macd +, macd hist +, profit: [-46.14], per:  [-50.2], now:  [45.77], buy:  [91.91]
+-
+     minus len:  16
+     profit:       [], per:       [], per/len(m):       [], per/len(p+m):       []
+-
+==== total ====
+     profit:       [], per:       [], per/len(p+m):       []
+arg[0]: scraping/yahoo-finace-api2.py, arg[1]: stock-code-list/up-month.txt
+===========================
+scraping
+===========================
+START:  A
+===========================
+MACD golden cross
+===========================
+START:  code
+START:  A
+START:  AAON
+START:  AAPL
+START:  ABG
+START:  ABT
+START:  ACLS
+START:  ACMR
+START:  ACN
+START:  ADBE
+START:  ADI
+START:  ADP
+START:  ADSK
+START:  ADUS
+START:  AEE
+START:  AGYS
+START:  AIZ
+START:  AJG
+START:  AJRD
+START:  ALB
+START:  ALG
+START:  ALGN
+START:  ALLE
+START:  ALTR
+START:  AMAT
+START:  AMBA
+START:  AMD
+START:  AME
+START:  AMED
+START:  AMEH
+START:  AMGN
+START:  AMN
+START:  AMP
+START:  AMRC
+START:  AMSWA
+START:  AMTX
+START:  AMZN
+START:  AN
+START:  ANSS
+START:  ANTM
+START:  AON
+START:  AOSL
+START:  APD
+START:  APH
+START:  APPF
+START:  APPN
+START:  APPS
+START:  AQN
+START:  ARCB
+START:  ARCT
+START:  ARES
+START:  ARGX
+START:  ARWR
+START:  ASML
+START:  ASPN
+START:  ATEC
+START:  ATEN
+START:  ATKR
+START:  ATOM
+START:  ATR
+START:  ATRC
+START:  AUDC
+START:  AUPH
+START:  AVAV
+START:  AVGO
+START:  AVID
+START:  AVNW
+START:  AVXL
+START:  AVY
+START:  AWK
+START:  AWR
+START:  AXON
+START:  AZO
+START:  AZPN
+START:  BAH
+START:  BAM
+START:  BAX
+START:  BBH
+START:  BBQ
+START:  BBY
+START:  BCPC
+START:  BDX
+START:  BEEM
+START:  BFAM
+START:  BFC
+START:  BGFV
+START:  BGNE
+START:  BHVN
+START:  BIO
+START:  BL
+START:  BLD
+START:  BLDP
+START:  BLDR
+START:  BLFS
+START:  BLK
+START:  BLL
+START:  BLNK
+START:  BMI
+START:  BOOT
+START:  BOTZ
+START:  BR
+START:  BRKR
+START:  BRKS
+START:  BRO
+START:  BURL
+START:  BX
+START:  CABO
+START:  CACI
+START:  CALX
+START:  CAMT
+START:  CAR
+START:  CBRE
+START:  CBSH
+START:  CBZ
+START:  CCOI
+START:  CCS
+START:  CDMO
+START:  CDNA
+START:  CDNS
+START:  CDW
+START:  CELH
+START:  CGNX
+START:  CHD
+START:  CHDN
+START:  CHE
+START:  CHGG
+START:  CHH
+START:  CHKP
+START:  CHTR
+START:  CIEN
+START:  CLAR
+START:  CLFD
+START:  CLGN
+START:  CLNE
+START:  CLPT
+START:  CLX
+START:  CMCSA
+START:  CMG
+START:  CMS
+START:  CNC
+START:  CNI
+START:  CNMD
+START:  CNS
+START:  CNXN
+START:  COO
+START:  COST
+START:  COUP
+START:  COWN
+START:  CP
+START:  CPK
+START:  CPRT
+START:  CPSH
+START:  CRAI
+START:  CREE
+START:  CRL
+START:  CRM
+START:  CRMT
+START:  CROX
+START:  CRSP
+START:  CRVL
+START:  CSGP
+START:  CSL
+START:  CSWI
+START:  CSX
+START:  CTAS
+START:  CTLT
+START:  CTRN
+START:  CURE
+START:  CVCO
+START:  CVNA
+START:  CWST
+START:  CWT
+START:  CXSE
+START:  CYBR
+START:  CYRX
+START:  CYTK
+START:  DAC
+START:  DAR
+START:  DAVA
+START:  DDS
+START:  DE
+START:  DECK
+START:  DELL
+START:  DFIN
+START:  DG
+START:  DGRW
+START:  DHI
+START:  DHR
+START:  DIA
+START:  DIOD
+START:  DIS
+START:  DKS
+START:  DLN
+START:  DNLI
+START:  DOMO
+START:  DOV
+START:  DPZ
+START:  DQ
+START:  DRD
+START:  DRIO
+START:  DRNA
+START:  DSGX
+START:  DVAX
+START:  DXCM
+START:  ECL
+START:  EFX
+START:  EGAN
+START:  EHC
+START:  EL
+START:  ENPH
+START:  ENSG
+START:  ENTG
+START:  ENV
+START:  EPAM
+START:  ERIE
+START:  ES
+START:  ESE
+START:  ETN
+START:  ETSY
+START:  EVBG
+START:  EVTC
+START:  EW
+START:  EWT
+START:  EXAS
+START:  EXLS
+START:  EXPD
+START:  EXPI
+START:  EXPO
+START:  FAST
+START:  FATE
+START:  FB
+START:  FCN
+START:  FCX
+START:  FDN
+START:  FDS
+START:  FELE
+START:  FFIN
+START:  FICO
+START:  FINX
+START:  FIS
+START:  FISV
+START:  FIVE
+START:  FIVN
+START:  FLGT
+START:  FLT
+START:  FLWS
+START:  FN
+START:  FND
+START:  FNV
+START:  FORM
+START:  FOXF
+START:  FPX
+START:  FRC
+START:  FRHC
+START:  FRPT
+START:  FSS
+START:  FTNT
+START:  FUV
+START:  GDEN
+START:  GFI
+START:  GGG
+START:  GIB
+START:  GLDD
+START:  GLOB
+START:  GMAB
+START:  GME
+START:  GMED
+START:  GNRC
+START:  GNSS
+START:  GNTX
+START:  GOLF
+START:  GOOG
+START:  GOOGL
+START:  GPI
+START:  GPN
+START:  GRBK
+START:  GRMN
+START:  GRVY
+START:  GRWG
+START:  GWRE
+START:  HACK
+START:  HALO
+START:  HCI
+START:  HD
+START:  HEI
+START:  HELE
+START:  HIBB
+START:  HLI
+START:  HLT
+START:  HOLX
+START:  HON
+START:  HOV
+START:  HRC
+START:  HRI
+START:  HSKA
+START:  HTHT
+START:  HUBS
+START:  HUM
+START:  HZNP
+START:  IAC
+START:  IBP
+START:  ICE
+START:  ICLN
+START:  ICLR
+START:  IDT
+START:  IDXX
+START:  IESC
+START:  IEX
+START:  ILMN
+START:  INFO
+START:  INOV
+START:  INSP
+START:  INTC
+START:  INTU
+START:  INTZ
+START:  INVE
+START:  IOO
+START:  IQV
+START:  IRDM
+START:  IRMD
+START:  ISEE
+START:  ISRG
+START:  IT
+START:  ITT
+START:  ITW
+START:  IVOG
+START:  IVV
+START:  IXJ
+START:  IXN
+START:  J
+START:  JBL
+START:  JBSS
+START:  JD
+START:  JKHY
+START:  JKS
+START:  JNJ
+START:  JOE
+START:  JOUT
+START:  JYNT
+START:  KAI
+START:  KBH
+START:  KBR
+START:  KDMN
+START:  KEYS
+START:  KLAC
+START:  KLIC
+START:  KMX
+START:  KNSL
+START:  KOPN
+START:  KOSS
+START:  KRNT
+START:  KSU
+START:  KTOS
+START:  LAC
+START:  LAD
+START:  LANC
+START:  LAWS
+START:  LDOS
+START:  LFMD
+START:  LGIH
+START:  LH
+START:  LHCG
+START:  LHX
+START:  LII
+START:  LIN
+START:  LINC
+START:  LIT
+START:  LLY
+START:  LMT
+START:  LNT
+START:  LOB
+START:  LOGI
+START:  LOVE
+START:  LOW
+START:  LPLA
+START:  LPSN
+START:  LQDT
+START:  LRCX
+START:  LSCC
+START:  LSTR
+START:  LULU
+START:  LUNA
+START:  MA
+START:  MANH
+START:  MANT
+START:  MARA
+START:  MASI
+START:  MATX
+START:  MBUU
+START:  MCD
+START:  MCHP
+START:  MCO
+START:  MDB
+START:  MDT
+START:  MEDP
+START:  MEDS
+START:  MELI
+START:  MGC
+START:  MGIC
+START:  MGK
+START:  MGNI
+START:  MHO
+START:  MIME
+START:  MITK
+START:  MKC
+START:  MKSI
+START:  MKTX
+START:  MLAB
+START:  MLR
+START:  MMC
+START:  MMS
+START:  MNMD
+START:  MNST
+START:  MODN
+START:  MODV
+START:  MOH
+START:  MORN
+START:  MPWR
+START:  MRTX
+START:  MRVL
+START:  MS
+START:  MSA
+START:  MSCI
+START:  MSEX
+START:  MSFT
+START:  MSI
+START:  MSTR
+START:  MTBC
+START:  MTCH
+START:  MTD
+START:  MTEX
+START:  MTH
+START:  MTLS
+START:  MTSI
+START:  MU
+START:  MUSA
+START:  MVIS
+START:  MXL
+START:  MYRG
+START:  NBIX
+START:  NCBS
+START:  NDAQ
+START:  NDSN
+START:  NEE
+START:  NEO
+START:  NEOG
+START:  NFLX
+START:  NICE
+START:  NISN
+START:  NKE
+START:  NOVT
+START:  NOW
+START:  NSC
+START:  NSIT
+START:  NSSC
+START:  NSTG
+START:  NTLA
+START:  NTRA
+START:  NUAN
+START:  NVCR
+START:  NVDA
+START:  NVMI
+START:  NVO
+START:  NVR
+START:  NXST
+START:  NYT
+START:  OBCI
+START:  ODFL
+START:  OEF
+START:  OFLX
+START:  OLED
+START:  OMCL
+START:  ON
+START:  OOMA
+START:  OPRX
+START:  ORA
+START:  ORCL
+START:  ORLY
+START:  ORMP
+START:  OTEX
+START:  PACB
+START:  PAG
+START:  PANW
+START:  PAR
+START:  PAYC
+START:  PAYX
+START:  PBD
+START:  PCTY
+START:  PEGA
+START:  PEN
+START:  PENN
+START:  PEP
+START:  PERI
+START:  PFSI
+START:  PGR
+START:  PH
+START:  PHM
+START:  PKI
+START:  PLL
+START:  PLNT
+START:  PLUG
+START:  PLXS
+START:  PODD
+START:  POOL
+START:  POWI
+START:  PRFT
+START:  PRI
+START:  PRTA
+START:  PRTS
+START:  PTSI
+START:  PWR
+START:  PYPL
+START:  QADA
+START:  QCLN
+START:  QDEL
+START:  QGEN
+START:  QLYS
+START:  QQQ
+START:  QRVO
+START:  QTWO
+START:  RADA
+START:  RAMP
+START:  RBA
+START:  RCII
+START:  RCKY
+START:  RDNT
+START:  RDVT
+START:  RDWR
+START:  REGI
+START:  RENN
+START:  RGEN
+START:  RH
+START:  RILY
+START:  RIOT
+START:  RLI
+START:  RLMD
+START:  RMD
+START:  RNG
+START:  ROBO
+START:  ROCK
+START:  ROK
+START:  ROKU
+START:  ROL
+START:  ROP
+START:  ROST
+START:  RPD
+START:  RPM
+START:  RSG
+START:  RTH
+START:  RUN
+START:  RXI
+START:  SAIA
+START:  SAIC
+START:  SAM
+START:  SAVA
+START:  SCI
+START:  SCL
+START:  SE
+START:  SEAS
+START:  SEDG
+START:  SFBS
+START:  SGEN
+START:  SGMS
+START:  SGRY
+START:  SHOP
+START:  SHW
+START:  SHYF
+START:  SITE
+START:  SIVB
+START:  SJW
+START:  SKY
+START:  SLAB
+START:  SLP
+START:  SMH
+START:  SMTC
+START:  SNAP
+START:  SNPS
+START:  SOCL
+START:  SOXL
+START:  SPGI
+START:  SPLG
+START:  SPLK
+START:  SPNS
+START:  SPSC
+START:  SPTM
+START:  SPWH
+START:  SPWR
+START:  SPXC
+START:  SPXL
+START:  SPY
+START:  SPYG
+START:  SQ
+START:  SSD
+START:  SSNC
+START:  SSTK
+START:  STAA
+START:  STE
+START:  SUSA
+START:  SYK
+START:  SYNA
+START:  TBBK
+START:  TBK
+START:  TDG
+START:  TDOC
+START:  TDY
+START:  TEAM
+START:  TECH
+START:  TECL
+START:  TER
+START:  TFX
+START:  TGH
+START:  TGLS
+START:  TGT
+START:  TGTX
+START:  THC
+START:  TJX
+START:  TMO
+START:  TMUS
+START:  TNDM
+START:  TNET
+START:  TPX
+START:  TREX
+START:  TRI
+START:  TRIL
+START:  TRMB
+START:  TRNS
+START:  TROW
+START:  TRU
+START:  TRUP
+START:  TSCO
+START:  TSLA
+START:  TSM
+START:  TT
+START:  TTC
+START:  TTD
+START:  TTEC
+START:  TTEK
+START:  TTGT
+START:  TTWO
+START:  TWLO
+START:  TXN
+START:  TYL
+START:  UCTT
+START:  UFPI
+START:  UFPT
+START:  UI
+START:  UMC
+START:  UNF
+START:  UNH
+START:  UNP
+START:  UPLD
+START:  URI
+START:  V
+START:  VALU
+START:  VBK
+START:  VCEL
+START:  VCR
+START:  VCTR
+START:  VCYT
+START:  VDC
+START:  VEEV
+START:  VERU
+START:  VGT
+START:  VHT
+START:  VIAV
+START:  VICR
+START:  VIG
+START:  VO
+START:  VONE
+START:  VONG
+START:  VOO
+START:  VOOG
+START:  VOOV
+START:  VOT
+START:  VPU
+START:  VRNS
+START:  VRSK
+START:  VRSN
+START:  VRTV
+START:  VSTO
+START:  VTHR
+START:  VTI
+START:  VTNR
+START:  VTWG
+START:  VUG
+START:  VV
+START:  VXF
+START:  WCN
+START:  WD
+START:  WDAY
+START:  WDFC
+START:  WEC
+START:  WEN
+START:  WINA
+START:  WING
+START:  WIRE
+START:  WIX
+START:  WK
+START:  WLTW
+START:  WM
+START:  WMS
+START:  WNS
+START:  WRB
+START:  WSC
+START:  WSM
+START:  WST
+START:  WTRG
+START:  WTS
+START:  XEL
+START:  XENE
+START:  XLK
+START:  XLNX
+START:  XLP
+START:  XLRN
+START:  XLU
+START:  XLV
+START:  XLY
+START:  XYL
+START:  YNDX
+START:  YORW
+START:  YUM
+START:  Z
+START:  ZBRA
+START:  ZEN
+START:  ZLAB
+START:  ZNGA
+START:  ZS
+START:  ZTS
+START:  ZYXI
+==== MACD golden cross ====
+None
+code: AVAV     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: AVAV   BUY: 2009-05-31   27.92 SELL: 2010-06-30   21.73  macd:   -0.19 macd_count:  13 profit:  0.78
+Trade --> code: AVAV   BUY: 2011-03-31   34.97 SELL: 2012-05-31   22.28  macd:   -0.36 macd_count:  14 profit:  0.64
+Trade --> code: AVAV   BUY: 2013-12-31   29.14 SELL: 2015-05-31   25.85  macd:   -0.10 macd_count:  17 profit:  0.89
+Trade --> code: AVAV   BUY: 2016-05-31   28.81 SELL: 2016-08-31   24.74  macd:   -0.00 macd_count:   3 profit:  0.86
+Trade --> code: AVAV   BUY: 2017-03-31   28.03 SELL: 2022-02-28   71.05  macd:   -0.43 macd_count:  59 profit:  2.53
+Trade --> code: AVAV   BUY: 2022-03-31   94.14 SELL: 2024-03-31  130.65  macd:   10.07 macd_count:  25 profit:  1.39
+
+code: BHVN     day: macd + hist + hist_1pre - ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+
+code: BL       day: macd - hist + hist_1pre - ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: BL     BUY: 2019-02-28   52.34 SELL: 2022-05-31   73.22  macd:   -1.04 macd_count:  39 profit:  1.40
+
+code: BLK      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: BLK    BUY: 2006-07-31  129.16 SELL: 2009-01-31  108.80  macd:   -3.10 macd_count:  30 profit:  0.84
+Trade --> code: BLK    BUY: 2009-08-31  199.57 SELL: 2010-08-31  141.95  macd:   -1.66 macd_count:  12 profit:  0.71
+Trade --> code: BLK    BUY: 2011-01-31  198.02 SELL: 2011-09-30  148.01  macd:   -1.47 macd_count:   8 profit:  0.75
+Trade --> code: BLK    BUY: 2012-03-31  204.90 SELL: 2012-06-30  169.82  macd:   -0.10 macd_count:   3 profit:  0.83
+Trade --> code: BLK    BUY: 2012-11-30  197.04 SELL: 2022-09-30  550.28  macd:   -7.75 macd_count: 118 profit:  2.79
+Trade --> code: BLK    BUY: 2023-12-31  811.80 SELL: 2024-03-31  834.47  macd:   21.99 macd_count:   4 profit:  1.03
+
+code: DSGX     day: macd + hist + hist_1pre - ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: DSGX   BUY: 2006-07-31    3.93 SELL: 2008-10-31    2.83  macd:   -0.05 macd_count:  27 profit:  0.72
+Trade --> code: DSGX   BUY: 2009-08-31    4.46 SELL: 2024-03-31   90.52  macd:    4.65 macd_count: 176 profit: 20.30
+
+code: EXLS     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist - hist_1pre - , 
+Trade --> code: EXLS   BUY: 2010-03-31    3.34 SELL: 2024-03-31   31.87  macd:    0.96 macd_count: 169 profit:  9.55
+
+code: FN       day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: FN     BUY: 2013-11-30   19.80 SELL: 2018-03-31   31.38  macd:   -0.08 macd_count:  52 profit:  1.58
+Trade --> code: FN     BUY: 2018-06-30   36.89 SELL: 2024-03-31  221.92  macd:   26.16 macd_count:  70 profit:  6.02
+
+code: GFI      day: macd - hist + hist_1pre - ,  Week: macd + hist + hist_1pre - , Month: macd + hist - hist_1pre - , 
+Trade --> code: GFI    BUY: 2006-07-31   17.96 SELL: 2007-12-31   12.23  macd:   -0.04 macd_count:  17 profit:  0.68
+Trade --> code: GFI    BUY: 2010-06-30   11.52 SELL: 2012-05-31   11.41  macd:   -0.08 macd_count:  23 profit:  0.99
+Trade --> code: GFI    BUY: 2016-08-31    5.03 SELL: 2016-11-30    3.07  macd:   -0.08 macd_count:   3 profit:  0.61
+Trade --> code: GFI    BUY: 2017-12-31    4.30 SELL: 2018-04-30    3.82  macd:   -0.01 macd_count:   4 profit:  0.89
+Trade --> code: GFI    BUY: 2019-05-31    4.46 SELL: 2024-03-31   14.40  macd:    0.95 macd_count:  59 profit:  3.23
+
+code: MS       day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre - , 
+Trade --> code: MS     BUY: 2006-07-31   66.50 SELL: 2007-12-31   53.11  macd:   -0.49 macd_count:  17 profit:  0.80
+Trade --> code: MS     BUY: 2013-05-31   25.90 SELL: 2016-02-29   24.70  macd:   -0.20 macd_count:  33 profit:  0.95
+Trade --> code: MS     BUY: 2016-11-30   41.36 SELL: 2019-03-31   42.20  macd:   -0.01 macd_count:  28 profit:  1.02
+Trade --> code: MS     BUY: 2019-04-30   48.25 SELL: 2019-05-31   40.69  macd:   -0.13 macd_count:   1 profit:  0.84
+Trade --> code: MS     BUY: 2019-11-30   49.48 SELL: 2020-03-31   34.00  macd:   -0.21 macd_count:   4 profit:  0.69
+Trade --> code: MS     BUY: 2020-07-31   48.88 SELL: 2023-11-30   79.34  macd:   -0.10 macd_count:  40 profit:  1.62
+Trade --> code: MS     BUY: 2023-12-31   93.25 SELL: 2024-03-31   90.04  macd:    1.02 macd_count:   4 profit:  0.97
+
+code: NUAN     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist - hist_1pre - , 
+Trade --> code: NUAN   BUY: 2005-11-30    5.38 SELL: 2008-11-30    7.94  macd:   -0.14 macd_count:  36 profit:  1.48
+Trade --> code: NUAN   BUY: 2009-12-31   13.44 SELL: 2013-05-31   16.44  macd:   -0.10 macd_count:  41 profit:  1.22
+Trade --> code: NUAN   BUY: 2015-11-30   18.11 SELL: 2016-07-31   13.90  macd:   -0.05 macd_count:   8 profit:  0.77
+Trade --> code: NUAN   BUY: 2017-05-31   16.01 SELL: 2017-09-30   13.60  macd:   -0.04 macd_count:   4 profit:  0.85
+Trade --> code: NUAN   BUY: 2019-04-30   14.56 SELL: 2022-03-31   55.99  macd:    7.14 macd_count:  36 profit:  3.85
+
+code: RCII     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: RCII   BUY: 2006-10-31   28.76 SELL: 2007-07-31   19.41  macd:   -0.10 macd_count:   9 profit:  0.67
+Trade --> code: RCII   BUY: 2010-03-31   23.65 SELL: 2014-01-31   24.94  macd:   -0.00 macd_count:  46 profit:  1.05
+Trade --> code: RCII   BUY: 2018-12-31   16.19 SELL: 2022-05-31   27.54  macd:   -0.82 macd_count:  41 profit:  1.70
+
+code: ROL      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: ROL    BUY: 2006-07-31    2.78 SELL: 2024-03-31   45.08  macd:    2.00 macd_count: 213 profit: 16.20
+
+code: TTC      day: macd - hist - hist_1pre - ,  Week: macd + hist + hist_1pre - , Month: macd - hist - hist_1pre - , 
+Trade --> code: TTC    BUY: 2006-07-31   10.35 SELL: 2008-05-31    9.77  macd:   -0.06 macd_count:  22 profit:  0.94
+Trade --> code: TTC    BUY: 2010-03-31   12.29 SELL: 2022-06-30   75.79  macd:   -0.02 macd_count: 147 profit:  6.17
+Trade --> code: TTC    BUY: 2022-10-31  105.43 SELL: 2023-11-30   83.00  macd:   -0.94 macd_count:  13 profit:  0.79
+
