@@ -1,0 +1,3462 @@
+Fri May 10 13:49:37 UTC 2024
+arg[0]: scraping/yahoo-finace-api2.py, arg[1]: stock-code-list/buy-list.txt
+===========================
+scraping
+===========================
+START:  AAPL
+END:    0.3419189453125
+-
+START:  EL
+END:    0.6269736289978027
+-
+START:  NEE
+END:    0.954636812210083
+-
+START:  AMD
+END:    1.2352654933929443
+-
+START:  APH
+END:    1.509918451309204
+-
+START:  XLP
+END:    1.8222267627716064
+-
+START:  SPXL
+END:    2.3075528144836426
+-
+START:  KEYS
+END:    2.4649009704589844
+-
+START:  VDC
+END:    2.786996603012085
+-
+START:  SPTM
+END:    3.0965077877044678
+-
+START:  SPLG
+END:    3.359830379486084
+-
+START:  CROX
+END:    3.630854368209839
+-
+START:  AXON
+END:    3.905759572982788
+-
+START:  AWR
+END:    4.358772277832031
+-
+START:  FN
+END:    4.5746166706085205
+-
+START:  NXST
+END:    4.853989124298096
+-
+START:  TREX
+END:    5.173901319503784
+-
+START:  RGEN
+END:    5.456778049468994
+-
+START:  EXPO
+END:    5.758121013641357
+-
+START:  BCPC
+END:    6.059083461761475
+-
+START:  SOXL
+END:    6.285492658615112
+-
+START:  TECL
+END:    7.550937175750732
+-
+START:  NEO
+END:    7.78426194190979
+-
+START:  NVMI
+END:    8.065303802490234
+-
+START:  NVDA
+END:    8.371748447418213
+-
+START:  BBDC
+END:    9.654319047927856
+-
+START:  APPS
+END:    9.89381217956543
+-
+START:  ROK
+END:    10.258079051971436
+-
+START:  NHTC
+END:    10.563997745513916
+-
+START:  ZYXI
+END:    10.885042905807495
+-
+START:  LIT
+END:    11.117877006530762
+-
+START:  LLY
+END:    11.453953504562378
+-
+START:  GTLB
+END:    11.547540426254272
+-
+START:  MCD
+END:    11.892059087753296
+-
+START:  MSI
+END:    12.293222904205322
+-
+START:  HCP
+END:    12.438916444778442
+-
+START:  ON
+END:    12.728993892669678
+-
+===========================
+MACD sell
+===========================
+START:  AAPL
+START:  EL
+START:  NEE
+START:  AMD
+START:  APH
+START:  XLP
+START:  SPXL
+START:  KEYS
+START:  VDC
+START:  SPTM
+START:  SPLG
+START:  CROX
+START:  AXON
+START:  AWR
+START:  FN
+START:  NXST
+START:  TREX
+START:  RGEN
+START:  EXPO
+START:  BCPC
+START:  SOXL
+START:  TECL
+START:  NEO
+START:  NVMI
+START:  NVDA
+START:  BBDC
+START:  APPS
+START:  ROK
+START:  NHTC
+START:  ZYXI
+START:  LIT
+START:  LLY
+START:  GTLB
+START:  MCD
+START:  MSI
+START:  HCP
+START:  ON
+==== MACD list ====
+code: AAPL     day: macd + hist + ,  Week: macd - hist + , Month: macd + hist - , 
+code: EL       day: macd - hist - ,  Week: macd - hist - , Month: macd - hist - , 
+code: NEE      day: macd + hist + ,  Week: macd + hist + , Month: macd - hist + , 
+code: AMD      day: macd - hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: APH      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: XLP      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SPXL     day: macd + hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: KEYS     day: macd - hist + ,  Week: macd + hist - , Month: macd - hist + , 
+code: VDC      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: SPTM     day: macd + hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: SPLG     day: macd + hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: CROX     day: macd + hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: AXON     day: macd + hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: AWR      day: macd + hist + ,  Week: macd - hist + , Month: macd - hist - , 
+code: FN       day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: NXST     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: TREX     day: macd - hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: RGEN     day: macd - hist + ,  Week: macd - hist - , Month: macd - hist + , 
+code: EXPO     day: macd + hist + ,  Week: macd + hist + , Month: macd - hist + , 
+code: BCPC     day: macd + hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: SOXL     day: macd - hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: TECL     day: macd - hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: NEO      day: macd + hist + ,  Week: macd - hist + , Month: macd - hist + , 
+code: NVMI     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: NVDA     day: macd + hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: BBDC     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: APPS     day: macd - hist + ,  Week: macd - hist + , Month: macd - hist + , 
+code: ROK      day: macd - hist - ,  Week: macd - hist - , Month: macd + hist - , 
+code: NHTC     day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: ZYXI     day: macd - hist - ,  Week: macd + hist - , Month: macd + hist + , 
+code: LIT      day: macd + hist + ,  Week: macd - hist + , Month: macd - hist - , 
+code: LLY      day: macd + hist + ,  Week: macd + hist - , Month: macd + hist + , 
+code: GTLB     day: macd - hist + ,  Week: macd - hist - , Month: macd - hist + , 
+code: MCD      day: macd - hist - ,  Week: macd - hist - , Month: macd + hist - , 
+code: MSI      day: macd + hist + ,  Week: macd + hist + , Month: macd + hist + , 
+code: HCP      day: macd + hist + ,  Week: macd + hist + , Month: macd - hist + , 
+code: ON       day: macd + hist + ,  Week: macd - hist + , Month: macd + hist - , 
+==== MACD sell list ====
+code: AAPL     day: macd + hist + ,  Week: macd - hist + , Month: macd + hist - , 
+code: EL       day: macd - hist - , 
+code: EL       day: macd - hist - ,  Week: macd - hist - , 
+code: EL       day: macd - hist - ,  Week: macd - hist - , Month: macd - hist - , 
+code: AMD      day: macd - hist + ,  Week: macd + hist - , 
+code: SPXL     day: macd + hist + ,  Week: macd + hist - , 
+code: KEYS     day: macd - hist + ,  Week: macd + hist - , 
+code: SPTM     day: macd + hist + ,  Week: macd + hist - , 
+code: SPLG     day: macd + hist + ,  Week: macd + hist - , 
+code: CROX     day: macd + hist + ,  Week: macd + hist - , 
+code: AXON     day: macd + hist - , 
+code: AXON     day: macd + hist - ,  Week: macd + hist - , 
+code: AWR      day: macd + hist + ,  Week: macd - hist + , Month: macd - hist - , 
+code: TREX     day: macd - hist + ,  Week: macd + hist - , 
+code: RGEN     day: macd - hist + ,  Week: macd - hist - , 
+code: BCPC     day: macd + hist + ,  Week: macd + hist - , 
+code: SOXL     day: macd - hist + ,  Week: macd + hist - , 
+code: TECL     day: macd - hist + ,  Week: macd + hist - , 
+code: NVDA     day: macd + hist + ,  Week: macd + hist - , 
+code: ROK      day: macd - hist - , 
+code: ROK      day: macd - hist - ,  Week: macd - hist - , 
+code: ROK      day: macd - hist - ,  Week: macd - hist - , Month: macd + hist - , 
+code: ZYXI     day: macd - hist - , 
+code: ZYXI     day: macd - hist - ,  Week: macd + hist - , 
+code: LIT      day: macd + hist + ,  Week: macd - hist + , Month: macd - hist - , 
+code: LLY      day: macd + hist + ,  Week: macd + hist - , 
+code: GTLB     day: macd - hist + ,  Week: macd - hist - , 
+code: MCD      day: macd - hist - , 
+code: MCD      day: macd - hist - ,  Week: macd - hist - , 
+code: MCD      day: macd - hist - ,  Week: macd - hist - , Month: macd + hist - , 
+code: ON       day: macd + hist + ,  Week: macd - hist + , Month: macd + hist - , 
+===========================
+profit
+===========================
+==== plus ====
+AMD  , macd -, macd hist +, profit:  [36.05], per:  [29.98], now: [156.28], buy: [120.23]
+XLP  , macd +, macd hist +, profit:    [4.7], per:   [6.48], now:  [77.28], buy:  [72.58]
+SPXL , macd +, macd hist +, profit:   [0.62], per:   [0.47], now: [130.85], buy: [130.23]
+VDC  , macd +, macd hist +, profit:  [16.68], per:    [8.8], now: [206.21], buy: [189.53]
+SPTM , macd +, macd hist +, profit:   [7.43], per:  [13.14], now:  [64.01], buy:  [56.58]
+SPLG , macd +, macd hist +, profit:   [7.47], per:  [13.84], now:  [61.46], buy:  [53.99]
+AXON , macd +, macd hist -, profit: [170.85], per: [123.67], now:   [309.], buy: [138.15]
+FN   , macd +, macd hist +, profit: [101.19], per:  [86.59], now: [218.05], buy: [116.86]
+NXST , macd +, macd hist +, profit:  [13.81], per:    [8.5], now: [176.31], buy:  [162.5]
+TREX , macd -, macd hist +, profit:  [19.91], per:  [28.44], now:  [89.91], buy:    [70.]
+BCPC , macd +, macd hist +, profit:   [17.4], per:  [12.69], now: [154.48], buy: [137.08]
+SOXL , macd -, macd hist +, profit:   [0.12], per:   [0.29], now:  [42.21], buy:  [42.09]
+TECL , macd -, macd hist +, profit:  [15.29], per:  [25.17], now:  [76.03], buy:  [60.74]
+NVMI , macd +, macd hist +, profit:  [77.75], per:  [67.82], now:  [192.4], buy: [114.65]
+NVDA , macd +, macd hist +, profit: [656.89], per: [256.93], now: [912.56], buy: [255.67]
+NHTC , macd +, macd hist +, profit:   [0.01], per:   [0.19], now:   [7.18], buy:   [7.17]
+ZYXI , macd -, macd hist -, profit:   [4.31], per:  [67.77], now:  [10.67], buy:   [6.36]
+LLY  , macd +, macd hist +, profit: [503.44], per: [185.77], now: [774.44], buy:   [271.]
+GTLB , macd -, macd hist +, profit:   [0.59], per:   [1.11], now:  [53.35], buy:  [52.76]
+MCD  , macd -, macd hist -, profit:    [16.], per:   [6.31], now: [269.46], buy: [253.46]
+MSI  , macd +, macd hist +, profit: [109.72], per:  [43.64], now: [361.13], buy: [251.41]
+ON   , macd +, macd hist +, profit:  [11.03], per:  [18.42], now:  [70.89], buy:  [59.86]
+-
+     plus  len:  22
+     profit: [1791.26], per: [1006.02], per/len(p):  [45.73], per/len(p+m):  [27.19]
+-
+==== minus ====
+AAPL , macd +, macd hist +, profit:       [], per:       [], now: [183.67], buy:       []
+EL   , macd -, macd hist -, profit: [-208.01], per: [-61.22], now: [131.74], buy: [339.75]
+NEE  , macd +, macd hist +, profit: [-10.72], per: [-12.56], now:  [74.61], buy:  [85.33]
+APH  , macd +, macd hist +, profit:       [], per:       [], now: [128.46], buy:       []
+KEYS , macd -, macd hist +, profit: [-34.42], per:  [-18.5], now: [151.64], buy: [186.06]
+CROX , macd +, macd hist +, profit: [-36.26], per: [-20.44], now: [141.15], buy: [177.42]
+AWR  , macd +, macd hist +, profit:       [], per:       [], now:  [77.76], buy:       []
+RGEN , macd -, macd hist +, profit: [-12.58], per:    [-7.], now: [167.08], buy: [179.66]
+EXPO , macd +, macd hist +, profit:  [-6.86], per:  [-6.78], now:  [94.25], buy: [101.11]
+NEO  , macd +, macd hist +, profit:  [-2.18], per: [-12.22], now:  [15.66], buy:  [17.84]
+BBDC , macd +, macd hist +, profit:  [-0.89], per:  [-8.35], now:   [9.72], buy:   [10.6]
+APPS , macd -, macd hist +, profit:  [-41.4], per:  [-94.8], now:   [2.27], buy:  [43.67]
+ROK  , macd -, macd hist -, profit: [-68.83], per: [-20.13], now: [273.07], buy: [341.89]
+LIT  , macd +, macd hist +, profit:  [-46.3], per: [-50.38], now:  [45.61], buy:  [91.91]
+HCP  , macd +, macd hist +, profit: [-21.51], per:  [-39.6], now:  [32.79], buy:   [54.3]
+-
+     minus len:  15
+     profit:       [], per:       [], per/len(m):       [], per/len(p+m):       []
+-
+==== total ====
+     profit:       [], per:       [], per/len(p+m):       []
+arg[0]: scraping/yahoo-finace-api2.py, arg[1]: stock-code-list/up-month.txt
+===========================
+scraping
+===========================
+START:  A
+END:    0.34775257110595703
+-
+START:  AAON
+END:    0.6638331413269043
+-
+START:  AAPL
+END:    0.9931032657623291
+-
+START:  ABG
+END:    1.2640533447265625
+-
+START:  ABT
+END:    1.6061623096466064
+-
+START:  ACLS
+END:    1.8917183876037598
+-
+START:  ACMR
+END:    2.1463873386383057
+-
+START:  ACN
+END:    2.4256300926208496
+-
+START:  ADBE
+END:    2.7384743690490723
+-
+START:  ADI
+END:    3.039196729660034
+-
+START:  ADP
+END:    3.349839925765991
+-
+START:  ADSK
+END:    3.6875224113464355
+-
+START:  ADUS
+END:    3.884786605834961
+-
+START:  AEE
+END:    4.163740873336792
+-
+START:  AGYS
+END:    4.503169298171997
+-
+START:  AIZ
+END:    4.820783615112305
+-
+START:  AJG
+END:    5.1728293895721436
+-
+START:  AJRD
+Not Found: No data found, symbol may be delisted
+START:  ALB
+END:    5.565732717514038
+-
+START:  ALG
+END:    5.890323162078857
+-
+START:  ALGN
+END:    7.177207946777344
+-
+START:  ALLE
+END:    7.351027250289917
+-
+START:  ALTR
+END:    7.518449544906616
+-
+START:  AMAT
+END:    7.84083890914917
+-
+START:  AMBA
+END:    8.048173427581787
+-
+START:  AMD
+END:    8.313137769699097
+-
+START:  AME
+END:    9.699222564697266
+-
+START:  AMED
+END:    9.983083248138428
+-
+START:  AMEH
+Not Found: No data found, symbol may be delisted
+START:  AMGN
+END:    10.347028493881226
+-
+START:  AMN
+END:    10.624078273773193
+-
+START:  AMP
+END:    10.913490533828735
+-
+START:  AMRC
+END:    11.179312229156494
+-
+START:  AMSWA
+END:    11.503745794296265
+-
+START:  AMTX
+END:    11.743765115737915
+-
+START:  AMZN
+END:    12.03141736984253
+-
+START:  AN
+END:    12.33153247833252
+-
+START:  ANSS
+END:    12.581029891967773
+-
+START:  ANTM
+Not Found: No data found, symbol may be delisted
+START:  AON
+END:    12.988659858703613
+-
+START:  AOSL
+END:    14.232739210128784
+-
+START:  APD
+END:    14.586074829101562
+-
+START:  APH
+END:    14.9110267162323
+-
+START:  APPF
+END:    15.096747159957886
+-
+START:  APPN
+END:    15.274572849273682
+-
+START:  APPS
+END:    15.523127317428589
+-
+START:  AQN
+END:    15.755446910858154
+-
+START:  ARCB
+END:    16.08649444580078
+-
+START:  ARCT
+END:    16.25258708000183
+-
+START:  ARES
+END:    16.45828080177307
+-
+START:  ARGX
+END:    16.675358533859253
+-
+START:  ARWR
+END:    16.95001482963562
+-
+START:  ASML
+END:    17.27399516105652
+-
+START:  ASPN
+END:    17.47120189666748
+-
+START:  ATEC
+END:    17.695274591445923
+-
+START:  ATEN
+END:    17.89643430709839
+-
+START:  ATKR
+END:    18.06978154182434
+-
+START:  ATOM
+END:    19.22895622253418
+-
+START:  ATR
+END:    19.561009407043457
+-
+START:  ATRC
+END:    19.82123112678528
+-
+START:  AUDC
+END:    21.13715624809265
+-
+START:  AUPH
+END:    22.352322340011597
+-
+START:  AVAV
+END:    22.592642545700073
+-
+START:  AVGO
+END:    22.846258640289307
+-
+START:  AVID
+Not Found: No data found, symbol may be delisted
+START:  AVNW
+END:    23.149561882019043
+-
+START:  AVXL
+END:    23.426570892333984
+-
+START:  AVY
+END:    24.79232120513916
+-
+START:  AWK
+END:    25.055290699005127
+-
+START:  AWR
+END:    26.393089771270752
+-
+START:  AXON
+END:    26.63446044921875
+-
+START:  AZO
+END:    27.888371229171753
+-
+START:  AZPN
+END:    28.219475507736206
+-
+START:  BAH
+END:    29.52538251876831
+-
+START:  BAM
+END:    29.619143962860107
+-
+START:  BAX
+END:    29.94551372528076
+-
+START:  BBH
+END:    30.24249291419983
+-
+START:  BBQ
+END:    30.532501697540283
+-
+START:  BBY
+END:    31.84949779510498
+-
+START:  BCPC
+END:    32.23344707489014
+-
+START:  BDX
+END:    33.59100556373596
+-
+START:  BEEM
+END:    33.79720997810364
+-
+START:  BFAM
+END:    34.99725270271301
+-
+START:  BFC
+END:    35.263986587524414
+-
+START:  BGFV
+END:    35.577924489974976
+-
+START:  BGNE
+END:    36.751962184906006
+-
+START:  BHVN
+END:    36.836639404296875
+-
+START:  BIO
+END:    37.10823631286621
+-
+START:  BL
+END:    37.26646947860718
+-
+START:  BLD
+END:    37.44880485534668
+-
+START:  BLDP
+END:    37.69980072975159
+-
+START:  BLDR
+END:    37.97317838668823
+-
+START:  BLFS
+END:    38.22785711288452
+-
+START:  BLK
+END:    38.56183934211731
+-
+START:  BLL
+Not Found: No data found, symbol may be delisted
+START:  BLNK
+END:    38.82775664329529
+-
+START:  BMI
+END:    39.15135383605957
+-
+START:  BOOT
+END:    39.33877658843994
+-
+START:  BOTZ
+END:    39.52318096160889
+-
+START:  BR
+END:    39.89552712440491
+-
+START:  BRKR
+END:    40.180196046829224
+-
+START:  BRKS
+Not Found: No data found, symbol may be delisted
+START:  BRO
+END:    40.608112812042236
+-
+START:  BURL
+END:    41.810434341430664
+-
+START:  BX
+END:    42.08228087425232
+-
+START:  CABO
+END:    42.286444425582886
+-
+START:  CACI
+END:    42.54602241516113
+-
+START:  CALX
+END:    43.802188873291016
+-
+START:  CAMT
+END:    44.10214686393738
+-
+START:  CAR
+END:    44.44238018989563
+-
+START:  CBRE
+END:    44.77138710021973
+-
+START:  CBSH
+END:    45.11163520812988
+-
+START:  CBZ
+END:    45.45149040222168
+-
+START:  CCOI
+END:    45.73387122154236
+-
+START:  CCS
+END:    45.93384790420532
+-
+START:  CDMO
+END:    46.187124490737915
+-
+START:  CDNA
+END:    47.38533544540405
+-
+START:  CDNS
+END:    47.65424942970276
+-
+START:  CDW
+END:    48.919105052948
+-
+START:  CELH
+END:    49.17309641838074
+-
+START:  CGNX
+END:    49.5019805431366
+-
+START:  CHD
+END:    49.82899522781372
+-
+START:  CHDN
+END:    50.20817542076111
+-
+START:  CHE
+END:    51.571309328079224
+-
+START:  CHGG
+END:    51.72883725166321
+-
+START:  CHH
+END:    52.04685831069946
+-
+START:  CHKP
+END:    53.35405659675598
+-
+START:  CHTR
+END:    53.5809121131897
+-
+START:  CIEN
+END:    53.86125588417053
+-
+START:  CLAR
+END:    54.15102696418762
+-
+START:  CLFD
+END:    54.401020526885986
+-
+START:  CLGN
+END:    54.5435049533844
+-
+START:  CLNE
+END:    54.795846939086914
+-
+START:  CLPT
+END:    56.02900242805481
+-
+START:  CLX
+END:    56.36562728881836
+-
+START:  CMCSA
+END:    56.70447373390198
+-
+START:  CMG
+END:    56.9643177986145
+-
+START:  CMS
+END:    57.271257400512695
+-
+START:  CNC
+END:    57.54650831222534
+-
+START:  CNI
+END:    57.85299015045166
+-
+START:  CNMD
+END:    59.14275240898132
+-
+START:  CNS
+END:    59.42272067070007
+-
+START:  CNXN
+END:    60.70449614524841
+-
+START:  COO
+END:    61.027735471725464
+-
+START:  COST
+END:    61.341185092926025
+-
+START:  COUP
+Not Found: No data found, symbol may be delisted
+START:  COWN
+Not Found: No data found, symbol may be delisted
+START:  CP
+END:    61.793367862701416
+-
+START:  CPK
+END:    62.10774064064026
+-
+START:  CPRT
+END:    62.34248638153076
+-
+START:  CPSH
+END:    62.570483922958374
+-
+START:  CRAI
+END:    62.849602937698364
+-
+START:  CREE
+Not Found: No data found, symbol may be delisted
+START:  CRL
+END:    63.19092655181885
+-
+START:  CRM
+END:    64.47660970687866
+-
+START:  CRMT
+END:    64.75127291679382
+-
+START:  CROX
+END:    65.0251715183258
+-
+START:  CRSP
+END:    65.1942207813263
+-
+START:  CRVL
+END:    65.44232106208801
+-
+START:  CSGP
+END:    65.69130396842957
+-
+START:  CSL
+END:    66.02136826515198
+-
+START:  CSWI
+END:    66.21148681640625
+-
+START:  CSX
+END:    66.54982590675354
+-
+START:  CTAS
+END:    67.9695336818695
+-
+START:  CTLT
+END:    68.15334749221802
+-
+START:  CTRN
+END:    68.43478441238403
+-
+START:  CURE
+END:    68.68822765350342
+-
+START:  CVCO
+END:    68.97034454345703
+-
+START:  CVNA
+END:    69.13616919517517
+-
+START:  CWST
+END:    69.41752982139587
+-
+START:  CWT
+END:    69.76618528366089
+-
+START:  CXSE
+END:    70.00719404220581
+-
+START:  CYBR
+END:    70.24644994735718
+-
+START:  CYRX
+END:    71.50074672698975
+-
+START:  CYTK
+END:    71.78693151473999
+-
+START:  DAC
+END:    73.04869961738586
+-
+START:  DAR
+END:    73.31932330131531
+-
+START:  DAVA
+END:    73.46371006965637
+-
+START:  DDS
+END:    73.79030680656433
+-
+START:  DE
+END:    74.20052742958069
+-
+START:  DECK
+END:    75.5002179145813
+-
+START:  DELL
+END:    75.68413424491882
+-
+START:  DFIN
+END:    76.85907244682312
+-
+START:  DG
+END:    77.10666060447693
+-
+START:  DGRW
+END:    77.31502151489258
+-
+START:  DHI
+END:    77.63423228263855
+-
+START:  DHR
+END:    77.94706559181213
+-
+START:  DIA
+END:    78.22570896148682
+-
+START:  DIOD
+END:    78.49698996543884
+-
+START:  DIS
+END:    78.8936779499054
+-
+START:  DKS
+END:    80.22652220726013
+-
+START:  DLN
+END:    80.55940818786621
+-
+START:  DNLI
+END:    80.69654130935669
+-
+START:  DOMO
+END:    80.83920049667358
+-
+START:  DOV
+END:    81.18456196784973
+-
+START:  DPZ
+END:    81.50625824928284
+-
+START:  DQ
+END:    82.73978805541992
+-
+START:  DRD
+END:    83.01494002342224
+-
+START:  DRIO
+END:    83.19466090202332
+-
+START:  DRNA
+Not Found: No data found, symbol may be delisted
+START:  DSGX
+END:    83.5155839920044
+-
+START:  DVAX
+END:    84.8159863948822
+-
+START:  DXCM
+END:    85.0849461555481
+-
+START:  ECL
+END:    85.42463302612305
+-
+START:  EFX
+END:    85.72528338432312
+-
+START:  EGAN
+END:    85.9814727306366
+-
+START:  EHC
+END:    87.29953789710999
+-
+START:  EL
+END:    87.6063301563263
+-
+START:  ENPH
+END:    87.81253695487976
+-
+START:  ENSG
+END:    88.0982940196991
+-
+START:  ENTG
+END:    88.35638856887817
+-
+START:  ENV
+END:    88.57839107513428
+-
+START:  EPAM
+END:    89.79781317710876
+-
+START:  ERIE
+END:    90.13153266906738
+-
+START:  ES
+END:    90.45481061935425
+-
+START:  ESE
+END:    91.79541635513306
+-
+START:  ETN
+END:    92.17528247833252
+-
+START:  ETSY
+END:    92.38081121444702
+-
+START:  EVBG
+END:    92.52534627914429
+-
+START:  EVTC
+END:    92.6972599029541
+-
+START:  EW
+END:    92.94740891456604
+-
+START:  EWT
+END:    93.24152946472168
+-
+START:  EXAS
+END:    93.49413323402405
+-
+START:  EXLS
+END:    94.7959246635437
+-
+START:  EXPD
+END:    95.16066837310791
+-
+START:  EXPI
+END:    95.3058831691742
+-
+START:  EXPO
+END:    95.57186698913574
+-
+START:  FAST
+END:    96.92006278038025
+-
+START:  FATE
+END:    97.1041796207428
+-
+START:  FB
+Not Found: No data found, symbol may be delisted
+START:  FCN
+END:    97.44564509391785
+-
+START:  FCX
+END:    97.83225584030151
+-
+START:  FDN
+END:    98.07035183906555
+-
+START:  FDS
+END:    99.39591360092163
+-
+START:  FELE
+END:    99.7698667049408
+-
+START:  FFIN
+END:    100.07653188705444
+-
+START:  FICO
+END:    100.42282676696777
+-
+START:  FINX
+END:    101.61676979064941
+-
+START:  FIS
+END:    101.91485691070557
+-
+START:  FISV
+END:    101.99119973182678
+-
+START:  FIVE
+END:    102.18890404701233
+-
+START:  FIVN
+END:    102.38474559783936
+-
+START:  FLGT
+END:    102.53240132331848
+-
+START:  FLT
+END:    102.74067234992981
+-
+START:  FLWS
+END:    102.9740822315216
+-
+START:  FN
+END:    103.19120788574219
+-
+START:  FND
+END:    103.3539206981659
+-
+START:  FNV
+END:    103.60870623588562
+-
+START:  FORM
+END:    103.88356256484985
+-
+START:  FOXF
+END:    104.08749556541443
+-
+START:  FPX
+END:    104.38707327842712
+-
+START:  FRC
+Not Found: No data found, symbol may be delisted
+START:  FRHC
+END:    104.60091972351074
+-
+START:  FRPT
+END:    104.78215169906616
+-
+START:  FSS
+END:    105.14575552940369
+-
+START:  FTNT
+END:    106.39831233024597
+-
+START:  FUV
+END:    106.543936252594
+-
+START:  GDEN
+END:    106.8510913848877
+-
+START:  GFI
+END:    107.16613864898682
+-
+START:  GGG
+END:    107.52875781059265
+-
+START:  GIB
+END:    108.80383467674255
+-
+START:  GLDD
+END:    109.0645101070404
+-
+START:  GLOB
+END:    109.27081441879272
+-
+START:  GMAB
+END:    109.4831953048706
+-
+START:  GME
+END:    109.77235126495361
+-
+START:  GMED
+END:    109.97565007209778
+-
+START:  GNRC
+END:    111.22390651702881
+-
+START:  GNSS
+END:    111.48559784889221
+-
+START:  GNTX
+END:    111.80532956123352
+-
+START:  GOLF
+END:    112.00132441520691
+-
+START:  GOOG
+END:    113.29121923446655
+-
+START:  GOOGL
+END:    113.56729483604431
+-
+START:  GPI
+END:    113.86881589889526
+-
+START:  GPN
+END:    114.17823553085327
+-
+START:  GRBK
+END:    114.43357348442078
+-
+START:  GRMN
+END:    115.73500943183899
+-
+START:  GRVY
+END:    115.98935198783875
+-
+START:  GRWG
+END:    116.13044285774231
+-
+START:  GWRE
+END:    116.34660840034485
+-
+START:  HACK
+END:    116.54655933380127
+-
+START:  HALO
+END:    116.84632325172424
+-
+START:  HCI
+END:    118.11122035980225
+-
+START:  HD
+END:    118.46353030204773
+-
+START:  HEI
+END:    118.78796792030334
+-
+START:  HELE
+END:    119.06853032112122
+-
+START:  HIBB
+END:    120.36574721336365
+-
+START:  HLI
+END:    120.55870008468628
+-
+START:  HLT
+END:    120.76837182044983
+-
+START:  HOLX
+END:    121.05726027488708
+-
+START:  HON
+END:    121.44172382354736
+-
+START:  HOV
+END:    122.69335579872131
+-
+START:  HRC
+Not Found: No data found, symbol may be delisted
+START:  HRI
+END:    123.01601362228394
+-
+START:  HSKA
+Not Found: No data found, symbol may be delisted
+START:  HTHT
+END:    123.32026433944702
+-
+START:  HUBS
+END:    123.50350284576416
+-
+START:  HUM
+END:    123.82300329208374
+-
+START:  HZNP
+END:    123.89379072189331
+-
+START:  IAC
+END:    125.23979592323303
+-
+START:  IBP
+END:    125.44172883033752
+-
+START:  ICE
+END:    125.7208423614502
+-
+START:  ICLN
+END:    126.00217485427856
+-
+START:  ICLR
+END:    127.31708192825317
+-
+START:  IDT
+END:    127.61395072937012
+-
+START:  IDXX
+END:    127.89611315727234
+-
+START:  IESC
+END:    128.1761691570282
+-
+START:  IEX
+END:    129.52964901924133
+-
+START:  ILMN
+END:    129.81042528152466
+-
+START:  INFO
+Not Found: No data found, symbol may be delisted
+START:  INOV
+END:    129.95733499526978
+-
+START:  INSP
+END:    130.0878336429596
+-
+START:  INTC
+END:    130.41611099243164
+-
+START:  INTU
+END:    130.71615552902222
+-
+START:  INTZ
+END:    132.0451226234436
+-
+START:  INVE
+END:    132.29505968093872
+-
+START:  IOO
+END:    132.5835816860199
+-
+START:  IQV
+END:    132.75953221321106
+-
+START:  IRDM
+END:    132.989590883255
+-
+START:  IRMD
+END:    133.17945194244385
+-
+START:  ISEE
+Not Found: No data found, symbol may be delisted
+START:  ISRG
+END:    134.5513401031494
+-
+START:  IT
+END:    134.8179874420166
+-
+START:  ITT
+END:    135.13296580314636
+-
+START:  ITW
+END:    135.48250317573547
+-
+START:  IVOG
+END:    135.72964000701904
+-
+START:  IVV
+END:    137.07343888282776
+-
+START:  IXJ
+END:    137.3857765197754
+-
+START:  IXN
+END:    137.71064925193787
+-
+START:  J
+END:    139.06906127929688
+-
+START:  JBL
+END:    139.38187432289124
+-
+START:  JBSS
+END:    139.66418552398682
+-
+START:  JD
+END:    139.8570213317871
+-
+START:  JKHY
+END:    140.15989780426025
+-
+START:  JKS
+END:    141.4150059223175
+-
+START:  JNJ
+END:    141.79844164848328
+-
+START:  JOE
+END:    142.12453699111938
+-
+START:  JOUT
+END:    142.40501284599304
+-
+START:  JYNT
+END:    142.6051619052887
+-
+START:  KAI
+END:    142.90805506706238
+-
+START:  KBH
+END:    144.26929783821106
+-
+START:  KBR
+END:    144.5346622467041
+-
+START:  KDMN
+Not Found: No data found, symbol may be delisted
+START:  KEYS
+END:    144.79036140441895
+-
+START:  KLAC
+END:    146.14044737815857
+-
+START:  KLIC
+END:    146.42801666259766
+-
+START:  KMX
+END:    146.75984716415405
+-
+START:  KNSL
+END:    146.9279181957245
+-
+START:  KOPN
+END:    147.20309925079346
+-
+START:  KOSS
+END:    148.49235010147095
+-
+START:  KRNT
+END:    148.66237711906433
+-
+START:  KSU
+Not Found: No data found, symbol may be delisted
+START:  KTOS
+END:    150.00160121917725
+-
+START:  LAC
+END:    151.10402083396912
+-
+START:  LAD
+END:    151.41129779815674
+-
+START:  LANC
+END:    151.78322911262512
+-
+START:  LAWS
+Not Found: No data found, symbol may be delisted
+START:  LDOS
+END:    153.12026143074036
+-
+START:  LFMD
+END:    153.39325594902039
+-
+START:  LGIH
+END:    153.59993600845337
+-
+START:  LH
+END:    153.91304326057434
+-
+START:  LHCG
+Not Found: No data found, symbol may be delisted
+START:  LHX
+END:    155.34659790992737
+-
+START:  LII
+END:    155.6652431488037
+-
+START:  LIN
+END:    157.0056917667389
+-
+START:  LINC
+END:    158.28672647476196
+-
+START:  LIT
+END:    158.52819347381592
+-
+START:  LLY
+END:    158.91522598266602
+-
+START:  LMT
+END:    159.26384568214417
+-
+START:  LNT
+END:    159.64611840248108
+-
+START:  LOB
+END:    159.8382921218872
+-
+START:  LOGI
+END:    160.1419677734375
+-
+START:  LOVE
+END:    160.26949524879456
+-
+START:  LOW
+END:    160.65082836151123
+-
+START:  LPLA
+END:    160.937726020813
+-
+START:  LPSN
+END:    161.21670198440552
+-
+START:  LQDT
+END:    162.4466290473938
+-
+START:  LRCX
+END:    162.76419472694397
+-
+START:  LSCC
+END:    163.04808950424194
+-
+START:  LSTR
+END:    163.319340467453
+-
+START:  LULU
+END:    163.5745234489441
+-
+START:  LUNA
+END:    163.8191134929657
+-
+START:  MA
+END:    165.10666489601135
+-
+START:  MANH
+END:    166.39545321464539
+-
+START:  MANT
+Not Found: No data found, symbol may be delisted
+START:  MARA
+END:    166.67254829406738
+-
+START:  MASI
+END:    167.04298496246338
+-
+START:  MATX
+END:    167.41532349586487
+-
+START:  MBUU
+END:    167.61370086669922
+-
+START:  MCD
+END:    167.9668483734131
+-
+START:  MCHP
+END:    168.28120470046997
+-
+START:  MCO
+END:    169.60549354553223
+-
+START:  MDB
+END:    169.77313327789307
+-
+START:  MDT
+END:    170.14635300636292
+-
+START:  MEDP
+END:    170.31876254081726
+-
+START:  MEDS
+END:    170.49261045455933
+-
+START:  MELI
+END:    170.74585461616516
+-
+START:  MGC
+END:    170.97318124771118
+-
+START:  MGIC
+END:    171.38745951652527
+-
+START:  MGK
+END:    171.6532154083252
+-
+START:  MGNI
+END:    171.82434463500977
+-
+START:  MHO
+END:    172.1043083667755
+-
+START:  MIME
+Not Found: No data found, symbol may be delisted
+START:  MITK
+END:    173.49427461624146
+-
+START:  MKC
+END:    173.81969809532166
+-
+START:  MKSI
+END:    174.09111285209656
+-
+START:  MKTX
+END:    174.37885308265686
+-
+START:  MLAB
+END:    174.69741702079773
+-
+START:  MLR
+END:    174.9852795600891
+-
+START:  MMC
+END:    175.36087727546692
+-
+START:  MMS
+END:    176.67230653762817
+-
+START:  MNMD
+END:    176.82814168930054
+-
+START:  MNST
+END:    177.12895488739014
+-
+START:  MODN
+END:    177.33967208862305
+-
+START:  MODV
+END:    177.5885922908783
+-
+START:  MOH
+END:    177.8707091808319
+-
+START:  MORN
+END:    178.11693668365479
+-
+START:  MPWR
+END:    178.42850971221924
+-
+START:  MRTX
+Not Found: No data found, symbol may be delisted
+START:  MRVL
+END:    178.79435420036316
+-
+START:  MS
+END:    179.0861804485321
+-
+START:  MSA
+END:    180.43303632736206
+-
+START:  MSCI
+END:    180.68374752998352
+-
+START:  MSEX
+END:    181.0188548564911
+-
+START:  MSFT
+END:    182.31549668312073
+-
+START:  MSI
+END:    182.75959467887878
+-
+START:  MSTR
+END:    183.04132747650146
+-
+START:  MTBC
+Not Found: No data found, symbol may be delisted
+START:  MTCH
+END:    184.42819023132324
+-
+START:  MTD
+END:    185.79546737670898
+-
+START:  MTEX
+END:    186.0875871181488
+-
+START:  MTH
+END:    187.4444558620453
+-
+START:  MTLS
+END:    187.63280820846558
+-
+START:  MTSI
+END:    187.79657101631165
+-
+START:  MU
+END:    188.08930611610413
+-
+START:  MUSA
+END:    188.34387707710266
+-
+START:  MVIS
+END:    188.57978463172913
+-
+START:  MXL
+END:    188.8390302658081
+-
+START:  MYRG
+END:    190.0755100250244
+-
+START:  NBIX
+END:    190.3656711578369
+-
+START:  NCBS
+Not Found: No data found, symbol may be delisted
+START:  NDAQ
+END:    190.75924634933472
+-
+START:  NDSN
+END:    191.13622164726257
+-
+START:  NEE
+END:    191.47095608711243
+-
+START:  NEO
+END:    191.7525074481964
+-
+START:  NEOG
+END:    193.03796339035034
+-
+START:  NFLX
+END:    193.287593126297
+-
+START:  NICE
+END:    193.5630443096161
+-
+START:  NISN
+END:    194.74365496635437
+-
+START:  NKE
+END:    195.10263848304749
+-
+START:  NOVT
+END:    195.39587545394897
+-
+START:  NOW
+END:    195.6030888557434
+-
+START:  NSC
+END:    196.9777729511261
+-
+START:  NSIT
+END:    197.28048849105835
+-
+START:  NSSC
+END:    197.58438754081726
+-
+START:  NSTG
+END:    197.76891231536865
+-
+START:  NTLA
+END:    197.9392158985138
+-
+START:  NTRA
+END:    198.12508082389832
+-
+START:  NUAN
+Not Found: No data found, symbol may be delisted
+START:  NVCR
+END:    198.37367725372314
+-
+START:  NVDA
+END:    198.68683910369873
+-
+START:  NVMI
+END:    198.9407684803009
+-
+START:  NVO
+END:    199.29543042182922
+-
+START:  NVR
+END:    199.55184888839722
+-
+START:  NXST
+END:    199.8532350063324
+-
+START:  NYT
+END:    200.18754982948303
+-
+START:  OBCI
+Not Found: No data found, symbol may be delisted
+START:  ODFL
+END:    201.5657651424408
+-
+START:  OEF
+END:    201.86577129364014
+-
+START:  OFLX
+END:    202.14761233329773
+-
+START:  OLED
+END:    202.43778228759766
+-
+START:  OMCL
+END:    202.7132329940796
+-
+START:  ON
+END:    204.01457619667053
+-
+START:  OOMA
+END:    204.20642352104187
+-
+START:  OPRX
+END:    204.42000913619995
+-
+START:  ORA
+END:    204.73146557807922
+-
+START:  ORCL
+END:    205.09982013702393
+-
+START:  ORLY
+END:    205.3637855052948
+-
+START:  ORMP
+END:    206.640216588974
+-
+START:  OTEX
+END:    206.943265914917
+-
+START:  PACB
+END:    207.1637167930603
+-
+START:  PAG
+END:    207.53283143043518
+-
+START:  PANW
+END:    207.7808301448822
+-
+START:  PAR
+END:    208.05503487586975
+-
+START:  PAYC
+END:    209.2675657272339
+-
+START:  PAYX
+END:    209.67401123046875
+-
+START:  PBD
+END:    209.95323371887207
+-
+START:  PCTY
+END:    210.15349411964417
+-
+START:  PEGA
+END:    210.4799988269806
+-
+START:  PEN
+END:    210.6644732952118
+-
+START:  PENN
+END:    210.91637778282166
+-
+START:  PEP
+END:    212.26685214042664
+-
+START:  PERI
+END:    212.48407864570618
+-
+START:  PFSI
+END:    213.74600911140442
+-
+START:  PGR
+END:    214.03853178024292
+-
+START:  PH
+END:    214.37704730033875
+-
+START:  PHM
+END:    214.75878071784973
+-
+START:  PKI
+Not Found: No data found, symbol may be delisted
+START:  PLL
+END:    214.99550533294678
+-
+START:  PLNT
+END:    215.15617179870605
+-
+START:  PLUG
+END:    216.44984698295593
+-
+START:  PLXS
+END:    216.74766731262207
+-
+START:  PODD
+END:    216.98473381996155
+-
+START:  POOL
+END:    217.29343843460083
+-
+START:  POWI
+END:    217.5896692276001
+-
+START:  PRFT
+END:    217.86956882476807
+-
+START:  PRI
+END:    219.1402509212494
+-
+START:  PRTA
+END:    219.35128736495972
+-
+START:  PRTS
+END:    220.67149305343628
+-
+START:  PTSI
+END:    220.95354557037354
+-
+START:  PWR
+END:    222.27073168754578
+-
+START:  PYPL
+END:    222.48103404045105
+-
+START:  QADA
+Not Found: No data found, symbol may be delisted
+START:  QCLN
+END:    224.87645149230957
+-
+START:  QDEL
+END:    225.15007901191711
+-
+START:  QGEN
+END:    225.4661829471588
+-
+START:  QLYS
+END:    225.6680200099945
+-
+START:  QQQ
+END:    225.99011397361755
+-
+START:  QRVO
+END:    226.1855504512787
+-
+START:  QTWO
+END:    226.38177847862244
+-
+START:  RADA
+Not Found: No data found, symbol may be delisted
+START:  RAMP
+END:    227.7415370941162
+-
+START:  RBA
+END:    228.06823897361755
+-
+START:  RCII
+Not Found: No data found, symbol may be delisted
+START:  RCKY
+END:    229.4380488395691
+-
+START:  RDNT
+END:    229.69757676124573
+-
+START:  RDVT
+END:    229.84297156333923
+-
+START:  RDWR
+END:    230.12015986442566
+-
+START:  REGI
+END:    230.32348895072937
+-
+START:  RENN
+Not Found: No data found, symbol may be delisted
+START:  RGEN
+END:    230.66041707992554
+-
+START:  RH
+END:    231.89077377319336
+-
+START:  RILY
+END:    232.14083242416382
+-
+START:  RIOT
+END:    232.31743717193604
+-
+START:  RLI
+END:    232.6580309867859
+-
+START:  RLMD
+END:    232.84122586250305
+-
+START:  RMD
+END:    233.12220573425293
+-
+START:  RNG
+END:    233.28518795967102
+-
+START:  ROBO
+END:    233.47225666046143
+-
+START:  ROCK
+END:    234.76671743392944
+-
+START:  ROK
+END:    235.09687089920044
+-
+START:  ROKU
+END:    235.2526831626892
+-
+START:  ROL
+END:    236.67206168174744
+-
+START:  ROP
+END:    237.04996395111084
+-
+START:  ROST
+END:    237.37953114509583
+-
+START:  RPD
+END:    237.57234048843384
+-
+START:  RPM
+END:    237.93340349197388
+-
+START:  RSG
+END:    239.27850246429443
+-
+START:  RTH
+END:    239.5711715221405
+-
+START:  RUN
+END:    239.75851702690125
+-
+START:  RXI
+END:    240.09750962257385
+-
+START:  SAIA
+END:    240.37714505195618
+-
+START:  SAIC
+END:    241.6061773300171
+-
+START:  SAM
+END:    241.8616714477539
+-
+START:  SAVA
+END:    242.14869022369385
+-
+START:  SCI
+END:    242.49805784225464
+-
+START:  SCL
+END:    242.81045389175415
+-
+START:  SE
+END:    242.93886065483093
+-
+START:  SEAS
+Not Found: No data found, symbol may be delisted
+START:  SEDG
+END:    244.20909523963928
+-
+START:  SFBS
+END:    244.4079270362854
+-
+START:  SGEN
+Not Found: No data found, symbol may be delisted
+START:  SGMS
+Not Found: No data found, symbol may be delisted
+START:  SGRY
+END:    244.73239922523499
+-
+START:  SHOP
+END:    244.92703866958618
+-
+START:  SHW
+END:    245.22394490242004
+-
+START:  SHYF
+END:    246.54605293273926
+-
+START:  SITE
+END:    246.71928191184998
+-
+START:  SIVB
+END:    246.7963888645172
+-
+START:  SJW
+END:    247.15487408638
+-
+START:  SKY
+END:    247.47571992874146
+-
+START:  SLAB
+END:    247.75470614433289
+-
+START:  SLP
+END:    248.02830362319946
+-
+START:  SMH
+END:    248.3463134765625
+-
+START:  SMTC
+END:    248.62406373023987
+-
+START:  SNAP
+END:    249.80471181869507
+-
+START:  SNPS
+END:    250.09539365768433
+-
+START:  SOCL
+END:    251.35294198989868
+-
+START:  SOXL
+END:    251.60254406929016
+-
+START:  SPGI
+END:    251.9471881389618
+-
+START:  SPLG
+END:    252.3045859336853
+-
+START:  SPLK
+END:    253.53114104270935
+-
+START:  SPNS
+END:    253.8006567955017
+-
+START:  SPSC
+END:    255.02316784858704
+-
+START:  SPTM
+END:    255.34141564369202
+-
+START:  SPWH
+END:    255.53743767738342
+-
+START:  SPWR
+END:    255.8708279132843
+-
+START:  SPXC
+END:    256.2377245426178
+-
+START:  SPXL
+END:    256.4877362251282
+-
+START:  SPY
+END:    256.80181860923767
+-
+START:  SPYG
+END:    257.14626288414
+-
+START:  SQ
+END:    258.3382568359375
+-
+START:  SSD
+END:    258.66742038726807
+-
+START:  SSNC
+END:    258.9286994934082
+-
+START:  SSTK
+END:    259.1365532875061
+-
+START:  STAA
+END:    260.41564893722534
+-
+START:  STE
+END:    260.71585488319397
+-
+START:  SUSA
+END:    262.06212306022644
+-
+START:  SYK
+END:    262.3336045742035
+-
+START:  SYNA
+END:    263.67972350120544
+-
+START:  TBBK
+END:    263.962317943573
+-
+START:  TBK
+Not Found: No data found, symbol may be delisted
+START:  TDG
+END:    264.2974920272827
+-
+START:  TDOC
+END:    264.48075222969055
+-
+START:  TDY
+END:    264.7576313018799
+-
+START:  TEAM
+END:    264.99498534202576
+-
+START:  TECH
+END:    265.34032106399536
+-
+START:  TECL
+END:    265.61086535453796
+-
+START:  TER
+END:    265.8999762535095
+-
+START:  TFX
+END:    266.2905135154724
+-
+START:  TGH
+END:    267.641587972641
+-
+START:  TGLS
+END:    267.8643605709076
+-
+START:  TGT
+END:    269.2282884120941
+-
+START:  TGTX
+END:    269.4466459751129
+-
+START:  THC
+END:    270.74146699905396
+-
+START:  TJX
+END:    271.0456039905548
+-
+START:  TMO
+END:    271.4288022518158
+-
+START:  TMUS
+END:    271.67398381233215
+-
+START:  TNDM
+END:    272.8594288825989
+-
+START:  TNET
+END:    273.0540897846222
+-
+START:  TPX
+END:    273.36446952819824
+-
+START:  TREX
+END:    273.6116678714752
+-
+START:  TRI
+END:    273.95150780677795
+-
+START:  TRIL
+Not Found: No data found, symbol may be delisted
+START:  TRMB
+END:    274.3185622692108
+-
+START:  TRNS
+END:    274.5722224712372
+-
+START:  TROW
+END:    274.8963315486908
+-
+START:  TRU
+END:    276.1174056529999
+-
+START:  TRUP
+END:    276.3115026950836
+-
+START:  TSCO
+END:    276.6642551422119
+-
+START:  TSLA
+END:    276.9066913127899
+-
+START:  TSM
+END:    277.21352338790894
+-
+START:  TT
+END:    278.5830240249634
+-
+START:  TTC
+END:    278.9217827320099
+-
+START:  TTD
+END:    280.06095838546753
+-
+START:  TTEC
+END:    280.3677053451538
+-
+START:  TTEK
+END:    280.67520236968994
+-
+START:  TTGT
+END:    280.92942905426025
+-
+START:  TTWO
+END:    281.2706060409546
+-
+START:  TWLO
+END:    281.46355175971985
+-
+START:  TXN
+END:    281.8488960266113
+-
+START:  TYL
+END:    282.12387251853943
+-
+START:  UCTT
+END:    282.40249586105347
+-
+START:  UFPI
+END:    283.73296451568604
+-
+START:  UFPT
+END:    283.9692153930664
+-
+START:  UI
+END:    284.2010486125946
+-
+START:  UMC
+END:    285.4891686439514
+-
+START:  UNF
+END:    285.8244926929474
+-
+START:  UNH
+END:    286.13217997550964
+-
+START:  UNP
+END:    287.47877311706543
+-
+START:  UPLD
+END:    287.6648666858673
+-
+START:  URI
+END:    287.93482851982117
+-
+START:  V
+END:    289.2124984264374
+-
+START:  VALU
+END:    289.59910011291504
+-
+START:  VBK
+END:    289.92477583885193
+-
+START:  VCEL
+END:    290.1991744041443
+-
+START:  VCR
+END:    290.4662415981293
+-
+START:  VCTR
+END:    290.6283540725708
+-
+START:  VCYT
+END:    290.81369376182556
+-
+START:  VDC
+END:    291.11794567108154
+-
+START:  VEEV
+END:    291.28581857681274
+-
+START:  VERU
+END:    291.55202889442444
+-
+START:  VGT
+END:    292.83830428123474
+-
+START:  VHT
+END:    293.10231709480286
+-
+START:  VIAV
+END:    294.46942377090454
+-
+START:  VICR
+END:    294.7745900154114
+-
+START:  VIG
+END:    295.0475130081177
+-
+START:  VO
+END:    296.3877491950989
+-
+START:  VONE
+END:    296.6321518421173
+-
+START:  VONG
+END:    296.87035751342773
+-
+START:  VOO
+END:    297.1790704727173
+-
+START:  VOOG
+END:    297.41112089157104
+-
+START:  VOOV
+END:    297.6594352722168
+-
+START:  VOT
+END:    297.94503831863403
+-
+START:  VPU
+END:    298.25716495513916
+-
+START:  VRNS
+END:    298.4439625740051
+-
+START:  VRSK
+END:    298.69356870651245
+-
+START:  VRSN
+END:    299.97783160209656
+-
+START:  VRTV
+Not Found: No data found, symbol may be delisted
+START:  VSTO
+END:    301.2238073348999
+-
+START:  VTHR
+END:    301.4407866001129
+-
+START:  VTI
+END:    301.7652642726898
+-
+START:  VTNR
+END:    302.03102588653564
+-
+START:  VTWG
+END:    303.3034152984619
+-
+START:  VUG
+END:    303.6086778640747
+-
+START:  VV
+END:    303.9337272644043
+-
+START:  VXF
+END:    304.22215247154236
+-
+START:  WCN
+END:    304.49616503715515
+-
+START:  WD
+END:    304.7561631202698
+-
+START:  WDAY
+END:    304.9350481033325
+-
+START:  WDFC
+END:    305.21066546440125
+-
+START:  WEC
+END:    305.53905177116394
+-
+START:  WEN
+END:    306.9251825809479
+-
+START:  WINA
+END:    308.2447690963745
+-
+START:  WING
+END:    308.4417107105255
+-
+START:  WIRE
+END:    308.748895406723
+-
+START:  WIX
+END:    308.94699692726135
+-
+START:  WK
+END:    309.12947702407837
+-
+START:  WLTW
+Not Found: No data found, symbol may be delisted
+START:  WM
+END:    310.51606822013855
+-
+START:  WMS
+END:    310.7205774784088
+-
+START:  WNS
+END:    310.95577669143677
+-
+START:  WRB
+END:    311.3029353618622
+-
+START:  WSC
+END:    311.4835276603699
+-
+START:  WSM
+END:    311.8061525821686
+-
+START:  WST
+END:    312.140198469162
+-
+START:  WTRG
+END:    312.47091698646545
+-
+START:  WTS
+END:    312.78031730651855
+-
+START:  XEL
+END:    314.1613485813141
+-
+START:  XENE
+END:    314.3435001373291
+-
+START:  XLK
+END:    314.6501364707947
+-
+START:  XLNX
+Not Found: No data found, symbol may be delisted
+START:  XLP
+END:    315.04584860801697
+-
+START:  XLRN
+Not Found: No data found, symbol may be delisted
+START:  XLU
+END:    315.39432859420776
+-
+START:  XLV
+END:    315.70956897735596
+-
+START:  XLY
+END:    316.00127053260803
+-
+START:  XYL
+END:    317.24892139434814
+-
+START:  YNDX
+END:    317.4557089805603
+-
+START:  YORW
+END:    317.7694525718689
+-
+START:  YUM
+END:    318.083203792572
+-
+START:  Z
+END:    318.3134124279022
+-
+START:  ZBRA
+END:    318.5892310142517
+-
+START:  ZEN
+Not Found: No data found, symbol may be delisted
+START:  ZLAB
+END:    318.81620597839355
+-
+START:  ZNGA
+Not Found: No data found, symbol may be delisted
+START:  ZS
+END:    319.0401017665863
+-
+START:  ZTS
+END:    319.245582818985
+-
+START:  ZYXI
+END:    319.49257230758667
+-
+===========================
+MACD golden cross
+===========================
+START:  code
+START:  A
+START:  AAON
+START:  AAPL
+START:  ABG
+START:  ABT
+START:  ACLS
+START:  ACMR
+START:  ACN
+START:  ADBE
+START:  ADI
+START:  ADP
+START:  ADSK
+START:  ADUS
+START:  AEE
+START:  AGYS
+START:  AIZ
+START:  AJG
+START:  AJRD
+START:  ALB
+START:  ALG
+START:  ALGN
+START:  ALLE
+START:  ALTR
+START:  AMAT
+START:  AMBA
+START:  AMD
+START:  AME
+START:  AMED
+START:  AMEH
+START:  AMGN
+START:  AMN
+START:  AMP
+START:  AMRC
+START:  AMSWA
+START:  AMTX
+START:  AMZN
+START:  AN
+START:  ANSS
+START:  ANTM
+START:  AON
+START:  AOSL
+START:  APD
+START:  APH
+START:  APPF
+START:  APPN
+START:  APPS
+START:  AQN
+START:  ARCB
+START:  ARCT
+START:  ARES
+START:  ARGX
+START:  ARWR
+START:  ASML
+START:  ASPN
+START:  ATEC
+START:  ATEN
+START:  ATKR
+START:  ATOM
+START:  ATR
+START:  ATRC
+START:  AUDC
+START:  AUPH
+START:  AVAV
+START:  AVGO
+START:  AVID
+START:  AVNW
+START:  AVXL
+START:  AVY
+START:  AWK
+START:  AWR
+START:  AXON
+START:  AZO
+START:  AZPN
+START:  BAH
+START:  BAM
+START:  BAX
+START:  BBH
+START:  BBQ
+START:  BBY
+START:  BCPC
+START:  BDX
+START:  BEEM
+START:  BFAM
+START:  BFC
+START:  BGFV
+START:  BGNE
+START:  BHVN
+START:  BIO
+START:  BL
+START:  BLD
+START:  BLDP
+START:  BLDR
+START:  BLFS
+START:  BLK
+START:  BLL
+START:  BLNK
+START:  BMI
+START:  BOOT
+START:  BOTZ
+START:  BR
+START:  BRKR
+START:  BRKS
+START:  BRO
+START:  BURL
+START:  BX
+START:  CABO
+START:  CACI
+START:  CALX
+START:  CAMT
+START:  CAR
+START:  CBRE
+START:  CBSH
+START:  CBZ
+START:  CCOI
+START:  CCS
+START:  CDMO
+START:  CDNA
+START:  CDNS
+START:  CDW
+START:  CELH
+START:  CGNX
+START:  CHD
+START:  CHDN
+START:  CHE
+START:  CHGG
+START:  CHH
+START:  CHKP
+START:  CHTR
+START:  CIEN
+START:  CLAR
+START:  CLFD
+START:  CLGN
+START:  CLNE
+START:  CLPT
+START:  CLX
+START:  CMCSA
+START:  CMG
+START:  CMS
+START:  CNC
+START:  CNI
+START:  CNMD
+START:  CNS
+START:  CNXN
+START:  COO
+START:  COST
+START:  COUP
+START:  COWN
+START:  CP
+START:  CPK
+START:  CPRT
+START:  CPSH
+START:  CRAI
+START:  CREE
+START:  CRL
+START:  CRM
+START:  CRMT
+START:  CROX
+START:  CRSP
+START:  CRVL
+START:  CSGP
+START:  CSL
+START:  CSWI
+START:  CSX
+START:  CTAS
+START:  CTLT
+START:  CTRN
+START:  CURE
+START:  CVCO
+START:  CVNA
+START:  CWST
+START:  CWT
+START:  CXSE
+START:  CYBR
+START:  CYRX
+START:  CYTK
+START:  DAC
+START:  DAR
+START:  DAVA
+START:  DDS
+START:  DE
+START:  DECK
+START:  DELL
+START:  DFIN
+START:  DG
+START:  DGRW
+START:  DHI
+START:  DHR
+START:  DIA
+START:  DIOD
+START:  DIS
+START:  DKS
+START:  DLN
+START:  DNLI
+START:  DOMO
+START:  DOV
+START:  DPZ
+START:  DQ
+START:  DRD
+START:  DRIO
+START:  DRNA
+START:  DSGX
+START:  DVAX
+START:  DXCM
+START:  ECL
+START:  EFX
+START:  EGAN
+START:  EHC
+START:  EL
+START:  ENPH
+START:  ENSG
+START:  ENTG
+START:  ENV
+START:  EPAM
+START:  ERIE
+START:  ES
+START:  ESE
+START:  ETN
+START:  ETSY
+START:  EVBG
+START:  EVTC
+START:  EW
+START:  EWT
+START:  EXAS
+START:  EXLS
+START:  EXPD
+START:  EXPI
+START:  EXPO
+START:  FAST
+START:  FATE
+START:  FB
+START:  FCN
+START:  FCX
+START:  FDN
+START:  FDS
+START:  FELE
+START:  FFIN
+START:  FICO
+START:  FINX
+START:  FIS
+START:  FISV
+START:  FIVE
+START:  FIVN
+START:  FLGT
+START:  FLT
+START:  FLWS
+START:  FN
+START:  FND
+START:  FNV
+START:  FORM
+START:  FOXF
+START:  FPX
+START:  FRC
+START:  FRHC
+START:  FRPT
+START:  FSS
+START:  FTNT
+START:  FUV
+START:  GDEN
+START:  GFI
+START:  GGG
+START:  GIB
+START:  GLDD
+START:  GLOB
+START:  GMAB
+START:  GME
+START:  GMED
+START:  GNRC
+START:  GNSS
+START:  GNTX
+START:  GOLF
+START:  GOOG
+START:  GOOGL
+START:  GPI
+START:  GPN
+START:  GRBK
+START:  GRMN
+START:  GRVY
+START:  GRWG
+START:  GWRE
+START:  HACK
+START:  HALO
+START:  HCI
+START:  HD
+START:  HEI
+START:  HELE
+START:  HIBB
+START:  HLI
+START:  HLT
+START:  HOLX
+START:  HON
+START:  HOV
+START:  HRC
+START:  HRI
+START:  HSKA
+START:  HTHT
+START:  HUBS
+START:  HUM
+START:  HZNP
+START:  IAC
+START:  IBP
+START:  ICE
+START:  ICLN
+START:  ICLR
+START:  IDT
+START:  IDXX
+START:  IESC
+START:  IEX
+START:  ILMN
+START:  INFO
+START:  INOV
+START:  INSP
+START:  INTC
+START:  INTU
+START:  INTZ
+START:  INVE
+START:  IOO
+START:  IQV
+START:  IRDM
+START:  IRMD
+START:  ISEE
+START:  ISRG
+START:  IT
+START:  ITT
+START:  ITW
+START:  IVOG
+START:  IVV
+START:  IXJ
+START:  IXN
+START:  J
+START:  JBL
+START:  JBSS
+START:  JD
+START:  JKHY
+START:  JKS
+START:  JNJ
+START:  JOE
+START:  JOUT
+START:  JYNT
+START:  KAI
+START:  KBH
+START:  KBR
+START:  KDMN
+START:  KEYS
+START:  KLAC
+START:  KLIC
+START:  KMX
+START:  KNSL
+START:  KOPN
+START:  KOSS
+START:  KRNT
+START:  KSU
+START:  KTOS
+START:  LAC
+START:  LAD
+START:  LANC
+START:  LAWS
+START:  LDOS
+START:  LFMD
+START:  LGIH
+START:  LH
+START:  LHCG
+START:  LHX
+START:  LII
+START:  LIN
+START:  LINC
+START:  LIT
+START:  LLY
+START:  LMT
+START:  LNT
+START:  LOB
+START:  LOGI
+START:  LOVE
+START:  LOW
+START:  LPLA
+START:  LPSN
+START:  LQDT
+START:  LRCX
+START:  LSCC
+START:  LSTR
+START:  LULU
+START:  LUNA
+START:  MA
+START:  MANH
+START:  MANT
+START:  MARA
+START:  MASI
+START:  MATX
+START:  MBUU
+START:  MCD
+START:  MCHP
+START:  MCO
+START:  MDB
+START:  MDT
+START:  MEDP
+START:  MEDS
+START:  MELI
+START:  MGC
+START:  MGIC
+START:  MGK
+START:  MGNI
+START:  MHO
+START:  MIME
+START:  MITK
+START:  MKC
+START:  MKSI
+START:  MKTX
+START:  MLAB
+START:  MLR
+START:  MMC
+START:  MMS
+START:  MNMD
+START:  MNST
+START:  MODN
+START:  MODV
+START:  MOH
+START:  MORN
+START:  MPWR
+START:  MRTX
+START:  MRVL
+START:  MS
+START:  MSA
+START:  MSCI
+START:  MSEX
+START:  MSFT
+START:  MSI
+START:  MSTR
+START:  MTBC
+START:  MTCH
+START:  MTD
+START:  MTEX
+START:  MTH
+START:  MTLS
+START:  MTSI
+START:  MU
+START:  MUSA
+START:  MVIS
+START:  MXL
+START:  MYRG
+START:  NBIX
+START:  NCBS
+START:  NDAQ
+START:  NDSN
+START:  NEE
+START:  NEO
+START:  NEOG
+START:  NFLX
+START:  NICE
+START:  NISN
+START:  NKE
+START:  NOVT
+START:  NOW
+START:  NSC
+START:  NSIT
+START:  NSSC
+START:  NSTG
+START:  NTLA
+START:  NTRA
+START:  NUAN
+START:  NVCR
+START:  NVDA
+START:  NVMI
+START:  NVO
+START:  NVR
+START:  NXST
+START:  NYT
+START:  OBCI
+START:  ODFL
+START:  OEF
+START:  OFLX
+START:  OLED
+START:  OMCL
+START:  ON
+START:  OOMA
+START:  OPRX
+START:  ORA
+START:  ORCL
+START:  ORLY
+START:  ORMP
+START:  OTEX
+START:  PACB
+START:  PAG
+START:  PANW
+START:  PAR
+START:  PAYC
+START:  PAYX
+START:  PBD
+START:  PCTY
+START:  PEGA
+START:  PEN
+START:  PENN
+START:  PEP
+START:  PERI
+START:  PFSI
+START:  PGR
+START:  PH
+START:  PHM
+START:  PKI
+START:  PLL
+START:  PLNT
+START:  PLUG
+START:  PLXS
+START:  PODD
+START:  POOL
+START:  POWI
+START:  PRFT
+START:  PRI
+START:  PRTA
+START:  PRTS
+START:  PTSI
+START:  PWR
+START:  PYPL
+START:  QADA
+START:  QCLN
+START:  QDEL
+START:  QGEN
+START:  QLYS
+START:  QQQ
+START:  QRVO
+START:  QTWO
+START:  RADA
+START:  RAMP
+START:  RBA
+START:  RCII
+START:  RCKY
+START:  RDNT
+START:  RDVT
+START:  RDWR
+START:  REGI
+START:  RENN
+START:  RGEN
+START:  RH
+START:  RILY
+START:  RIOT
+START:  RLI
+START:  RLMD
+START:  RMD
+START:  RNG
+START:  ROBO
+START:  ROCK
+START:  ROK
+START:  ROKU
+START:  ROL
+START:  ROP
+START:  ROST
+START:  RPD
+START:  RPM
+START:  RSG
+START:  RTH
+START:  RUN
+START:  RXI
+START:  SAIA
+START:  SAIC
+START:  SAM
+START:  SAVA
+START:  SCI
+START:  SCL
+START:  SE
+START:  SEAS
+START:  SEDG
+START:  SFBS
+START:  SGEN
+START:  SGMS
+START:  SGRY
+START:  SHOP
+START:  SHW
+START:  SHYF
+START:  SITE
+START:  SIVB
+START:  SJW
+START:  SKY
+START:  SLAB
+START:  SLP
+START:  SMH
+START:  SMTC
+START:  SNAP
+START:  SNPS
+START:  SOCL
+START:  SOXL
+START:  SPGI
+START:  SPLG
+START:  SPLK
+START:  SPNS
+START:  SPSC
+START:  SPTM
+START:  SPWH
+START:  SPWR
+START:  SPXC
+START:  SPXL
+START:  SPY
+START:  SPYG
+START:  SQ
+START:  SSD
+START:  SSNC
+START:  SSTK
+START:  STAA
+START:  STE
+START:  SUSA
+START:  SYK
+START:  SYNA
+START:  TBBK
+START:  TBK
+START:  TDG
+START:  TDOC
+START:  TDY
+START:  TEAM
+START:  TECH
+START:  TECL
+START:  TER
+START:  TFX
+START:  TGH
+START:  TGLS
+START:  TGT
+START:  TGTX
+START:  THC
+START:  TJX
+START:  TMO
+START:  TMUS
+START:  TNDM
+START:  TNET
+START:  TPX
+START:  TREX
+START:  TRI
+START:  TRIL
+START:  TRMB
+START:  TRNS
+START:  TROW
+START:  TRU
+START:  TRUP
+START:  TSCO
+START:  TSLA
+START:  TSM
+START:  TT
+START:  TTC
+START:  TTD
+START:  TTEC
+START:  TTEK
+START:  TTGT
+START:  TTWO
+START:  TWLO
+START:  TXN
+START:  TYL
+START:  UCTT
+START:  UFPI
+START:  UFPT
+START:  UI
+START:  UMC
+START:  UNF
+START:  UNH
+START:  UNP
+START:  UPLD
+START:  URI
+START:  V
+START:  VALU
+START:  VBK
+START:  VCEL
+START:  VCR
+START:  VCTR
+START:  VCYT
+START:  VDC
+START:  VEEV
+START:  VERU
+START:  VGT
+START:  VHT
+START:  VIAV
+START:  VICR
+START:  VIG
+START:  VO
+START:  VONE
+START:  VONG
+START:  VOO
+START:  VOOG
+START:  VOOV
+START:  VOT
+START:  VPU
+START:  VRNS
+START:  VRSK
+START:  VRSN
+START:  VRTV
+START:  VSTO
+START:  VTHR
+START:  VTI
+START:  VTNR
+START:  VTWG
+START:  VUG
+START:  VV
+START:  VXF
+START:  WCN
+START:  WD
+START:  WDAY
+START:  WDFC
+START:  WEC
+START:  WEN
+START:  WINA
+START:  WING
+START:  WIRE
+START:  WIX
+START:  WK
+START:  WLTW
+START:  WM
+START:  WMS
+START:  WNS
+START:  WRB
+START:  WSC
+START:  WSM
+START:  WST
+START:  WTRG
+START:  WTS
+START:  XEL
+START:  XENE
+START:  XLK
+START:  XLNX
+START:  XLP
+START:  XLRN
+START:  XLU
+START:  XLV
+START:  XLY
+START:  XYL
+START:  YNDX
+START:  YORW
+START:  YUM
+START:  Z
+START:  ZBRA
+START:  ZEN
+START:  ZLAB
+START:  ZNGA
+START:  ZS
+START:  ZTS
+START:  ZYXI
+==== MACD golden cross ====
+None
+code: A        day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: A      BUY: 2006-09-30   23.38 SELL: 2008-10-31   15.87  macd:   -0.45 macd_count:  25 profit:  0.68
+Trade --> code: A      BUY: 2010-03-31   24.60 SELL: 2023-08-31  121.07  macd:   -0.38 macd_count: 161 profit:  4.92
+Trade --> code: A      BUY: 2024-03-31  145.51 SELL: 2024-05-31  151.42  macd:    2.76 macd_count:   3 profit:  1.04
+
+code: ABG      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist - hist_1pre - , 
+Trade --> code: ABG    BUY: 2006-09-30   20.60 SELL: 2007-12-31   15.05  macd:   -0.05 macd_count:  15 profit:  0.73
+Trade --> code: ABG    BUY: 2010-05-31   13.22 SELL: 2010-06-30   10.54  macd:   -0.08 macd_count:   1 profit:  0.80
+Trade --> code: ABG    BUY: 2010-07-31   13.46 SELL: 2016-05-31   56.10  macd:   -0.54 macd_count:  70 profit:  4.17
+Trade --> code: ABG    BUY: 2018-01-31   72.65 SELL: 2024-05-31  226.54  macd:   10.79 macd_count:  77 profit:  3.12
+
+code: ADUS     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: ADUS   BUY: 2012-12-31    7.15 SELL: 2016-05-31   20.00  macd:   -0.18 macd_count:  41 profit:  2.80
+Trade --> code: ADUS   BUY: 2016-10-31   25.30 SELL: 2022-05-31   83.50  macd:   -0.32 macd_count:  67 profit:  3.30
+Trade --> code: ADUS   BUY: 2022-09-30   95.24 SELL: 2023-09-30   85.19  macd:   -0.28 macd_count:  12 profit:  0.89
+Trade --> code: ADUS   BUY: 2024-03-31  103.34 SELL: 2024-05-31  105.98  macd:    1.29 macd_count:   3 profit:  1.03
+
+code: APPF     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: APPF   BUY: 2017-10-31   45.90 SELL: 2022-02-28  113.14  macd:   -0.05 macd_count:  52 profit:  2.46
+Trade --> code: APPF   BUY: 2023-04-30  139.62 SELL: 2024-05-31  247.41  macd:   27.30 macd_count:  14 profit:  1.77
+
+code: ARES     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: ARES   BUY: 2017-01-31   19.65 SELL: 2024-05-31  143.55  macd:   15.60 macd_count:  89 profit:  7.31
+
+code: AVY      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: AVY    BUY: 2006-11-30   67.47 SELL: 2007-10-31   57.90  macd:   -0.04 macd_count:  11 profit:  0.86
+Trade --> code: AVY    BUY: 2011-01-31   42.09 SELL: 2011-08-31   29.11  macd:   -0.45 macd_count:   7 profit:  0.69
+Trade --> code: AVY    BUY: 2013-02-28   40.85 SELL: 2024-05-31  227.89  macd:   10.24 macd_count: 136 profit:  5.58
+
+code: BAH      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: BAH    BUY: 2013-08-31   20.23 SELL: 2024-05-31  155.42  macd:   14.16 macd_count: 130 profit:  7.68
+
+code: BLFS     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: BLFS   BUY: 2009-06-30    2.38 SELL: 2010-08-31    0.84  macd:   -0.03 macd_count:  14 profit:  0.35
+Trade --> code: BLFS   BUY: 2012-07-31    1.96 SELL: 2014-07-31    2.65  macd:   -0.08 macd_count:  24 profit:  1.35
+Trade --> code: BLFS   BUY: 2017-08-31    4.74 SELL: 2022-05-31   13.72  macd:   -1.04 macd_count:  57 profit:  2.89
+
+code: CAMT     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: CAMT   BUY: 2006-09-30    6.20 SELL: 2007-05-31    3.36  macd:   -0.07 macd_count:   8 profit:  0.54
+Trade --> code: CAMT   BUY: 2010-02-28    2.98 SELL: 2011-12-31    1.75  macd:   -0.02 macd_count:  22 profit:  0.59
+Trade --> code: CAMT   BUY: 2013-11-30    4.11 SELL: 2015-09-30    2.58  macd:   -0.02 macd_count:  22 profit:  0.63
+Trade --> code: CAMT   BUY: 2016-12-31    3.29 SELL: 2022-12-31   21.96  macd:   -0.33 macd_count:  72 profit:  6.67
+Trade --> code: CAMT   BUY: 2023-06-30   35.63 SELL: 2024-05-31   92.74  macd:   13.55 macd_count:  12 profit:  2.60
+
+code: CDNA     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: CDNA   BUY: 2017-12-31    7.34 SELL: 2022-04-30   30.44  macd:   -1.00 macd_count:  52 profit:  4.15
+
+code: CNC      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: CNC    BUY: 2008-01-31    5.99 SELL: 2008-02-29    4.48  macd:   -0.10 macd_count:   1 profit:  0.75
+Trade --> code: CNC    BUY: 2010-04-30    5.72 SELL: 2023-05-31   62.41  macd:   -0.24 macd_count: 157 profit: 10.90
+Trade --> code: CNC    BUY: 2024-02-29   78.43 SELL: 2024-05-31   78.00  macd:    0.72 macd_count:   4 profit:  0.99
+
+code: COST     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: COST   BUY: 2006-09-30   49.68 SELL: 2009-01-31   45.03  macd:   -0.70 macd_count:  28 profit:  0.91
+Trade --> code: COST   BUY: 2010-02-28   60.97 SELL: 2024-05-31  781.79  macd:   65.54 macd_count: 172 profit: 12.82
+
+code: CRVL     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: CRVL   BUY: 2006-09-30   11.69 SELL: 2009-01-31    8.82  macd:   -0.27 macd_count:  28 profit:  0.75
+Trade --> code: CRVL   BUY: 2009-10-31   14.25 SELL: 2015-07-31   31.96  macd:   -0.15 macd_count:  69 profit:  2.24
+Trade --> code: CRVL   BUY: 2015-12-31   43.92 SELL: 2024-05-31  261.93  macd:   23.51 macd_count: 102 profit:  5.96
+
+code: CSL      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: CSL    BUY: 2006-09-30   42.05 SELL: 2008-03-31   33.44  macd:   -0.33 macd_count:  18 profit:  0.80
+Trade --> code: CSL    BUY: 2010-02-28   34.30 SELL: 2024-05-31  418.66  macd:   37.85 macd_count: 172 profit: 12.21
+
+code: CTAS     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: CTAS   BUY: 2011-03-31   30.28 SELL: 2024-05-31  698.95  macd:   63.87 macd_count: 159 profit: 23.08
+
+code: DELL     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: DELL   BUY: 2018-12-31   24.77 SELL: 2020-04-30   21.64  macd:   -0.09 macd_count:  16 profit:  0.87
+Trade --> code: DELL   BUY: 2020-06-30   27.85 SELL: 2023-02-28   40.64  macd:   -0.18 macd_count:  32 profit:  1.46
+Trade --> code: DELL   BUY: 2023-06-30   54.11 SELL: 2024-05-31  133.18  macd:   17.36 macd_count:  12 profit:  2.46
+
+code: DOV      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: DOV    BUY: 2006-09-30   31.80 SELL: 2008-02-29   27.83  macd:   -0.06 macd_count:  17 profit:  0.88
+Trade --> code: DOV    BUY: 2008-05-31   36.25 SELL: 2008-10-31   21.30  macd:   -0.66 macd_count:   5 profit:  0.59
+Trade --> code: DOV    BUY: 2010-03-31   31.34 SELL: 2015-08-31   50.04  macd:   -0.31 macd_count:  65 profit:  1.60
+Trade --> code: DOV    BUY: 2016-09-30   59.48 SELL: 2016-10-31   54.03  macd:   -0.08 macd_count:   1 profit:  0.91
+Trade --> code: DOV    BUY: 2016-11-30   58.65 SELL: 2024-05-31  185.90  macd:    8.62 macd_count:  91 profit:  3.17
+
+code: ETN      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: ETN    BUY: 2006-09-30   34.42 SELL: 2008-09-30   28.09  macd:   -0.64 macd_count:  24 profit:  0.82
+Trade --> code: ETN    BUY: 2010-04-30   38.58 SELL: 2015-09-30   51.30  macd:   -1.07 macd_count:  65 profit:  1.33
+Trade --> code: ETN    BUY: 2016-11-30   66.51 SELL: 2024-05-31  337.01  macd:   38.63 macd_count:  91 profit:  5.07
+
+code: EWT      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: EWT    BUY: 2006-09-30   25.60 SELL: 2008-09-30   21.60  macd:   -0.25 macd_count:  24 profit:  0.84
+Trade --> code: EWT    BUY: 2010-04-30   25.42 SELL: 2010-05-31   22.72  macd:   -0.02 macd_count:   1 profit:  0.89
+Trade --> code: EWT    BUY: 2010-07-31   24.82 SELL: 2012-01-31   25.50  macd:   -0.00 macd_count:  18 profit:  1.03
+Trade --> code: EWT    BUY: 2012-02-29   27.22 SELL: 2012-04-30   25.62  macd:   -0.03 macd_count:   2 profit:  0.94
+Trade --> code: EWT    BUY: 2013-01-31   26.80 SELL: 2015-10-31   27.80  macd:   -0.07 macd_count:  33 profit:  1.04
+Trade --> code: EWT    BUY: 2016-09-30   31.40 SELL: 2022-10-31   41.66  macd:   -0.88 macd_count:  73 profit:  1.33
+
+code: FN       day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: FN     BUY: 2013-11-30   19.80 SELL: 2018-03-31   31.38  macd:   -0.08 macd_count:  52 profit:  1.58
+Trade --> code: FN     BUY: 2018-06-30   36.89 SELL: 2024-05-31  218.59  macd:   23.97 macd_count:  72 profit:  5.93
+
+code: GLDD     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: GLDD   BUY: 2010-11-30    7.67 SELL: 2011-09-30    4.07  macd:   -0.15 macd_count:  10 profit:  0.53
+Trade --> code: GLDD   BUY: 2012-03-31    7.22 SELL: 2014-09-30    6.18  macd:   -0.02 macd_count:  30 profit:  0.86
+Trade --> code: GLDD   BUY: 2014-12-31    8.56 SELL: 2015-02-28    6.10  macd:   -0.11 macd_count:   2 profit:  0.71
+Trade --> code: GLDD   BUY: 2018-06-30    5.25 SELL: 2022-09-30    7.58  macd:   -0.21 macd_count:  51 profit:  1.44
+
+code: GMED     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre - , 
+Trade --> code: GMED   BUY: 2014-12-31   23.77 SELL: 2023-04-30   58.14  macd:   -0.24 macd_count: 100 profit:  2.45
+
+code: HALO     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre - , 
+Trade --> code: HALO   BUY: 2006-09-30    2.65 SELL: 2008-11-30    3.71  macd:   -0.01 macd_count:  26 profit:  1.40
+Trade --> code: HALO   BUY: 2009-06-30    6.98 SELL: 2010-01-31    5.42  macd:   -0.02 macd_count:   7 profit:  0.78
+Trade --> code: HALO   BUY: 2010-03-31    7.99 SELL: 2012-10-31    5.29  macd:   -0.02 macd_count:  31 profit:  0.66
+Trade --> code: HALO   BUY: 2013-09-30   11.04 SELL: 2016-04-30   10.55  macd:   -0.06 macd_count:  31 profit:  0.96
+Trade --> code: HALO   BUY: 2017-06-30   12.82 SELL: 2023-10-31   33.87  macd:   -0.29 macd_count:  76 profit:  2.64
+
+code: HLI      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: HLI    BUY: 2017-12-31   45.43 SELL: 2024-05-31  134.00  macd:   10.60 macd_count:  78 profit:  2.95
+
+code: HON      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: HON    BUY: 2006-09-30   38.99 SELL: 2008-10-31   29.03  macd:   -0.69 macd_count:  25 profit:  0.74
+Trade --> code: HON    BUY: 2010-07-31   40.86 SELL: 2010-08-31   37.24  macd:   -0.07 macd_count:   1 profit:  0.91
+Trade --> code: HON    BUY: 2010-09-30   41.89 SELL: 2022-09-30  166.97  macd:   -0.93 macd_count: 144 profit:  3.99
+Trade --> code: HON    BUY: 2022-10-31  204.02 SELL: 2023-09-30  184.74  macd:   -0.53 macd_count:  11 profit:  0.91
+Trade --> code: HON    BUY: 2023-12-31  209.71 SELL: 2024-05-31  201.11  macd:    0.98 macd_count:   6 profit:  0.96
+
+code: HOV      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: HOV    BUY: 2012-12-31  175.00 SELL: 2014-09-30   91.75  macd:   -0.85 macd_count:  21 profit:  0.52
+Trade --> code: HOV    BUY: 2017-12-31   83.75 SELL: 2018-02-28   54.50  macd:   -0.38 macd_count:   2 profit:  0.65
+Trade --> code: HOV    BUY: 2020-11-30   39.93 SELL: 2022-08-31   40.09  macd:   -1.84 macd_count:  21 profit:  1.00
+Trade --> code: HOV    BUY: 2023-05-31   83.96 SELL: 2024-05-31  168.25  macd:   22.54 macd_count:  13 profit:  2.00
+
+code: LHX      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: LHX    BUY: 2006-09-30   42.03 SELL: 2008-11-30   32.95  macd:   -1.02 macd_count:  26 profit:  0.78
+Trade --> code: LHX    BUY: 2010-03-31   47.49 SELL: 2011-09-30   34.17  macd:   -0.35 macd_count:  18 profit:  0.72
+Trade --> code: LHX    BUY: 2012-08-31   47.03 SELL: 2023-04-30  195.15  macd:   -0.28 macd_count: 128 profit:  4.15
+Trade --> code: LHX    BUY: 2024-05-31  219.40 SELL: 2024-05-31  219.40  macd:    0.33 macd_count:   1 profit:  1.00
+
+code: LQDT     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: LQDT   BUY: 2010-05-31   13.26 SELL: 2013-10-31   26.11  macd:   -0.57 macd_count:  41 profit:  1.97
+Trade --> code: LQDT   BUY: 2020-10-31    8.53 SELL: 2023-02-28   12.66  macd:   -0.06 macd_count:  28 profit:  1.48
+Trade --> code: LQDT   BUY: 2023-08-31   18.25 SELL: 2024-05-31   18.87  macd:    0.60 macd_count:  10 profit:  1.03
+
+code: MATX     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: MATX   BUY: 2006-09-30   21.28 SELL: 2008-07-31   20.81  macd:   -0.03 macd_count:  22 profit:  0.98
+Trade --> code: MATX   BUY: 2010-12-31   19.19 SELL: 2017-03-31   31.76  macd:   -0.18 macd_count:  75 profit:  1.65
+Trade --> code: MATX   BUY: 2018-08-31   37.36 SELL: 2020-04-30   30.24  macd:   -0.29 macd_count:  20 profit:  0.81
+Trade --> code: MATX   BUY: 2020-09-30   40.09 SELL: 2023-03-31   59.67  macd:   -0.37 macd_count:  30 profit:  1.49
+Trade --> code: MATX   BUY: 2023-07-31   93.46 SELL: 2024-05-31  115.25  macd:    9.78 macd_count:  11 profit:  1.23
+
+code: MCO      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: MCO    BUY: 2006-09-30   65.38 SELL: 2007-11-30   37.66  macd:   -1.12 macd_count:  14 profit:  0.58
+Trade --> code: MCO    BUY: 2011-04-30   39.14 SELL: 2022-10-31  264.87  macd:   -2.76 macd_count: 138 profit:  6.77
+Trade --> code: MCO    BUY: 2023-05-31  316.88 SELL: 2024-05-31  403.01  macd:   20.26 macd_count:  13 profit:  1.27
+
+code: MELI     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: MELI   BUY: 2010-03-31   48.21 SELL: 2016-02-29  101.76  macd:   -0.45 macd_count:  71 profit:  2.11
+Trade --> code: MELI   BUY: 2016-04-30  124.89 SELL: 2022-06-30  636.87  macd:  -35.99 macd_count:  74 profit:  5.10
+Trade --> code: MELI   BUY: 2023-04-30 1277.49 SELL: 2024-05-31 1702.71  macd:  119.34 macd_count:  14 profit:  1.33
+
+code: MMS      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: MMS    BUY: 2007-04-30    8.73 SELL: 2008-11-30    7.85  macd:   -0.07 macd_count:  19 profit:  0.90
+Trade --> code: MMS    BUY: 2009-03-31    9.97 SELL: 2022-05-31   64.89  macd:   -0.43 macd_count: 158 profit:  6.51
+Trade --> code: MMS    BUY: 2023-04-30   83.65 SELL: 2024-05-31   83.54  macd:    1.93 macd_count:  14 profit:  1.00
+
+code: MPWR     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: MPWR   BUY: 2007-03-31   12.90 SELL: 2009-01-31   12.15  macd:   -0.21 macd_count:  22 profit:  0.94
+Trade --> code: MPWR   BUY: 2009-05-31   20.71 SELL: 2010-09-30   16.33  macd:   -0.08 macd_count:  16 profit:  0.79
+Trade --> code: MPWR   BUY: 2012-04-30   20.72 SELL: 2024-05-31  716.77  macd:   66.07 macd_count: 146 profit: 34.59
+
+code: MSI      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: MSI    BUY: 2006-09-30  101.06 SELL: 2007-07-31   68.68  macd:   -0.75 macd_count:  10 profit:  0.68
+Trade --> code: MSI    BUY: 2011-02-28   38.64 SELL: 2024-05-31  361.89  macd:   27.12 macd_count: 160 profit:  9.37
+
+code: MTD      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: MTD    BUY: 2006-09-30   66.15 SELL: 2009-01-31   66.58  macd:   -1.03 macd_count:  28 profit:  1.01
+Trade --> code: MTD    BUY: 2009-11-30   99.48 SELL: 2023-10-31  985.20  macd:  -20.51 macd_count: 167 profit:  9.90
+Trade --> code: MTD    BUY: 2024-05-31 1457.04 SELL: 2024-05-31 1457.04  macd:    1.64 macd_count:   1 profit:  1.00
+
+code: MU       day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: MU     BUY: 2006-09-30   17.40 SELL: 2007-04-30   11.47  macd:   -0.05 macd_count:   7 profit:  0.66
+Trade --> code: MU     BUY: 2010-01-31    8.72 SELL: 2011-09-30    5.04  macd:   -0.14 macd_count:  20 profit:  0.58
+Trade --> code: MU     BUY: 2013-03-31    9.98 SELL: 2015-09-30   14.98  macd:   -0.07 macd_count:  30 profit:  1.50
+Trade --> code: MU     BUY: 2017-02-28   23.44 SELL: 2022-09-30   50.10  macd:   -1.01 macd_count:  67 profit:  2.14
+Trade --> code: MU     BUY: 2023-09-30   68.03 SELL: 2024-05-31  121.47  macd:   10.75 macd_count:   9 profit:  1.79
+
+code: NDSN     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: NDSN   BUY: 2006-09-30   19.93 SELL: 2008-11-30   16.23  macd:   -0.01 macd_count:  26 profit:  0.81
+Trade --> code: NDSN   BUY: 2009-11-30   26.81 SELL: 2015-12-31   64.15  macd:   -0.33 macd_count:  73 profit:  2.39
+Trade --> code: NDSN   BUY: 2016-04-30   76.73 SELL: 2024-05-31  278.40  macd:   11.63 macd_count:  98 profit:  3.63
+
+code: NSIT     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: NSIT   BUY: 2006-09-30   20.61 SELL: 2008-03-31   17.50  macd:   -0.14 macd_count:  18 profit:  0.85
+Trade --> code: NSIT   BUY: 2010-05-31   14.54 SELL: 2024-05-31  204.27  macd:   21.83 macd_count: 169 profit: 14.05
+
+code: NSSC     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: NSSC   BUY: 2006-09-30    2.98 SELL: 2007-10-31    2.83  macd:   -0.01 macd_count:  13 profit:  0.95
+Trade --> code: NSSC   BUY: 2011-08-31    1.33 SELL: 2011-11-30    1.10  macd:   -0.00 macd_count:   3 profit:  0.83
+Trade --> code: NSSC   BUY: 2011-12-31    1.24 SELL: 2024-05-31   44.97  macd:    4.19 macd_count: 150 profit: 36.27
+
+code: NTRA     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: NTRA   BUY: 2018-06-30   18.82 SELL: 2022-05-31   36.69  macd:   -2.79 macd_count:  47 profit:  1.95
+Trade --> code: NTRA   BUY: 2024-02-29   86.49 SELL: 2024-05-31  107.26  macd:    7.91 macd_count:   4 profit:  1.24
+
+code: NUAN     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist - hist_1pre - , 
+Trade --> code: NUAN   BUY: 2005-11-30    5.38 SELL: 2008-11-30    7.94  macd:   -0.14 macd_count:  36 profit:  1.48
+Trade --> code: NUAN   BUY: 2009-12-31   13.44 SELL: 2013-05-31   16.44  macd:   -0.10 macd_count:  41 profit:  1.22
+Trade --> code: NUAN   BUY: 2015-11-30   18.11 SELL: 2016-07-31   13.90  macd:   -0.05 macd_count:   8 profit:  0.77
+Trade --> code: NUAN   BUY: 2017-05-31   16.01 SELL: 2017-09-30   13.60  macd:   -0.04 macd_count:   4 profit:  0.85
+Trade --> code: NUAN   BUY: 2019-04-30   14.56 SELL: 2022-03-31   55.99  macd:    7.14 macd_count:  36 profit:  3.85
+
+code: NVMI     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: NVMI   BUY: 2009-11-30    3.92 SELL: 2024-05-31  190.94  macd:   19.74 macd_count: 175 profit: 48.71
+
+code: NXST     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre - , 
+Trade --> code: NXST   BUY: 2007-04-30   11.95 SELL: 2008-04-30    5.64  macd:   -0.01 macd_count:  12 profit:  0.47
+Trade --> code: NXST   BUY: 2010-04-30    6.71 SELL: 2023-11-30  141.93  macd:   -0.20 macd_count: 163 profit: 21.15
+Trade --> code: NXST   BUY: 2024-01-31  177.71 SELL: 2024-05-31  176.36  macd:    2.04 macd_count:   5 profit:  0.99
+
+code: PAG      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist - hist_1pre - , 
+Trade --> code: PAG    BUY: 2006-09-30   23.40 SELL: 2008-06-30   14.74  macd:   -0.24 macd_count:  21 profit:  0.63
+Trade --> code: PAG    BUY: 2011-01-31   16.90 SELL: 2016-02-29   37.72  macd:   -0.11 macd_count:  61 profit:  2.23
+Trade --> code: PAG    BUY: 2016-11-30   49.91 SELL: 2018-12-31   40.32  macd:   -0.21 macd_count:  25 profit:  0.81
+Trade --> code: PAG    BUY: 2019-10-31   48.72 SELL: 2020-03-31   28.00  macd:   -1.04 macd_count:   5 profit:  0.57
+Trade --> code: PAG    BUY: 2020-10-31   51.16 SELL: 2024-05-31  156.51  macd:   12.06 macd_count:  44 profit:  3.06
+
+code: PFSI     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: PFSI   BUY: 2017-02-28   17.85 SELL: 2024-05-31   93.70  macd:    8.10 macd_count:  88 profit:  5.25
+
+code: PWR      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: PWR    BUY: 2006-09-30   16.86 SELL: 2009-02-28   17.60  macd:   -0.34 macd_count:  29 profit:  1.04
+Trade --> code: PWR    BUY: 2012-04-30   22.12 SELL: 2015-07-31   27.62  macd:   -0.14 macd_count:  39 profit:  1.25
+Trade --> code: PWR    BUY: 2016-11-30   33.72 SELL: 2024-05-31  272.03  macd:   30.94 macd_count:  91 profit:  8.07
+
+code: RCII     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: RCII   BUY: 2006-10-31   28.76 SELL: 2007-07-31   19.41  macd:   -0.10 macd_count:   9 profit:  0.67
+Trade --> code: RCII   BUY: 2010-03-31   23.65 SELL: 2014-01-31   24.94  macd:   -0.00 macd_count:  46 profit:  1.05
+Trade --> code: RCII   BUY: 2018-12-31   16.19 SELL: 2022-05-31   27.54  macd:   -0.82 macd_count:  41 profit:  1.70
+
+code: RDWR     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: RDWR   BUY: 2009-12-31    7.56 SELL: 2013-08-31   14.26  macd:   -0.06 macd_count:  44 profit:  1.89
+Trade --> code: RDWR   BUY: 2013-12-31   17.98 SELL: 2015-12-31   15.34  macd:   -0.16 macd_count:  24 profit:  0.85
+Trade --> code: RDWR   BUY: 2017-06-30   17.54 SELL: 2022-07-31   23.13  macd:   -0.07 macd_count:  61 profit:  1.32
+
+code: ROL      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: ROL    BUY: 2006-09-30    2.78 SELL: 2024-05-31   47.12  macd:    2.34 macd_count: 213 profit: 16.95
+
+code: SPGI     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: SPGI   BUY: 2006-09-30   58.03 SELL: 2007-12-31   43.81  macd:   -0.32 macd_count:  15 profit:  0.75
+Trade --> code: SPGI   BUY: 2011-01-31   38.98 SELL: 2022-10-31  321.25  macd:   -0.24 macd_count: 141 profit:  8.24
+Trade --> code: SPGI   BUY: 2023-06-30  400.89 SELL: 2024-05-31  433.10  macd:   16.39 macd_count:  12 profit:  1.08
+
+code: SPNS     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: SPNS   BUY: 2007-06-30    2.76 SELL: 2007-12-31    1.33  macd:   -0.02 macd_count:   6 profit:  0.48
+Trade --> code: SPNS   BUY: 2008-09-30    2.35 SELL: 2009-01-31    1.08  macd:   -0.01 macd_count:   4 profit:  0.46
+Trade --> code: SPNS   BUY: 2010-03-31    2.13 SELL: 2018-03-31    8.53  macd:   -0.17 macd_count:  96 profit:  4.00
+Trade --> code: SPNS   BUY: 2019-01-31   12.20 SELL: 2022-08-31   22.12  macd:   -0.30 macd_count:  43 profit:  1.81
+Trade --> code: SPNS   BUY: 2023-09-30   28.43 SELL: 2024-05-31   33.44  macd:    1.61 macd_count:   9 profit:  1.18
+
+code: SPSC     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist - hist_1pre - , 
+Trade --> code: SPSC   BUY: 2012-08-31   17.48 SELL: 2016-04-30   25.47  macd:   -0.21 macd_count:  44 profit:  1.46
+Trade --> code: SPSC   BUY: 2016-08-31   32.64 SELL: 2017-05-31   29.08  macd:   -0.08 macd_count:   9 profit:  0.89
+Trade --> code: SPSC   BUY: 2017-06-30   31.88 SELL: 2017-07-31   28.90  macd:   -0.12 macd_count:   1 profit:  0.91
+Trade --> code: SPSC   BUY: 2018-05-31   37.22 SELL: 2024-05-31  193.84  macd:   14.70 macd_count:  73 profit:  5.21
+
+code: TGTX     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd - hist + hist_1pre + , 
+Trade --> code: TGTX   BUY: 2015-03-31   15.48 SELL: 2016-01-31    8.17  macd:   -0.17 macd_count:  10 profit:  0.53
+Trade --> code: TGTX   BUY: 2017-08-31   12.70 SELL: 2017-12-31    8.20  macd:   -0.05 macd_count:   4 profit:  0.65
+Trade --> code: TGTX   BUY: 2018-01-31   11.50 SELL: 2018-10-31    4.55  macd:   -0.19 macd_count:   9 profit:  0.40
+Trade --> code: TGTX   BUY: 2020-01-31   14.21 SELL: 2022-02-28    9.87  macd:   -0.90 macd_count:  25 profit:  0.69
+Trade --> code: TGTX   BUY: 2023-06-30   24.84 SELL: 2023-08-31   10.47  macd:   -0.08 macd_count:   2 profit:  0.42
+
+code: TRNS     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: TRNS   BUY: 2006-09-30    5.70 SELL: 2009-03-31    5.25  macd:   -0.03 macd_count:  30 profit:  0.92
+Trade --> code: TRNS   BUY: 2009-11-30    6.98 SELL: 2012-08-31    6.14  macd:   -0.13 macd_count:  33 profit:  0.88
+Trade --> code: TRNS   BUY: 2014-02-28    9.25 SELL: 2024-05-31  117.43  macd:   10.25 macd_count: 124 profit: 12.70
+
+code: UMC      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: UMC    BUY: 2009-12-31    3.88 SELL: 2010-08-31    2.57  macd:   -0.03 macd_count:   8 profit:  0.66
+Trade --> code: UMC    BUY: 2015-01-31    2.38 SELL: 2015-07-31    1.80  macd:   -0.01 macd_count:   6 profit:  0.76
+Trade --> code: UMC    BUY: 2017-06-30    2.44 SELL: 2018-12-31    1.79  macd:   -0.01 macd_count:  18 profit:  0.73
+Trade --> code: UMC    BUY: 2019-12-31    2.68 SELL: 2022-10-31    5.93  macd:   -0.05 macd_count:  34 profit:  2.21
+Trade --> code: UMC    BUY: 2023-03-31    8.76 SELL: 2023-09-30    7.06  macd:   -0.04 macd_count:   6 profit:  0.81
+Trade --> code: UMC    BUY: 2023-12-31    8.46 SELL: 2024-05-31    8.10  macd:    0.05 macd_count:   6 profit:  0.96
+
+code: VDC      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: VDC    BUY: 2006-09-30   62.12 SELL: 2008-12-31   57.85  macd:   -0.46 macd_count:  27 profit:  0.93
+Trade --> code: VDC    BUY: 2009-12-31   65.69 SELL: 2024-05-31  206.34  macd:    3.85 macd_count: 174 profit:  3.14
+
+code: WD       day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: WD     BUY: 2013-04-30   17.81 SELL: 2014-07-31   13.65  macd:   -0.03 macd_count:  15 profit:  0.77
+Trade --> code: WD     BUY: 2014-12-31   17.54 SELL: 2020-06-30   50.81  macd:   -0.08 macd_count:  66 profit:  2.90
+Trade --> code: WD     BUY: 2020-08-31   54.78 SELL: 2023-01-31   95.38  macd:   -0.28 macd_count:  29 profit:  1.74
+Trade --> code: WD     BUY: 2024-05-31   97.72 SELL: 2024-05-31   97.72  macd:    0.48 macd_count:   1 profit:  1.00
+
+code: WING     day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: WING   BUY: 2017-10-31   33.87 SELL: 2022-05-31   79.66  macd:   -0.30 macd_count:  55 profit:  2.35
+Trade --> code: WING   BUY: 2022-11-30  165.51 SELL: 2024-05-31  397.41  macd:   53.50 macd_count:  19 profit:  2.40
+
+code: WSM      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: WSM    BUY: 2010-04-30   28.80 SELL: 2016-02-29   52.11  macd:   -0.47 macd_count:  70 profit:  1.81
+Trade --> code: WSM    BUY: 2018-07-31   58.49 SELL: 2022-12-31  114.92  macd:   -0.36 macd_count:  53 profit:  1.96
+Trade --> code: WSM    BUY: 2023-09-30  155.40 SELL: 2024-05-31  320.89  macd:   36.97 macd_count:   9 profit:  2.06
+
+code: XLP      day: macd + hist + hist_1pre + ,  Week: macd + hist + hist_1pre - , Month: macd + hist + hist_1pre + , 
+Trade --> code: XLP    BUY: 2006-09-30   25.38 SELL: 2008-12-31   23.87  macd:   -0.17 macd_count:  27 profit:  0.94
+Trade --> code: XLP    BUY: 2010-01-31   26.20 SELL: 2024-05-31   77.35  macd:    0.94 macd_count: 173 profit:  2.95
+
